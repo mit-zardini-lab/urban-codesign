@@ -55,3 +55,10 @@ implementations:
       - "9 Nat"
       - "0 Nat"
       - "-4500 Int"
+  layout_ppp_ppp_ttt:
+    f_max:
+      - "`layout: layout_ppp_ppp_ttt"
+    r_min:
+      - "3 Nat"
+      - "6 Nat"
+      - "-1440 Int"

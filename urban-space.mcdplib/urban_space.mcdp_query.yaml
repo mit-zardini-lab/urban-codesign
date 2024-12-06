@@ -4,8 +4,7 @@ model: '`urban_space'
 query:
   query_type: FixFunMinRes
   min_f:
-    accessibility: 10 dimensionless
-    greenery: 10 dimensionless
+    quality: 100 dimensionless
   max_r:
     initial_budget: 100000000 $
     co2_budget: 10000000 Int

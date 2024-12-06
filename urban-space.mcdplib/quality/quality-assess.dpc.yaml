@@ -55,4 +55,11 @@ implementations:
       - "5 dimensionless"
     r_min:
       - "`layout: layout_ttt_ttt_ttt"
+  layout_ppp_ppp_ttt:
+    f_max:
+      - "30 dimensionless"
+      - "12 dimensionless"
+      - "15 dimensionless"
+    r_min:
+      - "`layout: layout_ppp_ppp_ttt"
   

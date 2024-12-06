@@ -1,7 +1,5 @@
 mcdp {
-
-    provides accessibility [dimensionless]
-    provides greenery [dimensionless]
+    provides quality [dimensionless]
 
     requires initial_budget [$]
     requires co2_budget [Int]
@@ -22,4 +20,6 @@ mcdp {
     approval required by buy <= approval provided by quality
 
     layout required by quality <= layout provided by layout
+
+    provided quality <=  accessibility provided by quality * greenery provided by quality
 }
