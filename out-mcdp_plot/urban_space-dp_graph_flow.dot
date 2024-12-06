@@ -10,6 +10,6 @@ digraph G {
 
    node3 [shape="plaintext",label=""];
 
-   node1->node2 [label="(SB([3,21])\n × SB([6,27]))",arrowhead="none"];
-   node2->node3 [label="(SB(≥0::500) USD)",arrowhead="none"];
+   node1->node2 [label="(SB([0,45])\n × SB([0,36]))",arrowhead="none"];
+   node2->node3 [label="(SB(≥0::500) USD\n × SB([-4500,90]::1))",arrowhead="none"];
 }

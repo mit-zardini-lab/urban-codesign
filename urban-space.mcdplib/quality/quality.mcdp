@@ -2,6 +2,7 @@ dp {
 
     provides accessibility [dimensionless]
     provides greenery [dimensionless]
+    provides approval [dimensionless]
 
     requires layout [`layout]
 
