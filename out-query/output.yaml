@@ -1,6 +1,6 @@
 optimistic:
-  minimals: frozenset({(Decimal('6.000000000'), Decimal('0E-9'))})
-  pretty: ↑{⟨6,0⟩}
+  minimals: frozenset({(Decimal('3.000000000'), Decimal('3.000000000'))})
+  pretty: ↑{⟨3,3⟩}
 pessimistic:
-  minimals: frozenset({(Decimal('6.000000000'), Decimal('0E-9'))})
-  pretty: ↑{⟨6,0⟩}
+  minimals: frozenset({(Decimal('3.000000000'), Decimal('3.000000000'))})
+  pretty: ↑{⟨3,3⟩}

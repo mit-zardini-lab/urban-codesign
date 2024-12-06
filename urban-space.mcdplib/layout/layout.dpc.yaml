@@ -1,0 +1,37 @@
+F:
+  - "`layout"
+R:
+  - "Nat"
+  - "Nat"
+
+implementations:
+  layout1:
+    f_max:
+      - "`layout: layout_ggg_ggg_ggg"
+    r_min:
+      - "0 Nat"
+      - "0 Nat"
+  layout2:
+    f_max:
+      - "`layout: layout_ggg_ppp_ggg"
+    r_min:
+      - "0 Nat"
+      - "3 Nat"
+  layout3:
+    f_max:
+      - "`layout: layout_ggg_ppp_ttt"
+    r_min:
+      - "3 Nat"
+      - "3 Nat"
+  layout4:
+    f_max:
+      - "`layout: layout_ttt_ppp_ttt"
+    r_min:
+      - "6 Nat"
+      - "3 Nat"
+  layout5:
+    f_max:
+      - "`layout: layout_ttt_ggg_ttt"
+    r_min:
+      - "6 Nat"
+      - "0 Nat"

@@ -1,0 +1,3 @@
+poset {
+    layout_ggg_ggg_ggg layout_ggg_ppp_ggg layout_ggg_ppp_ttt layout_ttt_ppp_ttt layout_ttt_ggg_ttt layout_ppp_ppp_ppp layout_ttt_ttt_ttt
+}

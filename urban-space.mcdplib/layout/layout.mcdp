@@ -1,0 +1,8 @@
+dp {
+    provides layout [`layout]
+
+    requires trees [Nat]
+    requires sidewalks [Nat]
+
+    implemented-by yaml resource("layout.dpc.yaml")
+}

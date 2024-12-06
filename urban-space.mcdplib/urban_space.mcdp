@@ -1,0 +1,19 @@
+mcdp {
+
+    provides accessibility [dimensionless]
+    provides greenery [dimensionless]
+
+    requires trees [Nat]
+    requires sidewalks [Nat]
+
+    layout = instance `layout
+    quality = instance `quality
+
+    required trees >= trees required by layout
+    required sidewalks >= sidewalks required by layout
+
+    provided accessibility <= accessibility provided by quality
+    provided greenery <= greenery provided by quality
+
+    layout required by quality <= layout provided by layout
+}

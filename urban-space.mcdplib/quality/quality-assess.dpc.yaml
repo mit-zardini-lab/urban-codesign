@@ -1,0 +1,50 @@
+F:
+  - "dimensionless"
+  - "dimensionless"
+R:
+  - "`layout"
+
+implementations:
+  layout1:
+    f_max:
+      - "9 dimensionless"
+      - "9 dimensionless"
+    r_min:
+      - "`layout: layout_ggg_ggg_ggg"
+  layout2:
+    f_max:
+      - "21 dimensionless"
+      - "6 dimensionless"
+    r_min:
+      - "`layout: layout_ggg_ppp_ggg"
+  layout3:
+    f_max:
+      - "18 dimensionless"
+      - "15 dimensionless"
+    r_min:
+      - "`layout: layout_ggg_ppp_ttt"
+  layout4:
+    f_max:
+      - "15 dimensionless"
+      - "24 dimensionless"
+    r_min:
+      - "`layout: layout_ttt_ppp_ttt"
+  layout5:
+    f_max:
+      - "3 dimensionless"
+      - "27 dimensionless"
+    r_min:
+      - "`layout: layout_ttt_ggg_ttt"
+  layout6:
+    f_max:
+      - "45 dimensionless"
+      - "0 dimensionless"
+    r_min:
+      - "`layout: layout_ppp_ppp_ppp"
+  layout7:
+    f_max:
+      - "0 dimensionless"
+      - "36 dimensionless"
+    r_min:
+      - "`layout: layout_ttt_ttt_ttt"
+  
