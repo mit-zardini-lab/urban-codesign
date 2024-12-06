@@ -1,0 +1,10 @@
+mcdp {
+    provides green_space [kg]
+    provides accessibility [kg]
+
+    requires trees [kg]
+    requires concrete [kg]
+
+    required concrete / 10 >= provided accessibility
+    required trees / 5 >= provided green_space
+}

@@ -1,0 +1,6 @@
+optimistic:
+  minimals: frozenset({(Decimal('60.000000000'), Decimal('470.000000000'))})
+  pretty: ↑{⟨60 kg,470 kg⟩}
+pessimistic:
+  minimals: frozenset({(Decimal('60.000000000'), Decimal('470.000000000'))})
+  pretty: ↑{⟨60 kg,470 kg⟩}

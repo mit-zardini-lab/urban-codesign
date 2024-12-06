@@ -1,0 +1,14 @@
+title: Query_1
+description: Query for the chassis model.
+model: '`chassis'
+query:
+  query_type: FixFunMinRes
+  min_f:
+    total_load: 100 kg
+    velocity: 0.05 m/s
+  max_r:
+    power: 100000 W
+    total_mass: 100000 kg
+  optimize_for:
+  - power
+  - total_mass
