@@ -3,35 +3,55 @@ F:
 R:
   - "Nat"
   - "Nat"
+  - "Int"
 
 implementations:
-  layout1:
+  layout_ggg_ggg_ggg:
     f_max:
       - "`layout: layout_ggg_ggg_ggg"
     r_min:
       - "0 Nat"
       - "0 Nat"
-  layout2:
+      - "0 Int"
+  layout_ggg_ppp_ggg:
     f_max:
       - "`layout: layout_ggg_ppp_ggg"
     r_min:
       - "0 Nat"
       - "3 Nat"
-  layout3:
+      - "30 Int"
+  layout_ggg_ppp_ttt:
     f_max:
       - "`layout: layout_ggg_ppp_ttt"
     r_min:
       - "3 Nat"
       - "3 Nat"
-  layout4:
+      - "-1470 Int"
+  layout_ttt_ppp_ttt:
     f_max:
       - "`layout: layout_ttt_ppp_ttt"
     r_min:
       - "6 Nat"
       - "3 Nat"
-  layout5:
+      - "-2970 Int"
+  layout_ttt_ggg_ttt:
     f_max:
       - "`layout: layout_ttt_ggg_ttt"
     r_min:
       - "6 Nat"
       - "0 Nat"
+      - "-3000 Int"
+  layout_ppp_ppp_ppp:
+    f_max:
+      - "`layout: layout_ppp_ppp_ppp"
+    r_min:
+      - "0 Nat"
+      - "9 Nat"
+      - "90 Int"
+  layout_ttt_ttt_ttt:
+    f_max:
+      - "`layout: layout_ttt_ttt_ttt"
+    r_min:
+      - "9 Nat"
+      - "0 Nat"
+      - "-4500 Int"

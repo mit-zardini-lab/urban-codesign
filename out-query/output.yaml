@@ -1,6 +1,10 @@
 optimistic:
-  minimals: frozenset({(Decimal('3.000000000'), Decimal('3.000000000'))})
-  pretty: ↑{⟨3,3⟩}
+  maximals: frozenset({(Decimal('18.000000000'), Decimal('15.000000000'))})
+  pretty: ↓{⟨18,15⟩}
+  imps:
+    pretty: '↓{⟨18,15⟩: ⟨⟨18,15⟩,·⟩}'
 pessimistic:
-  minimals: frozenset({(Decimal('3.000000000'), Decimal('3.000000000'))})
-  pretty: ↑{⟨3,3⟩}
+  maximals: frozenset({(Decimal('18.000000000'), Decimal('15.000000000'))})
+  pretty: ↓{⟨18,15⟩}
+  imps:
+    pretty: '↓{⟨18,15⟩: ⟨⟨18,15⟩,·⟩}'

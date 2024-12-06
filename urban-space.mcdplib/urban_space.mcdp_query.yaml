@@ -2,13 +2,13 @@ title: query-urban-space
 description: Query the whole dp
 model: '`urban_space'
 query:
-  query_type: FixFunMinRes
+  query_type: FixResMaxFun
   min_f:
     accessibility: 10 dimensionless
     greenery: 10 dimensionless
   max_r:
-    trees: 1000000 Nat
-    sidewalks: 100000 Nat
+    budget: 5000 $
+    co2_budget: 0 Int
   optimize_for:
-  - trees
-  - sidewalks
+  - accessibility
+  - greenery

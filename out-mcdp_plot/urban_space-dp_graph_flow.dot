@@ -1,0 +1,15 @@
+digraph G { 
+
+                graph [fontname = "STIX Two Math"];
+                 node [fontname = "STIX Two Math"];
+                 edge [fontname = "STIX Two Math"];
+                rankdir=TB;
+   node1 [shape="plaintext",label=""];
+
+   node2 [shape="box",style="rounded",label="DP_Catalog\ncatalogue(f, r)"];
+
+   node3 [shape="plaintext",label=""];
+
+   node1->node2 [label="(SB([3,21])\n × SB([6,27]))",arrowhead="none"];
+   node2->node3 [label="(SB(≥0::500) USD)",arrowhead="none"];
+}

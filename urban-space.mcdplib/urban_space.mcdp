@@ -3,14 +3,18 @@ mcdp {
     provides accessibility [dimensionless]
     provides greenery [dimensionless]
 
-    requires trees [Nat]
-    requires sidewalks [Nat]
+    requires budget [$]
+    requires co2_budget [Int]
 
     layout = instance `layout
     quality = instance `quality
+    buy = instance `buy
 
-    required trees >= trees required by layout
-    required sidewalks >= sidewalks required by layout
+    required budget >= budget required by buy
+
+    trees provided by buy >= trees required by layout
+    sidewalks provided by buy >= sidewalks required by layout
+    required co2_budget >= co2 required by layout
 
     provided accessibility <= accessibility provided by quality
     provided greenery <= greenery provided by quality
