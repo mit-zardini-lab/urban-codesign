@@ -99,23 +99,24 @@ class Layout:
     #accessibility
     def accessibility(self) -> float:
         size = len(self.grid)
-        pathMultiplier = size^2
+        wholeGrid = pow(size, 2)
+        pathMultiplier = wholeGrid
 
-        verticalPath = self.hasVerticalPath()
-        horizontalPath = self.hasHorizontalPath()
+        verticalPath = self.verticalPathLength()
+        horizontalPath = self.horizontalPathLength()
         pathTiles = self.count(Tile.PATH)
 
         verticalPathScore = size / verticalPath if verticalPath > 0 else 0
         horizontalPathScore = size / horizontalPath if horizontalPath > 0 else 0
 
-        maximumScore = pathMultiplier*2 + pathTiles
+        maximumScore = pathMultiplier*2 + wholeGrid
         score = verticalPathScore*pathMultiplier + horizontalPathScore*pathMultiplier + pathTiles
 
         return score / maximumScore
 
 
 
-    def hasVerticalPath(self) -> int:
+    def verticalPathLength(self) -> int:
         rows: int = len(self.grid)
         cols: int = len(self.grid[0])
         visited: set[tuple[int, int]] = set()
@@ -143,7 +144,7 @@ class Layout:
 
         return 0  # No vertical path found
 
-    def hasHorizontalPath(self) -> int:
+    def horizontalPathLength(self) -> int:
         rows: int = len(self.grid)
         cols: int = len(self.grid[0])
         visited: set[tuple[int, int]] = set()
