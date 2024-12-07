@@ -14,9 +14,6 @@ mcdp {
     sidewalks provided by buy >= sidewalks required by layout
     required co2_budget >= co2 required by layout
 
-
-#    provided accessibility <= accessibility provided by quality
-#    provided greenery <= greenery provided by quality
     approval required by buy <= approval provided by quality
 
     layout required by quality <= layout provided by layout
