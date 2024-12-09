@@ -110,8 +110,6 @@ class Layout:
         pretty_rows: list[str] = []
         letter_rows: list[str] = []
 
-        self.counts: dict[Tile, int] = {}
-
         for row in grid:
             pretty_rows.append("".join([tile.emoji for tile in row]))
             letter_rows.append("".join([tile.letter for tile in row]))
@@ -121,7 +119,6 @@ class Layout:
                 self.co2_cost_upfront += item.co2_cost_upfront
                 self.co2_cost_yearly += item.co2_cost_yearly
                 self.co2_absorption_yearly += item.co2_absorption_yearly
-                self.counts[item] = self.counts.get(item, 0) + 1
         
         self.pretty = "\n".join(pretty_rows)
         self.pretty_flat = "_".join(letter_rows)
@@ -182,8 +179,8 @@ class Layout:
 
         verticalPath = self.verticalPathLength()
         horizontalPath = self.horizontalPathLength()
-        pathTiles = self.counts.get(Tile.PATH, 0)
-        grassTiles = self.counts.get(Tile.GRASS, 0)
+        pathTiles = self.pretty_flat.count("P")
+        grassTiles = self.pretty_flat.count("G")
         benchScore = self.benchScore()
 
         verticalPathScore = size / verticalPath if verticalPath > 0 else 0
@@ -273,6 +270,50 @@ class Layout:
     
 
 import itertools
+
+
+def generate_unique_combinations(tiles: list[Tile], size: int) -> list[Layout]:
+    """
+    Generate all combinations of tiles for a grid of size x size, excluding symmetrically equivalent layouts.
+
+    Args:
+        tiles (list[Tile]): List of Tile objects to use in the combinations.
+        size (int): The size of the grid (size x size).
+
+    Returns:
+        list[Layout]: List of Layout objects with unique symmetrical configurations.
+    """
+    def get_canonical_form(grid: tuple[tuple[Tile, ...], ...]) -> tuple[tuple[str, ...], ...]:
+        """Compute the canonical form of a grid based on its rotations and reflections."""
+        transformations = [
+            grid,                              # Original
+            grid[::-1],                        # Vertical flip
+            tuple(row[::-1] for row in grid),  # Horizontal flip
+            tuple(zip(*grid)),                 # 90-degree rotation
+            tuple(zip(*grid[::-1])),           # 90-degree rotation + vertical flip
+            tuple(zip(*tuple(row[::-1] for row in grid))),  # 90-degree rotation + horizontal flip
+            grid[::-1][::-1],                  # 180-degree rotation
+            tuple(zip(*grid[::-1][::-1]))      # 270-degree rotation
+        ]
+        # Convert each transformation to a comparable form (e.g., string representation)
+        transformed_as_str = [tuple(tuple(str(tile) for tile in row) for row in t) for t in transformations]
+        return min(transformed_as_str)  # Choose the lexicographically smallest transformation
+
+    combos = itertools.product(tiles, repeat=size * size)
+    seen: set[tuple[tuple[str, ...], ...]] = set()
+    layouts: list[Layout] = []
+
+    for combo in combos:
+        # Create the grid as a tuple of tuples
+        grid = tuple(tuple(combo[i * size:(i + 1) * size]) for i in range(size))
+        # Compute the canonical form
+        canonical = get_canonical_form(grid)
+        if canonical not in seen:
+            seen.add(canonical)
+            layouts.append(Layout(grid))
+
+    return layouts
+
 
 
 def generate_combinations(tiles: list[Tile], size: int) -> list[Layout]:

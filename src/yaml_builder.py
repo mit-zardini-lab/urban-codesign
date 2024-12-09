@@ -36,9 +36,9 @@ def generate_cost_yaml(layouts: list[Layout], output_file: str) -> None:
         layout_data = {
             "f_max": [f"`layout: {layout.pretty_flat}"],
             "r_min": [
-                f"{layout.counts.get(Tile.TREE, 0)} Nat",
-                f"{layout.counts.get(Tile.PATH, 0)} Nat",
-                f"{layout.counts.get(Tile.BENCH, 0)} Nat",
+                f"{layout.pretty_flat.count("T")} Nat",
+                f"{layout.pretty_flat.count("P")} Nat",
+                f"{layout.pretty_flat.count("B")} Nat",
                 f"{layout.cost_yearly} $",
                 f"{layout.co2_cost_upfront} Nat",
                 f"{layout.co2_absorption_yearly - layout.co2_cost_yearly} Int"
