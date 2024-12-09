@@ -1,6 +1,7 @@
 mcdp {
     provides community_approval [dimensionless]
     provides acceptable_tax_burden [$]
+    provides acceptable_co2
 
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
