@@ -3,6 +3,37 @@ import yaml
 from src.layout_logic import Layout, Tile
 
 
+def generate_poset_file3(layouts: list[Layout], output_file: str) -> None:
+    """
+    Generate a poset file from the given list of layouts in a chain format.
+
+    Args:
+        layouts: List of Layout objects.
+        output_file: Path to the output poset file.
+    """
+    with open(output_file, "w") as file:
+        file.write("poset {\n\t")
+        file.write("\n\t".join(f"{layout.pretty_flat}" for layout in layouts))
+        file.write("\n}\n")
+
+    print(f"Poset file successfully written to {output_file}")
+
+def generate_poset_file2(layouts: list[Layout], output_file: str) -> None:
+    """
+    Generate a poset file from the given list of layouts in a pairwise chain format.
+
+    Args:
+        layouts: List of Layout objects.
+        output_file: Path to the output poset file.
+    """
+    with open(output_file, "w") as file:
+        file.write("poset {\n")
+        for i in range(len(layouts) - 1):
+            file.write(f"\t{layouts[i].pretty_flat} <= {layouts[i + 1].pretty_flat}\n")
+        file.write("}\n")
+
+    print(f"Poset file successfully written to {output_file}")
+
 def generate_poset_file(layouts: list[Layout], output_file: str) -> None:
     """
     Generate a poset file from the given list of layouts in a chain format.
