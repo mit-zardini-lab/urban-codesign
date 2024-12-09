@@ -4,12 +4,12 @@ model: '`urban_space'
 query:
   query_type: FixFunMinRes
   min_f:
-    community_approval: 50 dimensionless
+    community_approval: 400 dimensionless
   max_r:
-    initial_budget: 100000000 $
-    cost_yearly: 10000000 $
-    co2_cost_upfront: 10000000 Nat
-    co2_impact_yearly: 10000000 Int
+    initial_budget: 1000000 $
+    cost_yearly: 100000 $
+    co2_cost_upfront: 100000 Nat
+    co2_impact_yearly: 100000 Int
   optimize_for:
   - initial_budget
   - co2_impact_yearly
