@@ -13,7 +13,7 @@ def generate_poset_file(layouts: list[Layout], output_file: str) -> None:
     """
     with open(output_file, "w") as file:
         file.write("poset {\n\t")
-        file.write(" <= ".join(f"[{layout.pretty_flat}]" for layout in layouts))
+        file.write(" <= ".join(f"{layout.pretty_flat}" for layout in layouts))
         file.write("\n}\n")
 
     print(f"Poset file successfully written to {output_file}")
