@@ -5,12 +5,6 @@ mcdp {
     requires affordability [dimensionless]
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
-    
-    tax_hatred = 1 [dimensionless]
-    tax_approval = tax_hatred * provided acceptable_tax_burden
-
-    co2_hatred = 0.0001 [dimensionless]
-    co2_approval = co2_hatred * provided acceptable_co2_impact_yearly
 
     provided community_approval <= (required greenery * required accessibility + provided affordability + provided sustainability
 }
