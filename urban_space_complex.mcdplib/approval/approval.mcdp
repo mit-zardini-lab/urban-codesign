@@ -9,5 +9,5 @@ mcdp {
     effects = required affordability + required sustainability
     quality = required greenery * required accessibility
 
-    provided community_approval <= quality 
+    provided community_approval <= quality + effects
 }
