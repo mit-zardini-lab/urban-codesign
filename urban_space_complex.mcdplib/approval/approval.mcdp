@@ -4,7 +4,7 @@ mcdp {
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
     requires sustainability [dimensionless]
-    required affordability [$dime]
+    required affordability [dimensionless]
     
     effects = required affordability  + required sustainability
     quality = required greenery * required accessibility
