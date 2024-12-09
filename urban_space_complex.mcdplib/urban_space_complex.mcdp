@@ -37,7 +37,8 @@ mcdp {
     #approval
     provided community_approval <= community_approval provided by approval
 
-    tax_burden required by tax <= acceptable_tax_burden provided by approval
+    affordability_to_tax = -1 [dimensionless]
+    tax_burden required by tax <= (affordability required by approval)
 
     #tax
     #all connected above

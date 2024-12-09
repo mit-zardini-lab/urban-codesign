@@ -2,8 +2,6 @@ mcdp {
     provides cost_yearly [$]
 
     requires tax_burden [$]
-    
-    affordability_sentiment_per_dollar = 1/10000 [dimensionless]
 
     required tax_burden >= (provided cost_yearly - 5000 $)/10000
 }
