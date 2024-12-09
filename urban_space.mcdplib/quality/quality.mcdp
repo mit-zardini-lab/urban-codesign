@@ -1,0 +1,8 @@
+dp {
+    provides accessibility [dimensionless]
+    provides greenery [dimensionless]
+
+    requires layout [`layout]
+
+    implemented-by yaml resource("quality.dpc.yaml")
+}

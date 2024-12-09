@@ -1,7 +1,7 @@
 mcdp {
     provides cost_yearly [$]
 
-    requires tax_burden [dimensionless]
+    requires tax_burden [$]
 
     required tax_burden >= (provided cost_yearly - 5000 $)/10000
 }
