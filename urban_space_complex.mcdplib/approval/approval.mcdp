@@ -14,5 +14,5 @@ mcdp {
     
     
 
-    provided community_approval <= (required greenery * required accessibility) - (provided acceptable_co2_impact_yearly * co2_hatred) - tax_approval
+    provided community_approval <= (required greenery * required accessibility) - co2_approval - tax_approval
 }
