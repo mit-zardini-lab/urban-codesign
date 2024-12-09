@@ -12,6 +12,4 @@ query:
     co2_impact_yearly: 10000000 Int
   optimize_for:
   - initial_budget
-  - cost_yearly
-  - co2_cost_upfront
   - co2_impact_yearly
