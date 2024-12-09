@@ -11,7 +11,7 @@ mcdp {
     
     
     approval_per_dollar = 0.1 [dimensionless/$]
-    tax_approval = approval_per_dollar + acceptable_tax_burden
+    tax_approval = approval_per_dollar + provided acceptable_tax_burden
 
     provided community_approval +  <= quality + effects
 }
