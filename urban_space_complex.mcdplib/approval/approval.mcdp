@@ -6,7 +6,9 @@ mcdp {
     requires accessibility [dimensionless]
     requires sustainability [dimensionless]
     
-    effects = provided  + required sustainability
+    cost_dislike = 1 [dimensionless]
+    affordability = (provided acceptable_cost_yearly * cost_dislike)
+    effects =  + required sustainability
     quality = required greenery * required accessibility
 
     provided community_approval <= quality + effects
