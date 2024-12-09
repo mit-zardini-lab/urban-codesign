@@ -5,9 +5,7 @@ mcdp {
 
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
-    requires sustainability [dimensionless]
     
-    effects = required sustainability
     quality = required greenery * required accessibility
     
     approval_per_co2_kg = 0.0001 [dimensionless/$]
@@ -16,5 +14,5 @@ mcdp {
     approval_per_dollar = 0.01 [dimensionless/$]
     tax_approval = approval_per_dollar * provided acceptable_tax_burden
 
-    provided community_approval + tax_approval <= quality + effects
+    provided community_approval + tax_approval + co2_approval <= quality + effects
 }
