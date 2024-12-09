@@ -1,8 +1,8 @@
 mcdp {
     provides community_approval [dimensionless]
 
-    requires sustainability [Nat]
-    requires affordability [$]
+    requires sustainability [dimensionless]
+    requires affordability [dimensionless]
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
     
