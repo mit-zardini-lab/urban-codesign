@@ -1,10 +1,10 @@
 title: query-urban-space
 description: Query the whole dp
-model: '`urban_space_complex'
+model: '`urban_space'
 query:
   query_type: FixFunMinRes
   min_f:
-    community_approval: 10 dimensionless
+    community_approval: 50 dimensionless
   max_r:
     initial_budget: 100000000 $
     cost_yearly: 10000000 $
