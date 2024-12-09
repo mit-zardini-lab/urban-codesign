@@ -3,7 +3,8 @@ mcdp {
 
     requires tax_burden [$]
     
-    tax_formula = 
+    tax_formula = (provided cost_yearly - 5000 $)/10000
+    
 
-    required tax_burden >= (provided cost_yearly - 5000 $)/10000
+    required tax_burden >= max(tax_formula, 0)
 }
