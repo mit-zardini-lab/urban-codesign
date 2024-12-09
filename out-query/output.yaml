@@ -1,9 +1,12 @@
 optimistic:
-  minimals: frozenset({(Decimal('0E-9'), Decimal('-2970.000000000'))})
-  pretty: ↑{⟨0 $,-2970⟩}
+  minimals: frozenset({(Decimal('1.377455231'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('-3000.000000000')), (Decimal('1.152467320'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('-1470.000000000')), (Decimal('0E-9'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('0E-9'))})
+  pretty: ↑{⟨0 $,0 $,0,0⟩, ⟨1.15246732 $,0 $,0,-1470⟩, ⟨1.377455231 $,0 $,0,-3000⟩}
 pessimistic:
-  minimals: frozenset({(Decimal('624497.195972185'), Decimal('-1470.000000000')),
-    (Decimal('830660.839091128'), Decimal('-2970.000000000')), (Decimal('299997.880672458'),
-    Decimal('30.000000000'))})
-  pretty: ↑{⟨299997.880672458 $,30⟩, ⟨624497.195972185 $,-1470⟩, ⟨830660.839091128
-    $,-2970⟩}
+  minimals: frozenset({(Decimal('77.459333850'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('-3000.000000000')), (Decimal('64.806813974'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('-1470.000000000')), (Decimal('0E-9'), Decimal('0E-9'), Decimal('0E-9'),
+    Decimal('0E-9'))})
+  pretty: ↑{⟨0 $,0 $,0,0⟩, ⟨64.806813974 $,0 $,0,-1470⟩, ⟨77.45933385 $,0 $,0,-3000⟩}
