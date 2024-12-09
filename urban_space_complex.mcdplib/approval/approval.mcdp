@@ -1,12 +1,12 @@
 mcdp {
     provides community_approval [dimensionless]
-    provided acceptable_tax_burden [$]
+    provides acceptable_tax_burden [$]
 
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
     requires sustainability [dimensionless]
     
-    effects = required affordability + required sustainability
+    effects = required sustainability
     quality = required greenery * required accessibility
     
     
