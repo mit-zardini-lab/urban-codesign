@@ -6,8 +6,8 @@ mcdp {
     requires sustainability [dimensionless]
     requires affordability [dimensionless]
     
-    negatives = required affordability + required sustainability
-    positives = required greenery * requires 
+     = required affordability + required sustainability
+    positives = required greenery * required accessibility
 
     provided community_approval <= required greenery + required accessibility + provided affordability + provided sustainability
 }
