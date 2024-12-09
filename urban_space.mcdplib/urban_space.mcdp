@@ -24,6 +24,7 @@ mcdp {
     required cost_yearly >= cost_yearly required by layout    
     required co2_cost_upfront >= co2_cost_upfront required by layout
     required co2_impact_yearly >= co2_impact_yearly required by layout
+    co2_impact_yearly required by layout <= acceptable_co2_impact_yearly provided by approval
 
     cost_yearly provided by tax >= cost_yearly required by layout
 
@@ -35,7 +36,6 @@ mcdp {
 
     #approval
     provided community_approval <= community_approval provided by approval
-    required co2_impact_yearly <= acceptable_co2_impact_yearly provided by approval
 
     tax_burden required by tax <= acceptable_tax_burden provided by approval
 
