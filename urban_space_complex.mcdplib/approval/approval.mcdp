@@ -1,8 +1,10 @@
 mcdp {
     provides community_approval [dimensionless]
 
+    requires greenery [dimensionless]
+    requires accessibility [dimensionless]
     requires sustainability [dimensionless]
     requires affordability [dimensionless]
 
-    provided community_approval <= (required greenery * required accessibility) + provided affordability + provided sustainability
+    provided community_approval <= (required greenery * required accessibility) * (provided affordability * provided sustainability
 }
