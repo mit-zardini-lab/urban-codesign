@@ -3,7 +3,11 @@ dp {
 
     requires trees [Nat]
     requires sidewalks [Nat]
-    requires co2 [Int]
+    requires benches [Nat]
+    
+    requires cost_yearly [$]
+    requires co2_cost_upfront [Nat]
+    requires co2_impact_yearly [Int]
 
     implemented-by yaml resource("layout.dpc.yaml")
 }

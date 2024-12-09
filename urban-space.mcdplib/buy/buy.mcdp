@@ -1,9 +1,10 @@
 mcdp {
     provides trees [Nat]
     provides sidewalks [Nat]
+    provides benches [Nat]
     
     requires initial_budget [$]
-    requires approval [dimensionless]
+    requires community_approval [dimensionless]
 
-    required initial_budget * (required approval / 20) >= (provided trees) * 10000 $ + (provided sidewalks) * 3000 $
+    required initial_budget * (1 + required community_approval) >= (provided trees * 1000 $) + (provided sidewalks * 400 $) + (provided benches * 2000 $)
 }

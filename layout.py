@@ -260,32 +260,63 @@ class Layout:
 
 
 
+import csv
 import itertools
-from concurrent.futures import ProcessPoolExecutor
 
 
-def process_chunk(chunk: list[tuple[Tile, ...]], size: int) -> list[Layout]:
-    seen = set()
-    layouts = []
-    for c in chunk:
-        grid = tuple(tuple(c[i * size:(i + 1) * size]) for i in range(size))
-        if grid not in seen:
-            seen.add(grid)
-            layouts.append(Layout(grid))
-    return layouts
+def generate_combinations(tiles: list[Tile], size: int, output_csv: str) -> None:
+    """
+    Generate all combinations of tiles and save results incrementally to a CSV every 10,000 layouts.
+    
+    Args:
+        tiles (list): List of Tile objects.
+        size (int): Size of the grid (size x size).
+        output_csv (str): Path to the output CSV file.
+    """
+    combos = itertools.product(tiles, repeat=size * size)
+    batch_size = 100_000  # Save to CSV every 100,000 layouts
+    batch = []
 
-def generate_combinations(tiles: list[Tile], size: int) -> list[Layout]:
-    combos = list(itertools.product(tiles, repeat=size*size))
-    chunk_size = len(combos) // 4  # Divide work into chunks
-    chunks = [combos[i:i + chunk_size] for i in range(0, len(combos), chunk_size)]
+    # Open the CSV file for writing
+    with open(output_csv, mode="w", newline="") as file:
+        fieldnames = [
+            "pretty",
+            "cost_upfront",
+            "cost_yearly",
+            "co2_cost_upfront",
+            "co2_cost_yearly",
+            "co2_absorption_yearly"
+        ]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()  # Write the header once
 
-    with ProcessPoolExecutor() as executor:
-        results = executor.map(process_chunk, chunks, [size] * len(chunks))
+        # Process combinations
+        for idx, combo in enumerate(combos):
+            # Create grid and layout
+            grid = tuple(tuple(combo[i * size:(i + 1) * size]) for i in range(size))
+            layout = Layout(grid)
+            
+            # Append layout attributes to batch
+            batch.append({
+                "pretty": layout.pretty,
+                "cost_upfront": layout.cost_upfront,
+                "cost_yearly": layout.cost_yearly,
+                "co2_cost_upfront": layout.co2_cost_upfront,
+                "co2_cost_yearly": layout.co2_cost_yearly,
+                "co2_absorption_yearly": layout.co2_absorption_yearly,
+            })
 
-    layouts = [layout for result in results for layout in result]
-    return layouts
+            # Write to CSV every 10,000 layouts
+            if (idx + 1) % batch_size == 0:
+                writer.writerows(batch)
+                batch = []  # Clear batch for next set
+                print(f"Saved {idx + 1} layouts...")
 
+        # Write any remaining layouts
+        if batch:
+            writer.writerows(batch)
 
+    print(f"All layouts saved to {output_csv}")
 
 
 

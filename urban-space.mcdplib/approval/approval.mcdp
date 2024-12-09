@@ -1,0 +1,11 @@
+mcdp {
+    provides community_approval [dimensionless]
+    provides acceptable_tax_burden [dimensionless]
+    provides acceptable_co2_impact_yearly [Int]
+
+    requires greenery [dimensionless]
+    requires accessibility [dimensionless]
+
+    provided community_approval <= (required greenery * required accessibility)
+    # - (provided acceptable_co2_impact_yearly / 1000) - provided acceptable_tax_burden
+}

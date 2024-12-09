@@ -1,22 +1,45 @@
 mcdp {
-    provides quality [dimensionless]
+    provides community_approval [dimensionless]
 
     requires initial_budget [$]
-    requires co2_budget [Int]
+    requires cost_yearly [$]
+    requires co2_cost_upfront [Nat]
+    requires co2_impact_yearly [Int]
 
     layout = instance `layout
     quality = instance `quality
     buy = instance `buy
+    approval = instance `approval
+    tax = instance `tax
 
-    required initial_budget >= initial_budget required by buy
-
+    #buy
     trees provided by buy >= trees required by layout
     sidewalks provided by buy >= sidewalks required by layout
-    required co2_budget >= co2 required by layout
+    benches provided by buy >= benches required by layout
 
-    approval required by buy <= approval provided by quality
+    required initial_budget >= initial_budget required by buy
+    community_approval required by buy <= community_approval provided by approval
 
-    layout required by quality <= layout provided by layout
+    #layout
+    required cost_yearly >= cost_yearly required by layout    
+    required co2_cost_upfront >= co2_cost_upfront required by layout
+    required co2_impact_yearly >= co2_impact_yearly required by layout
 
-    provided quality <=  accessibility provided by quality * greenery provided by quality
+    cost_yearly provided by tax >= cost_yearly required by layout
+
+    layout provided by layout >= layout required by quality
+
+    #quality
+    accessibility provided by quality >= accessibility required by approval
+    greenery provided by quality >= greenery required by approval
+
+    #approval
+    provided community_approval <= community_approval provided by approval
+    required co2_impact_yearly <= acceptable_co2_impact_yearly provided by approval
+
+    tax_burden required by tax <= acceptable_tax_burden provided by approval
+
+    #tax
+    #all connected above
+
 }
