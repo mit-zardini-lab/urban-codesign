@@ -1,5 +1,7 @@
 mcdp {
     provides community_approval [dimensionless]
+    provides accessibility [dimensionless]
+    provides greenery [dimensionless]
 
     requires initial_budget [$]
     requires cost_yearly [$]
@@ -33,6 +35,8 @@ mcdp {
     #quality
     accessibility provided by quality >= accessibility required by approval
     greenery provided by quality >= greenery required by approval
+    provided accessibility <= accessibility provided by quality
+    provided greenery <= greenery provided by quality
 
     #approval
     provided community_approval <= community_approval provided by approval

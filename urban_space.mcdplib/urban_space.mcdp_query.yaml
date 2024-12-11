@@ -4,7 +4,9 @@ model: '`urban_space'
 query:
   query_type: FixFunMinRes
   min_f:
-    community_approval: 400 dimensionless
+    community_approval: 0.7 dimensionless
+    accessibility: 0.1 dimensionless
+    greenery: 0.1 dimensionless
   max_r:
     initial_budget: 1000000 $
     cost_yearly: 100000 $
