@@ -3,5 +3,8 @@ mcdp {
 
     requires tax_burden [$]
 
-    required tax_burden >= (provided cost_yearly - 1000 $)/10000
+    taxpayer_count = 10000 [Nat]
+    maintenance_budget = 1000 [$]
+
+    required tax_burden * taxpayer_count >= (provided cost_yearly - maintenance_budget)
 }

@@ -5,14 +5,15 @@ mcdp {
 
     requires greenery [dimensionless]
     requires accessibility [dimensionless]
-    
+
+    # greenery and accessibility are normalized to be between 0 and 1    
     quality = required greenery * required accessibility
     
-    approval_per_co2_kg = 0.005 [dimensionless]
-    co2_approval = approval_per_co2_kg * provided acceptable_co2_impact_yearly
+    disapproval_per_co2_kg = 0.001 [dimensionless]
+    co2_disapproval = disapproval_per_co2_kg * provided acceptable_co2_impact_yearly
     
-    approval_per_dollar = 0.01 [dimensionless/$]
-    tax_approval = approval_per_dollar * provided acceptable_tax_burden
+    disapproval_per_dollar = 0.05 [dimensionless/$]
+    tax_disapproval = disapproval_per_dollar * provided acceptable_tax_burden
 
-    provided community_approval + tax_approval + co2_approval <= quality
+    provided community_approval + tax_disapproval + co2_disapproval <= quality
 }

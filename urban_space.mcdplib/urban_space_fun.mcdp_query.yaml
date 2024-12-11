@@ -1,0 +1,17 @@
+title: urban_space_fun
+description: Query the whole dp
+model: '`urban_space'
+query:
+  query_type: FixResMaxFun
+  min_f:
+    community_approval: 0 dimensionless
+    accessibility: 0.1 dimensionless
+    greenery: 0.1 dimensionless
+  max_r:
+    initial_budget: 5000 $
+    cost_yearly: 1000000 $
+    co2_cost_upfront: 100000 Nat
+    co2_impact_yearly: 100 Int
+  optimize_for:
+  - accessibility
+  - greenery

@@ -6,5 +6,7 @@ mcdp {
     requires initial_budget [$]
     requires community_approval [dimensionless]
 
-    required initial_budget * (1 + required community_approval) >= (provided trees * 1000 $) + (provided sidewalks * 400 $) + (provided benches * 2000 $)
+    budget_flex = 1 + required community_approval
+
+    required initial_budget * budget_flex >= (provided trees * 1000 $) + (provided sidewalks * 400 $) + (provided benches * 2000 $)
 }
