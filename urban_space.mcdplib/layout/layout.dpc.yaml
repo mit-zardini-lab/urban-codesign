@@ -8,559 +8,9 @@ R:
 - Nat
 - Int
 implementations:
-  TTG_BTG_TGB:
+  GPT_PPB_BBT:
     f_max:
-    - '`layout: TTG_BTG_TGB'
-    r_min:
-    - 4 Nat
-    - 0 Nat
-    - 2 Nat
-    - 2100 $
-    - 880 Nat
-    - 26 Int
-  TTG_PGP_BPT:
-    f_max:
-    - '`layout: TTG_PGP_BPT'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1650 $
-    - 920 Nat
-    - 39 Int
-  GGB_BBG_PTP:
-    f_max:
-    - '`layout: GGB_BBG_PTP'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  BGP_TGT_BGB:
-    f_max:
-    - '`layout: BGP_TGT_BGB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  GTP_BGG_GTP:
-    f_max:
-    - '`layout: GTP_BGG_GTP'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1400 $
-    - 660 Nat
-    - 38 Int
-  TGB_BPB_BPT:
-    f_max:
-    - '`layout: TGB_BPB_BPT'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1400 $
-    - 1080 Nat
-    - 92 Int
-  GPP_BGP_BGP:
-    f_max:
-    - '`layout: GPP_BGP_BGP'
-    r_min:
-    - 0 Nat
-    - 4 Nat
-    - 2 Nat
-    - 700 $
-    - 720 Nat
-    - 86 Int
-  TGT_PPB_TPT:
-    f_max:
-    - '`layout: TGT_PPB_TPT'
-    r_min:
-    - 4 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1950 $
-    - 1070 Nat
-    - 32 Int
-  GPP_BGT_TTT:
-    f_max:
-    - '`layout: GPP_BGT_TTT'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2000 $
-    - 960 Nat
-    - 24 Int
-  TGP_BGB_BBT:
-    f_max:
-    - '`layout: TGP_BGB_BBT'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 4 Nat
-    - 1450 $
-    - 970 Nat
-    - 84 Int
-  PPT_BBB_TGB:
-    f_max:
-    - '`layout: PPT_BBB_TGB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1400 $
-    - 1080 Nat
-    - 92 Int
-  GGT_PBB_PBT:
-    f_max:
-    - '`layout: GGT_PBB_PBT'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  PGT_TTB_PPB:
-    f_max:
-    - '`layout: PGT_TTB_PPB'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1650 $
-    - 1060 Nat
-    - 57 Int
-  TGG_BTP_GBB:
-    f_max:
-    - '`layout: TGG_BTP_GBB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  PPP_BBB_TBG:
-    f_max:
-    - '`layout: PPP_BBB_TBG'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 4 Nat
-    - 1050 $
-    - 1040 Nat
-    - 107 Int
-  GGP_PPT_BGP:
-    f_max:
-    - '`layout: GGP_PPT_BGP'
-    r_min:
-    - 1 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1000 $
-    - 730 Nat
-    - 61 Int
-  TGG_BPT_PBB:
-    f_max:
-    - '`layout: TGG_BPT_PBB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  PGP_PGP_PBG:
-    f_max:
-    - '`layout: PGP_PGP_PBG'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  GBB_BGB_BBT:
-    f_max:
-    - '`layout: GBB_BGB_BBT'
-    r_min:
-    - 1 Nat
-    - 0 Nat
-    - 6 Nat
-    - 1200 $
-    - 990 Nat
-    - 119 Int
-  PGB_TBP_GBP:
-    f_max:
-    - '`layout: PGB_TBP_GBP'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TTT_PGP_TBG:
-    f_max:
-    - '`layout: TTT_PGP_TBG'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2000 $
-    - 960 Nat
-    - 24 Int
-  TGP_GGG_PPG:
-    f_max:
-    - '`layout: TGP_GGG_PPG'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 0 Nat
-    - 1050 $
-    - 480 Nat
-    - 35 Int
-  TPB_BBB_BGP:
-    f_max:
-    - '`layout: TPB_BBB_BGP'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 5 Nat
-    - 1100 $
-    - 1070 Nat
-    - 117 Int
-  PGP_TTB_BGP:
-    f_max:
-    - '`layout: PGP_TTB_BGP'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1350 $
-    - 910 Nat
-    - 64 Int
-  GTT_BPB_PGB:
-    f_max:
-    - '`layout: GTT_BPB_PGB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  GPP_BPG_BBT:
-    f_max:
-    - '`layout: GPP_BPG_BBT'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  GTB_BBT_GBB:
-    f_max:
-    - '`layout: GTB_BBT_GBB'
-    r_min:
-    - 2 Nat
-    - 0 Nat
-    - 5 Nat
-    - 1500 $
-    - 1000 Nat
-    - 94 Int
-  TTG_TBP_PTG:
-    f_max:
-    - '`layout: TTG_TBP_PTG'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2000 $
-    - 960 Nat
-    - 24 Int
-  TTB_PGT_PGP:
-    f_max:
-    - '`layout: TTB_PGT_PGP'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1650 $
-    - 920 Nat
-    - 39 Int
-  TGT_TGP_BTT:
-    f_max:
-    - '`layout: TGT_TGP_BTT'
-    r_min:
-    - 5 Nat
-    - 1 Nat
-    - 1 Nat
-    - 2350 $
-    - 1000 Nat
-    - 9 Int
-  PGP_GBP_BGP:
-    f_max:
-    - '`layout: PGP_GBP_BGP'
-    r_min:
-    - 0 Nat
-    - 4 Nat
-    - 2 Nat
-    - 700 $
-    - 720 Nat
-    - 86 Int
-  GGB_BPG_BGP:
-    f_max:
-    - '`layout: GGB_BPG_BGP'
-    r_min:
-    - 0 Nat
-    - 2 Nat
-    - 3 Nat
-    - 800 $
-    - 640 Nat
-    - 88 Int
-  TGG_PTP_GGB:
-    f_max:
-    - '`layout: TGG_PTP_GGB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1400 $
-    - 660 Nat
-    - 38 Int
-  GGB_BBB_BGT:
-    f_max:
-    - '`layout: GGB_BBB_BGT'
-    r_min:
-    - 1 Nat
-    - 0 Nat
-    - 5 Nat
-    - 1200 $
-    - 850 Nat
-    - 101 Int
-  TTP_BPG_BPP:
-    f_max:
-    - '`layout: TTP_BPG_BPP'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1300 $
-    - 1020 Nat
-    - 72 Int
-  TGT_PBG_BGP:
-    f_max:
-    - '`layout: TGT_PBG_BGP'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1400 $
-    - 800 Nat
-    - 56 Int
-  TTB_PBT_GTB:
-    f_max:
-    - '`layout: TTB_PBT_GTB'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 3 Nat
-    - 2050 $
-    - 1130 Nat
-    - 52 Int
-  TGP_PPG_TTB:
-    f_max:
-    - '`layout: TGP_PPG_TTB'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1650 $
-    - 920 Nat
-    - 39 Int
-  GTP_TGP_PBP:
-    f_max:
-    - '`layout: GTP_TGP_PBP'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1300 $
-    - 880 Nat
-    - 54 Int
-  GGG_GBG_BGT:
-    f_max:
-    - '`layout: GGG_GBG_BGT'
-    r_min:
-    - 1 Nat
-    - 0 Nat
-    - 2 Nat
-    - 1200 $
-    - 430 Nat
-    - 47 Int
-  GGB_TTP_TPP:
-    f_max:
-    - '`layout: GGB_TTP_TPP'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1650 $
-    - 920 Nat
-    - 39 Int
-  GPT_PBG_BGB:
-    f_max:
-    - '`layout: GPT_PBG_BGB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  PGP_TPP_BTP:
-    f_max:
-    - '`layout: PGP_TPP_BTP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  GPT_PTP_TPG:
-    f_max:
-    - '`layout: GPT_PTP_TPG'
-    r_min:
-    - 3 Nat
-    - 4 Nat
-    - 0 Nat
-    - 1600 $
-    - 890 Nat
-    - 29 Int
-  GGB_TBB_TTB:
-    f_max:
-    - '`layout: GGB_TBB_TTB'
-    r_min:
-    - 3 Nat
-    - 0 Nat
-    - 4 Nat
-    - 1800 $
-    - 1010 Nat
-    - 69 Int
-  GGP_BPT_TPT:
-    f_max:
-    - '`layout: GGP_BPT_TPT'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1650 $
-    - 920 Nat
-    - 39 Int
-  TPP_BPT_PTB:
-    f_max:
-    - '`layout: TPP_BPT_PTB'
-    r_min:
-    - 3 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1600 $
-    - 1170 Nat
-    - 65 Int
-  TTT_BBB_PTG:
-    f_max:
-    - '`layout: TTT_BBB_PTG'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 3 Nat
-    - 2050 $
-    - 1130 Nat
-    - 52 Int
-  BGP_PGB_TGB:
-    f_max:
-    - '`layout: BGP_PGB_TGB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  GTB_BBP_TPT:
-    f_max:
-    - '`layout: GTB_BBP_TPT'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1700 $
-    - 1090 Nat
-    - 67 Int
-  GGT_GPT_BBB:
-    f_max:
-    - '`layout: GGT_GPT_BBB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  PGG_PTG_BBB:
-    f_max:
-    - '`layout: PGG_PTG_BBB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  PGB_PPG_GBB:
-    f_max:
-    - '`layout: PGB_PPG_GBB'
-    r_min:
-    - 0 Nat
-    - 3 Nat
-    - 3 Nat
-    - 750 $
-    - 750 Nat
-    - 96 Int
-  TGB_GTT_BTT:
-    f_max:
-    - '`layout: TGB_GTT_BTT'
-    r_min:
-    - 5 Nat
-    - 0 Nat
-    - 2 Nat
-    - 2400 $
-    - 1030 Nat
-    - 19 Int
-  TGB_BPG_PTB:
-    f_max:
-    - '`layout: TGB_BPG_PTB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  GPT_BTB_PPB:
-    f_max:
-    - '`layout: GPT_BTB_PPB'
+    - '`layout: GPT_PPB_BBT'
     r_min:
     - 2 Nat
     - 3 Nat
@@ -568,99 +18,9 @@ implementations:
     - 1350 $
     - 1050 Nat
     - 82 Int
-  GGG_BBB_TGT:
+  GTT_PBT_TTB:
     f_max:
-    - '`layout: GGG_BBB_TGT'
-    r_min:
-    - 2 Nat
-    - 0 Nat
-    - 3 Nat
-    - 1500 $
-    - 720 Nat
-    - 58 Int
-  GGB_TPB_TPG:
-    f_max:
-    - '`layout: GGB_TPB_TPG'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1400 $
-    - 800 Nat
-    - 56 Int
-  TGT_TGG_GGB:
-    f_max:
-    - '`layout: TGT_TGG_GGB'
-    r_min:
-    - 3 Nat
-    - 0 Nat
-    - 1 Nat
-    - 1800 $
-    - 590 Nat
-    - 15 Int
-  PBT_BBB_PBG:
-    f_max:
-    - '`layout: PBT_BBB_PBG'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 5 Nat
-    - 1100 $
-    - 1070 Nat
-    - 117 Int
-  GTG_PBB_BBB:
-    f_max:
-    - '`layout: GTG_PBB_BBB'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 5 Nat
-    - 1150 $
-    - 960 Nat
-    - 109 Int
-  PGG_BBP_PTB:
-    f_max:
-    - '`layout: PGG_BBP_PTB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TGT_TTB_PPP:
-    f_max:
-    - '`layout: TGT_TTB_PPP'
-    r_min:
-    - 4 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1950 $
-    - 1070 Nat
-    - 32 Int
-  GGG_BPT_BPG:
-    f_max:
-    - '`layout: GGG_BPT_BPG'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1100 $
-    - 650 Nat
-    - 63 Int
-  GTB_BPP_BBG:
-    f_max:
-    - '`layout: GTB_BPP_BBG'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1100 $
-    - 930 Nat
-    - 99 Int
-  TGT_TTT_BBP:
-    f_max:
-    - '`layout: TGT_TTT_BBP'
+    - '`layout: GTT_PBT_TTB'
     r_min:
     - 5 Nat
     - 1 Nat
@@ -668,689 +28,19 @@ implementations:
     - 2350 $
     - 1140 Nat
     - 27 Int
-  GGP_PTG_BTT:
+  TTB_BPB_BBT:
     f_max:
-    - '`layout: GGP_PTG_BTT'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1700 $
-    - 810 Nat
-    - 31 Int
-  GTT_TBT_BTT:
-    f_max:
-    - '`layout: GTT_TBT_BTT'
-    r_min:
-    - 6 Nat
-    - 0 Nat
-    - 2 Nat
-    - 2700 $
-    - 1180 Nat
-    - 12 Int
-  TPG_BPG_BTB:
-    f_max:
-    - '`layout: TPG_BPG_BTB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  TTT_BBP_GGB:
-    f_max:
-    - '`layout: TTT_BBP_GGB'
+    - '`layout: TTB_BPB_BBT'
     r_min:
     - 3 Nat
     - 1 Nat
-    - 3 Nat
+    - 5 Nat
     - 1750 $
-    - 980 Nat
-    - 59 Int
-  GTT_PTP_TGT:
-    f_max:
-    - '`layout: GTT_PTP_TGT'
-    r_min:
-    - 5 Nat
-    - 2 Nat
-    - 0 Nat
-    - 2300 $
-    - 970 Nat
-    - -1 Int
-  GGT_GGP_PTG:
-    f_max:
-    - '`layout: GGT_GGP_PTG'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 0 Nat
-    - 1400 $
-    - 520 Nat
-    - 20 Int
-  GBT_BBG_PBB:
-    f_max:
-    - '`layout: GBT_BBG_PBB'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 5 Nat
-    - 1150 $
-    - 960 Nat
-    - 109 Int
-  TTG_BGG_PGG:
-    f_max:
-    - '`layout: TTG_BGG_PGG'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 1 Nat
-    - 1450 $
-    - 550 Nat
-    - 30 Int
-  GTB_PGB_PPB:
-    f_max:
-    - '`layout: GTB_PGB_PPB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TTB_BBG_BBB:
-    f_max:
-    - '`layout: TTB_BBG_BBB'
-    r_min:
-    - 2 Nat
-    - 0 Nat
-    - 6 Nat
-    - 1500 $
-    - 1140 Nat
-    - 112 Int
-  TTB_PTB_TPB:
-    f_max:
-    - '`layout: TTB_PTB_TPB'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 3 Nat
-    - 2000 $
-    - 1240 Nat
-    - 60 Int
-  PGB_BTG_TPB:
-    f_max:
-    - '`layout: PGB_BTG_TPB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  TTB_PBB_TTB:
-    f_max:
-    - '`layout: TTB_PBB_TTB'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 4 Nat
-    - 2050 $
-    - 1270 Nat
-    - 70 Int
-  TTP_PTP_TPG:
-    f_max:
-    - '`layout: TTP_PTP_TPG'
-    r_min:
-    - 4 Nat
-    - 4 Nat
-    - 0 Nat
-    - 1900 $
-    - 1040 Nat
-    - 22 Int
-  PGT_PGB_TPP:
-    f_max:
-    - '`layout: PGT_PGB_TPP'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1300 $
-    - 880 Nat
-    - 54 Int
-  TGP_TGT_TPT:
-    f_max:
-    - '`layout: TGP_TGT_TPT'
-    r_min:
-    - 5 Nat
-    - 2 Nat
-    - 0 Nat
-    - 2300 $
-    - 970 Nat
-    - -1 Int
-  GGT_PBG_GGP:
-    f_max:
-    - '`layout: GGT_PBG_GGP'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1100 $
-    - 510 Nat
-    - 45 Int
-  GGT_PTT_GTP:
-    f_max:
-    - '`layout: GGT_PTT_GTP'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 0 Nat
-    - 2000 $
-    - 820 Nat
-    - 6 Int
-  GTB_TBP_BPT:
-    f_max:
-    - '`layout: GTB_TBP_BPT'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1700 $
-    - 1090 Nat
-    - 67 Int
-  BTG_PPB_BGB:
-    f_max:
-    - '`layout: BTG_PPB_BGB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1100 $
-    - 930 Nat
-    - 99 Int
-  TGG_PTB_TPB:
-    f_max:
-    - '`layout: TGG_PTB_TPB'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1700 $
-    - 950 Nat
-    - 49 Int
-  TGG_BTP_BPB:
-    f_max:
-    - '`layout: TGG_BTP_BPB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  GGP_BGB_TBG:
-    f_max:
-    - '`layout: GGP_BGB_TBG'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1150 $
-    - 680 Nat
-    - 73 Int
-  PTB_BPG_TTB:
-    f_max:
-    - '`layout: PTB_BPG_TTB'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1700 $
-    - 1090 Nat
-    - 67 Int
-  BPG_PBP_PGB:
-    f_max:
-    - '`layout: BPG_PBP_PGB'
-    r_min:
-    - 0 Nat
-    - 4 Nat
-    - 3 Nat
-    - 700 $
-    - 860 Nat
-    - 104 Int
-  BPG_PPG_GTB:
-    f_max:
-    - '`layout: BPG_PPG_GTB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1050 $
-    - 760 Nat
-    - 71 Int
-  PPT_BTT_TBB:
-    f_max:
-    - '`layout: PPT_BTT_TBB'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 3 Nat
-    - 2000 $
-    - 1240 Nat
-    - 60 Int
-  BGG_TPG_GGB:
-    f_max:
-    - '`layout: BGG_TPG_GGB'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 2 Nat
-    - 1150 $
-    - 540 Nat
-    - 55 Int
-  PPP_BGG_GTB:
-    f_max:
-    - '`layout: PPP_BGG_GTB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1050 $
-    - 760 Nat
-    - 71 Int
-  GGP_PPG_BTT:
-    f_max:
-    - '`layout: GGP_PPG_BTT'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1350 $
-    - 770 Nat
-    - 46 Int
-  GTT_BGP_GBB:
-    f_max:
-    - '`layout: GTT_BGP_GBB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  GBT_BTP_PGT:
-    f_max:
-    - '`layout: GBT_BTP_PGT'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1700 $
-    - 950 Nat
-    - 49 Int
-  GTG_PTG_BGB:
-    f_max:
-    - '`layout: GTG_PTG_BGB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 2 Nat
-    - 1450 $
-    - 690 Nat
-    - 48 Int
-  TGP_TTT_PPT:
-    f_max:
-    - '`layout: TGP_TTT_PPT'
-    r_min:
-    - 5 Nat
-    - 3 Nat
-    - 0 Nat
-    - 2250 $
-    - 1080 Nat
-    - 7 Int
-  GGB_TBB_GBB:
-    f_max:
-    - '`layout: GGB_TBB_GBB'
-    r_min:
-    - 1 Nat
-    - 0 Nat
-    - 5 Nat
-    - 1200 $
-    - 850 Nat
-    - 101 Int
-  TGT_BTB_GPB:
-    f_max:
-    - '`layout: TGT_BTB_GPB'
-    r_min:
-    - 3 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1750 $
-    - 980 Nat
-    - 59 Int
-  PGB_PTB_GTP:
-    f_max:
-    - '`layout: PGB_PTB_GTP'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1350 $
-    - 910 Nat
-    - 64 Int
-  TGP_TBB_TTT:
-    f_max:
-    - '`layout: TGP_TBB_TTT'
-    r_min:
-    - 5 Nat
-    - 1 Nat
-    - 2 Nat
-    - 2350 $
-    - 1140 Nat
-    - 27 Int
-  TGP_PGP_GTB:
-    f_max:
-    - '`layout: TGP_PGP_GTB'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1350 $
-    - 770 Nat
-    - 46 Int
-  PPG_BPG_TGB:
-    f_max:
-    - '`layout: PPG_BPG_TGB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1050 $
-    - 760 Nat
-    - 71 Int
-  PTB_PTT_PPB:
-    f_max:
-    - '`layout: PTB_PTT_PPB'
-    r_min:
-    - 3 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1600 $
-    - 1170 Nat
-    - 65 Int
-  TBT_BTT_BBB:
-    f_max:
-    - '`layout: TBT_BTT_BBB'
-    r_min:
-    - 4 Nat
-    - 0 Nat
-    - 5 Nat
-    - 2100 $
-    - 1300 Nat
-    - 80 Int
-  GPT_BPP_TPB:
-    f_max:
-    - '`layout: GPT_BPP_TPB'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1300 $
-    - 1020 Nat
-    - 72 Int
-  BTG_BPP_GBB:
-    f_max:
-    - '`layout: BTG_BPP_GBB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1100 $
-    - 930 Nat
-    - 99 Int
-  TGP_PGG_BPB:
-    f_max:
-    - '`layout: TGP_PGG_BPB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 2 Nat
-    - 1050 $
-    - 760 Nat
-    - 71 Int
-  GTT_PBG_BTT:
-    f_max:
-    - '`layout: GTT_PBG_BTT'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 2 Nat
-    - 2050 $
-    - 990 Nat
-    - 34 Int
-  GPB_BGG_BTB:
-    f_max:
-    - '`layout: GPB_BGG_BTB'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 4 Nat
-    - 1150 $
-    - 820 Nat
-    - 91 Int
-  GGT_BPT_PPP:
-    f_max:
-    - '`layout: GGT_BPT_PPP'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1300 $
-    - 880 Nat
-    - 54 Int
-  GTP_TGB_BGB:
-    f_max:
-    - '`layout: GTP_TGB_BGB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  TGT_BTT_GGB:
-    f_max:
-    - '`layout: TGT_BTT_GGB'
-    r_min:
-    - 4 Nat
-    - 0 Nat
-    - 2 Nat
-    - 2100 $
-    - 880 Nat
-    - 26 Int
-  TGG_PPB_GBB:
-    f_max:
-    - '`layout: TGG_PPB_GBB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  TGG_PGP_GGG:
-    f_max:
-    - '`layout: TGG_PGP_GGG'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 0 Nat
-    - 1100 $
-    - 370 Nat
-    - 27 Int
-  GTB_BGB_BGT:
-    f_max:
-    - '`layout: GTB_BGB_BGT'
-    r_min:
-    - 2 Nat
-    - 0 Nat
-    - 4 Nat
-    - 1500 $
-    - 860 Nat
-    - 76 Int
-  PGP_PPT_PBG:
-    f_max:
-    - '`layout: PGP_PPT_PBG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PGT_BBG_GTB:
-    f_max:
-    - '`layout: PGT_BBG_GTB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1450 $
-    - 830 Nat
-    - 66 Int
-  GPB_BBG_PGT:
-    f_max:
-    - '`layout: GPB_BBG_PGT'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  BGT_TBB_TBB:
-    f_max:
-    - '`layout: BGT_TBB_TBB'
-    r_min:
-    - 3 Nat
-    - 0 Nat
-    - 5 Nat
-    - 1800 $
-    - 1150 Nat
-    - 87 Int
-  GGG_BGG_PGB:
-    f_max:
-    - '`layout: GGG_BGG_PGB'
-    r_min:
-    - 0 Nat
-    - 1 Nat
-    - 2 Nat
-    - 850 $
-    - 390 Nat
-    - 62 Int
-  TGG_TBG_GTB:
-    f_max:
-    - '`layout: TGG_TBG_GTB'
-    r_min:
-    - 3 Nat
-    - 0 Nat
-    - 2 Nat
-    - 1800 $
-    - 730 Nat
-    - 33 Int
-  TTG_TGG_TPB:
-    f_max:
-    - '`layout: TTG_TGG_TPB'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 1 Nat
-    - 2050 $
-    - 850 Nat
-    - 16 Int
-  GTB_BTT_PGP:
-    f_max:
-    - '`layout: GTB_BTT_PGP'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1700 $
-    - 950 Nat
-    - 49 Int
-  GGP_PGP_GPB:
-    f_max:
-    - '`layout: GGP_PGP_GPB'
-    r_min:
-    - 0 Nat
-    - 4 Nat
-    - 1 Nat
-    - 700 $
-    - 580 Nat
-    - 68 Int
-  TTP_PBB_PPB:
-    f_max:
-    - '`layout: TTP_PBB_PPB'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 3 Nat
-    - 1300 $
-    - 1160 Nat
-    - 90 Int
-  GTP_BGP_TTT:
-    f_max:
-    - '`layout: GTP_BGP_TTT'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2000 $
-    - 960 Nat
-    - 24 Int
-  TTG_PBB_BTB:
-    f_max:
-    - '`layout: TTG_PBB_BTB'
-    r_min:
-    - 3 Nat
-    - 1 Nat
-    - 4 Nat
-    - 1750 $
-    - 1120 Nat
-    - 77 Int
-  PGT_PTG_TBG:
-    f_max:
-    - '`layout: PGT_PTG_TBG'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1700 $
-    - 810 Nat
-    - 31 Int
-  PGP_PTP_PBP:
-    f_max:
-    - '`layout: PGP_PTP_PBP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  TPB_BBB_GTB:
-    f_max:
-    - '`layout: TPB_BBB_GTB'
-    r_min:
-    - 2 Nat
-    - 1 Nat
-    - 5 Nat
-    - 1450 $
-    - 1110 Nat
-    - 102 Int
-  TBT_BGT_BTP:
-    f_max:
-    - '`layout: TBT_BGT_BTP'
+    - 1260 Nat
+    - 95 Int
+  TTT_BTG_BPB:
+    f_max:
+    - '`layout: TTT_BTG_BPB'
     r_min:
     - 4 Nat
     - 1 Nat
@@ -1358,19 +48,19 @@ implementations:
     - 2050 $
     - 1130 Nat
     - 52 Int
-  TGT_GTB_PBP:
+  TPT_BBG_PBB:
     f_max:
-    - '`layout: TGT_GTB_PBP'
+    - '`layout: TPT_BBG_PBB'
     r_min:
-    - 3 Nat
     - 2 Nat
     - 2 Nat
-    - 1700 $
-    - 950 Nat
-    - 49 Int
-  GGP_TTB_PPT:
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  PGT_TPP_TGB:
     f_max:
-    - '`layout: GGP_TTB_PPT'
+    - '`layout: PGT_TPP_TGB'
     r_min:
     - 3 Nat
     - 3 Nat
@@ -1378,169 +68,9 @@ implementations:
     - 1650 $
     - 920 Nat
     - 39 Int
-  PGP_TGT_TTB:
+  GGT_PPP_PPG:
     f_max:
-    - '`layout: PGP_TGT_TTB'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2000 $
-    - 960 Nat
-    - 24 Int
-  GGB_TBP_TBP:
-    f_max:
-    - '`layout: GGB_TBP_TBP'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1400 $
-    - 940 Nat
-    - 74 Int
-  TPG_PPG_PBB:
-    f_max:
-    - '`layout: TPG_PPG_PBB'
-    r_min:
-    - 1 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1000 $
-    - 870 Nat
-    - 79 Int
-  BPG_PGB_TBB:
-    f_max:
-    - '`layout: BPG_PGB_TBB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1100 $
-    - 930 Nat
-    - 99 Int
-  GGP_TPP_GTB:
-    f_max:
-    - '`layout: GGP_TPP_GTB'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1350 $
-    - 770 Nat
-    - 46 Int
-  GPG_PTP_BPT:
-    f_max:
-    - '`layout: GPG_PTP_BPT'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1300 $
-    - 880 Nat
-    - 54 Int
-  TTG_TTG_GTB:
-    f_max:
-    - '`layout: TTG_TTG_GTB'
-    r_min:
-    - 5 Nat
-    - 0 Nat
-    - 1 Nat
-    - 2400 $
-    - 890 Nat
-    - 1 Int
-  TGP_GGG_PBG:
-    f_max:
-    - '`layout: TGP_GGG_PBG'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1100 $
-    - 510 Nat
-    - 45 Int
-  TGB_GPP_BPB:
-    f_max:
-    - '`layout: TGB_GPP_BPB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TTT_PPG_PPG:
-    f_max:
-    - '`layout: TTT_PPG_PPG'
-    r_min:
-    - 3 Nat
-    - 4 Nat
-    - 0 Nat
-    - 1600 $
-    - 890 Nat
-    - 29 Int
-  GGT_PGB_GPT:
-    f_max:
-    - '`layout: GGT_PGB_GPT'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1400 $
-    - 660 Nat
-    - 38 Int
-  TBT_BTB_PPP:
-    f_max:
-    - '`layout: TBT_BTB_PPP'
-    r_min:
-    - 3 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1650 $
-    - 1200 Nat
-    - 75 Int
-  GGB_BTG_GGB:
-    f_max:
-    - '`layout: GGB_BTG_GGB'
-    r_min:
-    - 1 Nat
-    - 0 Nat
-    - 3 Nat
-    - 1200 $
-    - 570 Nat
-    - 65 Int
-  TTB_PGB_BTP:
-    f_max:
-    - '`layout: TTB_PGB_BTP'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 3 Nat
-    - 1700 $
-    - 1090 Nat
-    - 67 Int
-  TTT_BBP_TGP:
-    f_max:
-    - '`layout: TTT_BBP_TGP'
-    r_min:
-    - 4 Nat
-    - 2 Nat
-    - 2 Nat
-    - 2000 $
-    - 1100 Nat
-    - 42 Int
-  TPB_BPT_TBB:
-    f_max:
-    - '`layout: TPB_BPT_TBB'
-    r_min:
-    - 3 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1700 $
-    - 1230 Nat
-    - 85 Int
-  GGP_PPT_PPG:
-    f_max:
-    - '`layout: GGP_PPT_PPG'
+    - '`layout: GGT_PPP_PPG'
     r_min:
     - 1 Nat
     - 5 Nat
@@ -1548,99 +78,79 @@ implementations:
     - 950 $
     - 700 Nat
     - 51 Int
-  TGP_TTT_BTP:
+  TPT_PBT_PGG:
     f_max:
-    - '`layout: TGP_TTT_BTP'
+    - '`layout: TPT_PBT_PGG'
     r_min:
-    - 5 Nat
-    - 2 Nat
-    - 1 Nat
-    - 2300 $
-    - 1110 Nat
-    - 17 Int
-  GGP_PBT_BPB:
-    f_max:
-    - '`layout: GGP_PBT_BPB'
-    r_min:
-    - 1 Nat
     - 3 Nat
     - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TTB_BTT_GGP:
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  TGT_PTP_TBP:
     f_max:
-    - '`layout: TTB_BTT_GGP'
+    - '`layout: TGT_PTP_TBP'
     r_min:
     - 4 Nat
-    - 1 Nat
-    - 2 Nat
-    - 2050 $
-    - 990 Nat
-    - 34 Int
-  TGP_BTG_BBT:
-    f_max:
-    - '`layout: TGP_BTG_BBT'
-    r_min:
     - 3 Nat
     - 1 Nat
-    - 3 Nat
-    - 1750 $
-    - 980 Nat
-    - 59 Int
-  PGB_TGB_TBB:
+    - 1950 $
+    - 1070 Nat
+    - 32 Int
+  TPP_BBB_PTB:
     f_max:
-    - '`layout: PGB_TGB_TBB'
+    - '`layout: TPP_BBB_PTB'
     r_min:
     - 2 Nat
-    - 1 Nat
+    - 3 Nat
     - 4 Nat
-    - 1450 $
-    - 970 Nat
-    - 84 Int
-  GGG_PBP_GTB:
+    - 1350 $
+    - 1190 Nat
+    - 100 Int
+  GTT_BPB_TPG:
     f_max:
-    - '`layout: GGG_PBP_GTB'
-    r_min:
-    - 1 Nat
-    - 2 Nat
-    - 2 Nat
-    - 1100 $
-    - 650 Nat
-    - 63 Int
-  TPT_BBP_TGB:
-    f_max:
-    - '`layout: TPT_BBP_TGB'
+    - '`layout: GTT_BPB_TPG'
     r_min:
     - 3 Nat
     - 2 Nat
-    - 3 Nat
+    - 2 Nat
     - 1700 $
-    - 1090 Nat
-    - 67 Int
-  TGG_PGP_BBB:
+    - 950 Nat
+    - 49 Int
+  GTG_BGT_GBP:
     f_max:
-    - '`layout: TGG_PGP_BBB'
+    - '`layout: GTG_BGT_GBP'
     r_min:
+    - 2 Nat
     - 1 Nat
     - 2 Nat
-    - 3 Nat
-    - 1100 $
-    - 790 Nat
-    - 81 Int
-  GTG_TTT_BGP:
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  TTG_BTB_BBB:
     f_max:
-    - '`layout: GTG_TTT_BGP'
+    - '`layout: TTG_BTB_BBB'
     r_min:
-    - 4 Nat
-    - 1 Nat
-    - 1 Nat
-    - 2050 $
-    - 850 Nat
-    - 16 Int
-  TGG_GTT_BBP:
+    - 3 Nat
+    - 0 Nat
+    - 5 Nat
+    - 1800 $
+    - 1150 Nat
+    - 87 Int
+  TGT_GPG_TGB:
     f_max:
-    - '`layout: TGG_GTT_BBP'
+    - '`layout: TGT_GPG_TGB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 1 Nat
+    - 1750 $
+    - 700 Nat
+    - 23 Int
+  GGT_PTB_GBT:
+    f_max:
+    - '`layout: GGT_PTB_GBT'
     r_min:
     - 3 Nat
     - 1 Nat
@@ -1648,139 +158,109 @@ implementations:
     - 1750 $
     - 840 Nat
     - 41 Int
-  PPG_PBP_BBP:
+  GTP_BPG_BTT:
     f_max:
-    - '`layout: PPG_PBP_BBP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  GGT_BTT_PTG:
-    f_max:
-    - '`layout: GGT_BTT_PTG'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 1 Nat
-    - 2050 $
-    - 850 Nat
-    - 16 Int
-  GGT_PPP_PBT:
-    f_max:
-    - '`layout: GGT_PPP_PBT'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 1 Nat
-    - 1300 $
-    - 880 Nat
-    - 54 Int
-  TBG_BPT_PBB:
-    f_max:
-    - '`layout: TBG_BPT_PBB'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 4 Nat
-    - 1400 $
-    - 1080 Nat
-    - 92 Int
-  GPB_BPT_PTB:
-    f_max:
-    - '`layout: GPB_BPT_PTB'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1350 $
-    - 1050 Nat
-    - 82 Int
-  TPT_BGP_BBP:
-    f_max:
-    - '`layout: TPT_BGP_BBP'
-    r_min:
-    - 2 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1350 $
-    - 1050 Nat
-    - 82 Int
-  PTT_TGT_PPG:
-    f_max:
-    - '`layout: PTT_TGT_PPG'
-    r_min:
-    - 4 Nat
-    - 3 Nat
-    - 0 Nat
-    - 1950 $
-    - 930 Nat
-    - 14 Int
-  TGP_BTT_GTB:
-    f_max:
-    - '`layout: TGP_BTT_GTB'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 2 Nat
-    - 2050 $
-    - 990 Nat
-    - 34 Int
-  GTB_PTT_TGB:
-    f_max:
-    - '`layout: GTB_PTT_TGB'
-    r_min:
-    - 4 Nat
-    - 1 Nat
-    - 2 Nat
-    - 2050 $
-    - 990 Nat
-    - 34 Int
-  GGP_BPB_PTP:
-    f_max:
-    - '`layout: GGP_BPB_PTP'
-    r_min:
-    - 1 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1000 $
-    - 870 Nat
-    - 79 Int
-  TGG_GBB_PBG:
-    f_max:
-    - '`layout: TGG_GBB_PBG'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1150 $
-    - 680 Nat
-    - 73 Int
-  TGT_GPT_PGG:
-    f_max:
-    - '`layout: TGT_GPT_PGG'
+    - '`layout: GTP_BPG_BTT'
     r_min:
     - 3 Nat
     - 2 Nat
-    - 0 Nat
+    - 2 Nat
     - 1700 $
-    - 670 Nat
-    - 13 Int
-  BPT_PTB_PGB:
+    - 950 Nat
+    - 49 Int
+  GGP_TTP_BPG:
     f_max:
-    - '`layout: BPT_PTB_PGB'
+    - '`layout: GGP_TTP_BPG'
     r_min:
     - 2 Nat
     - 3 Nat
-    - 3 Nat
+    - 1 Nat
     - 1350 $
-    - 1050 Nat
-    - 82 Int
-  GGG_GGP_PTB:
+    - 770 Nat
+    - 46 Int
+  PPG_BGP_GPB:
     f_max:
-    - '`layout: GGG_GGP_PTB'
+    - '`layout: PPG_BGP_GPB'
+    r_min:
+    - 0 Nat
+    - 4 Nat
+    - 2 Nat
+    - 700 $
+    - 720 Nat
+    - 86 Int
+  GPT_PTG_PGG:
+    f_max:
+    - '`layout: GPT_PTG_PGG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1350 $
+    - 630 Nat
+    - 28 Int
+  TGP_TGT_GBG:
+    f_max:
+    - '`layout: TGP_TGT_GBG'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 1 Nat
+    - 1750 $
+    - 700 Nat
+    - 23 Int
+  BTB_PGP_TGB:
+    f_max:
+    - '`layout: BTB_PGP_TGB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  PGB_TBG_TGB:
+    f_max:
+    - '`layout: PGB_TBG_TGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  GGG_TTB_TBP:
+    f_max:
+    - '`layout: GGG_TTB_TBP'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1750 $
+    - 840 Nat
+    - 41 Int
+  TPB_BBG_TTP:
+    f_max:
+    - '`layout: TPB_BBG_TTP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  TPB_BBB_PGB:
+    f_max:
+    - '`layout: TPB_BBB_PGB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 5 Nat
+    - 1100 $
+    - 1070 Nat
+    - 117 Int
+  GGG_TGP_GPB:
+    f_max:
+    - '`layout: GGG_TGP_GPB'
     r_min:
     - 1 Nat
     - 2 Nat
@@ -1788,69 +268,49 @@ implementations:
     - 1100 $
     - 510 Nat
     - 45 Int
-  PGG_TBB_GBG:
+  GGT_PGB_PPP:
     f_max:
-    - '`layout: PGG_TBB_GBG'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 3 Nat
-    - 1150 $
-    - 680 Nat
-    - 73 Int
-  PBG_BPP_TBB:
-    f_max:
-    - '`layout: PBG_BPP_TBB'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 4 Nat
-    - 1050 $
-    - 1040 Nat
-    - 107 Int
-  PGP_PBP_GTB:
-    f_max:
-    - '`layout: PGP_PBP_GTB'
+    - '`layout: GGT_PGB_PPP'
     r_min:
     - 1 Nat
     - 4 Nat
-    - 2 Nat
+    - 1 Nat
     - 1000 $
-    - 870 Nat
-    - 79 Int
-  PGB_BGT_BBB:
+    - 730 Nat
+    - 61 Int
+  GTG_PBT_BGP:
     f_max:
-    - '`layout: PGB_BGT_BBB'
+    - '`layout: GTG_PBT_BGP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  GPT_PGT_PBP:
+    f_max:
+    - '`layout: GPT_PGT_PBP'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1300 $
+    - 880 Nat
+    - 54 Int
+  GGG_GPT_PPP:
+    f_max:
+    - '`layout: GGG_GPT_PPP'
     r_min:
     - 1 Nat
-    - 1 Nat
-    - 5 Nat
-    - 1150 $
-    - 960 Nat
-    - 109 Int
-  GPG_BBB_BBT:
-    f_max:
-    - '`layout: GPG_BBB_BBT'
-    r_min:
-    - 1 Nat
-    - 1 Nat
-    - 5 Nat
-    - 1150 $
-    - 960 Nat
-    - 109 Int
-  GBT_BTB_TBB:
-    f_max:
-    - '`layout: GBT_BTB_TBB'
-    r_min:
-    - 3 Nat
+    - 4 Nat
     - 0 Nat
-    - 5 Nat
-    - 1800 $
-    - 1150 Nat
-    - 87 Int
-  GTB_PGT_BBP:
+    - 1000 $
+    - 590 Nat
+    - 43 Int
+  BTG_PGB_PTB:
     f_max:
-    - '`layout: GTB_PGT_BBP'
+    - '`layout: BTG_PGB_PTB'
     r_min:
     - 2 Nat
     - 2 Nat
@@ -1858,59 +318,9 @@ implementations:
     - 1400 $
     - 940 Nat
     - 74 Int
-  GGP_GGP_BPP:
+  TGG_PTP_BPB:
     f_max:
-    - '`layout: GGP_GGP_BPP'
-    r_min:
-    - 0 Nat
-    - 4 Nat
-    - 1 Nat
-    - 700 $
-    - 580 Nat
-    - 68 Int
-  PPT_BPT_PGB:
-    f_max:
-    - '`layout: PPT_BPT_PGB'
-    r_min:
-    - 2 Nat
-    - 4 Nat
-    - 2 Nat
-    - 1300 $
-    - 1020 Nat
-    - 72 Int
-  TGB_BTG_TTB:
-    f_max:
-    - '`layout: TGB_BTG_TTB'
-    r_min:
-    - 4 Nat
-    - 0 Nat
-    - 3 Nat
-    - 2100 $
-    - 1020 Nat
-    - 44 Int
-  TGP_PPG_TPT:
-    f_max:
-    - '`layout: TGP_PPG_TPT'
-    r_min:
-    - 3 Nat
-    - 4 Nat
-    - 0 Nat
-    - 1600 $
-    - 890 Nat
-    - 29 Int
-  GGP_BGP_TTG:
-    f_max:
-    - '`layout: GGP_BGP_TTG'
-    r_min:
-    - 2 Nat
-    - 2 Nat
-    - 1 Nat
-    - 1400 $
-    - 660 Nat
-    - 38 Int
-  GPB_BGP_TPT:
-    f_max:
-    - '`layout: GPB_BGP_TPT'
+    - '`layout: TGG_PTP_BPB'
     r_min:
     - 2 Nat
     - 3 Nat
@@ -1918,19 +328,79 @@ implementations:
     - 1350 $
     - 910 Nat
     - 64 Int
-  GBP_BBT_BTP:
+  TGP_TGP_BPP:
     f_max:
-    - '`layout: GBP_BBT_BTP'
+    - '`layout: TGP_TGP_BPP'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1300 $
+    - 880 Nat
+    - 54 Int
+  PGG_BPP_BPP:
+    f_max:
+    - '`layout: PGG_BPP_BPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PGB_PBB_BTB:
+    f_max:
+    - '`layout: PGB_PBB_BTB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 5 Nat
+    - 1100 $
+    - 1070 Nat
+    - 117 Int
+  GPB_BGT_BPT:
+    f_max:
+    - '`layout: GPB_BGT_BPT'
     r_min:
     - 2 Nat
     - 2 Nat
-    - 4 Nat
+    - 3 Nat
     - 1400 $
-    - 1080 Nat
-    - 92 Int
-  TPB_BGG_PPB:
+    - 940 Nat
+    - 74 Int
+  GTP_PPB_TBG:
     f_max:
-    - '`layout: TPB_BGG_PPB'
+    - '`layout: GTP_PPB_TBG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TGP_TPP_TBP:
+    f_max:
+    - '`layout: TGP_TPP_TBP'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1600 $
+    - 1030 Nat
+    - 47 Int
+  GPT_BGP_GBP:
+    f_max:
+    - '`layout: GPT_BGP_GBP'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  PGB_TBP_PGB:
+    f_max:
+    - '`layout: PGB_TBP_PGB'
     r_min:
     - 1 Nat
     - 3 Nat
@@ -1938,9 +408,119 @@ implementations:
     - 1050 $
     - 900 Nat
     - 89 Int
-  GPB_BTT_BPT:
+  TGP_BPG_TTB:
     f_max:
-    - '`layout: GPB_BTT_BPT'
+    - '`layout: TGP_BPG_TTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  GGP_PTB_BPG:
+    f_max:
+    - '`layout: GGP_PTB_BPG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  PGT_TGG_TBG:
+    f_max:
+    - '`layout: PGT_TGG_TBG'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 1 Nat
+    - 1750 $
+    - 700 Nat
+    - 23 Int
+  PTP_TPG_PPG:
+    f_max:
+    - '`layout: PTP_TPG_PPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GGP_TPG_PPP:
+    f_max:
+    - '`layout: GGP_TPG_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  BTG_TTT_BTB:
+    f_max:
+    - '`layout: BTG_TTT_BTB'
+    r_min:
+    - 5 Nat
+    - 0 Nat
+    - 3 Nat
+    - 2400 $
+    - 1170 Nat
+    - 37 Int
+  GGG_GPG_GBG:
+    f_max:
+    - '`layout: GGG_GPG_GBG'
+    r_min:
+    - 0 Nat
+    - 1 Nat
+    - 1 Nat
+    - 850 $
+    - 250 Nat
+    - 44 Int
+  TTP_BTT_TPP:
+    f_max:
+    - '`layout: TTP_BTT_TPP'
+    r_min:
+    - 5 Nat
+    - 3 Nat
+    - 1 Nat
+    - 2250 $
+    - 1220 Nat
+    - 25 Int
+  GGG_PGB_TBB:
+    f_max:
+    - '`layout: GGG_PGB_TBB'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1150 $
+    - 680 Nat
+    - 73 Int
+  TGP_TPT_TTB:
+    f_max:
+    - '`layout: TGP_TPT_TTB'
+    r_min:
+    - 5 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2300 $
+    - 1110 Nat
+    - 17 Int
+  PTG_BPG_PTB:
+    f_max:
+    - '`layout: PTG_BPG_PTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  PTT_BGT_BPB:
+    f_max:
+    - '`layout: PTT_BGT_BPB'
     r_min:
     - 3 Nat
     - 2 Nat
@@ -1948,39 +528,189 @@ implementations:
     - 1700 $
     - 1090 Nat
     - 67 Int
-  PGT_PTB_BBP:
+  GTT_BGB_GTB:
     f_max:
-    - '`layout: PGT_PTB_BBP'
+    - '`layout: GTT_BGB_GTB'
+    r_min:
+    - 3 Nat
+    - 0 Nat
+    - 3 Nat
+    - 1800 $
+    - 870 Nat
+    - 51 Int
+  PGT_TBG_PGB:
+    f_max:
+    - '`layout: PGT_TBG_PGB'
     r_min:
     - 2 Nat
-    - 3 Nat
-    - 3 Nat
-    - 1350 $
-    - 1050 Nat
-    - 82 Int
-  PBG_BGT_PPB:
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  TGB_BPB_PPP:
     f_max:
-    - '`layout: PBG_BGT_PPB'
+    - '`layout: TGB_BPB_PPP'
     r_min:
     - 1 Nat
+    - 4 Nat
     - 3 Nat
-    - 3 Nat
-    - 1050 $
-    - 900 Nat
-    - 89 Int
-  TTB_PGP_PPP:
+    - 1000 $
+    - 1010 Nat
+    - 97 Int
+  GTP_BBB_TTT:
     f_max:
-    - '`layout: TTB_PGP_PPP'
+    - '`layout: GTP_BBB_TTT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2050 $
+    - 1130 Nat
+    - 52 Int
+  BGG_TGP_TBB:
+    f_max:
+    - '`layout: BGG_TGP_TBB'
     r_min:
     - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  GPT_PBB_BPP:
+    f_max:
+    - '`layout: GPT_PBB_BPP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1000 $
+    - 1010 Nat
+    - 97 Int
+  TTG_PBP_TBG:
+    f_max:
+    - '`layout: TTG_PBP_TBG'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  TGG_GBG_PPB:
+    f_max:
+    - '`layout: TGG_GBG_PPB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  GGP_PPT_TTT:
+    f_max:
+    - '`layout: GGP_PPT_TTT'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1950 $
+    - 930 Nat
+    - 14 Int
+  PTP_PGB_PGB:
+    f_max:
+    - '`layout: PTP_PGB_PGB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  GGP_PBP_PGP:
+    f_max:
+    - '`layout: GGP_PBP_PGP'
+    r_min:
+    - 0 Nat
     - 5 Nat
     - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  GGT_PGG_TBB:
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  GTG_PBB_GPB:
     f_max:
-    - '`layout: GGT_PGG_TBB'
+    - '`layout: GTG_PBB_GPB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  TGT_BPP_GTB:
+    f_max:
+    - '`layout: TGT_BPP_GTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  PTP_PBG_PGG:
+    f_max:
+    - '`layout: PTP_PBG_PGG'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1000 $
+    - 730 Nat
+    - 61 Int
+  PGP_PPG_BPB:
+    f_max:
+    - '`layout: PGP_PPG_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TGT_PBT_PPB:
+    f_max:
+    - '`layout: TGT_PBT_PPB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  PGG_TPP_TTB:
+    f_max:
+    - '`layout: PGG_TPP_TTB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  GPB_BGT_GGP:
+    f_max:
+    - '`layout: GPB_BGT_GGP'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  GGG_PGT_TBB:
+    f_max:
+    - '`layout: GGG_PGT_TBB'
     r_min:
     - 2 Nat
     - 1 Nat
@@ -1988,649 +718,209 @@ implementations:
     - 1450 $
     - 690 Nat
     - 48 Int
-  TGP_PTP_BBB:
+  GGP_BPB_TTP:
     f_max:
-    - '`layout: TGP_PTP_BBB'
+    - '`layout: GGP_BPB_TTP'
     r_min:
     - 2 Nat
     - 3 Nat
-    - 3 Nat
+    - 2 Nat
     - 1350 $
-    - 1050 Nat
-    - 82 Int
-  GGP_TPP_GBG:
-    f_max:
-    - '`layout: GGP_TPP_GBG'
-    r_min:
-    - 1 Nat
-    - 3 Nat
-    - 1 Nat
-    - 1050 $
-    - 620 Nat
-    - 53 Int
-  GGP_PPP_GTP:
-    f_max:
-    - '`layout: GGP_PPP_GTP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  GGP_GPP_PPB:
-    f_max:
-    - '`layout: GGP_GPP_PPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  GTP_PPP_PBG:
-    f_max:
-    - '`layout: GTP_PPP_PBG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PBP_BPP_PPB:
-    f_max:
-    - '`layout: PBP_BPP_PPB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 3 Nat
-    - 600 $
-    - 1080 Nat
-    - 120 Int
-  TGP_PPP_PGT:
-    f_max:
-    - '`layout: TGP_PPP_PGT'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 0 Nat
-    - 1250 $
-    - 850 Nat
-    - 44 Int
-  GPP_BPP_PPB:
-    f_max:
-    - '`layout: GPP_BPP_PPB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  TPG_PPB_BPP:
-    f_max:
-    - '`layout: TPG_PPB_BPP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  GPG_PPP_BBP:
-    f_max:
-    - '`layout: GPG_PPP_BBP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 2 Nat
-    - 650 $
-    - 830 Nat
-    - 94 Int
-  PTG_PPP_BTP:
-    f_max:
-    - '`layout: PTG_PPP_BTP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  GGP_PPP_TPG:
-    f_max:
-    - '`layout: GGP_PPP_TPG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  PPB_PPP_BPB:
-    f_max:
-    - '`layout: PPB_PPP_BPB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 3 Nat
-    - 600 $
-    - 1080 Nat
-    - 120 Int
-  PPP_PBT_PTB:
-    f_max:
-    - '`layout: PPP_PBT_PTB'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 2 Nat
-    - 1250 $
-    - 1130 Nat
-    - 80 Int
-  GGP_PPP_PPB:
-    f_max:
-    - '`layout: GGP_PPP_PPB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  GPP_BTP_PPP:
-    f_max:
-    - '`layout: GPP_BTP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPP_BGP_BBP:
-    f_max:
-    - '`layout: PPP_BGP_BBP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  GTP_PPP_GPG:
-    f_max:
-    - '`layout: GTP_PPP_GPG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  PTP_BGP_PPP:
-    f_max:
-    - '`layout: PTP_BGP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  GPB_PPP_BPP:
-    f_max:
-    - '`layout: GPB_PPP_BPP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  PTT_PTP_PPP:
-    f_max:
-    - '`layout: PTT_PTP_PPP'
-    r_min:
-    - 3 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1500 $
-    - 1110 Nat
-    - 45 Int
-  GPB_PPP_BPB:
-    f_max:
-    - '`layout: GPB_PPP_BPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  PTT_PPP_PBG:
-    f_max:
-    - '`layout: PTT_PPP_PBG'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  GPP_PPP_PBG:
-    f_max:
-    - '`layout: GPP_PPP_PBG'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  PPP_PPG_PBG:
-    f_max:
-    - '`layout: PPP_PPG_PBG'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  TGP_BPP_PPB:
-    f_max:
-    - '`layout: TGP_BPP_PPB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  PPP_BPP_TPG:
-    f_max:
-    - '`layout: PPP_BPP_TPG'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PGB_PGP_PPP:
-    f_max:
-    - '`layout: PGB_PGP_PPP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  PTP_PPP_PPB:
-    f_max:
-    - '`layout: PTP_PPP_PPB'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  PTT_PPG_TPP:
-    f_max:
-    - '`layout: PTT_PPG_TPP'
-    r_min:
-    - 3 Nat
-    - 5 Nat
-    - 0 Nat
-    - 1550 $
-    - 1000 Nat
-    - 37 Int
-  PPP_PBG_PPG:
-    f_max:
-    - '`layout: PPP_PBG_PPG'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  TPT_BPP_PPB:
-    f_max:
-    - '`layout: TPT_BPP_PPB'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 2 Nat
-    - 1250 $
-    - 1130 Nat
-    - 80 Int
-  PGB_PTP_PPP:
-    f_max:
-    - '`layout: PGB_PTP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  TPB_BPT_PPP:
-    f_max:
-    - '`layout: TPB_BPT_PPP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 2 Nat
-    - 1250 $
-    - 1130 Nat
-    - 80 Int
-  GPP_PPT_PBT:
-    f_max:
-    - '`layout: GPP_PPT_PBT'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  PPP_PPP_PPG:
-    f_max:
-    - '`layout: PPP_PPP_PPG'
-    r_min:
-    - 0 Nat
-    - 8 Nat
-    - 0 Nat
-    - 500 $
-    - 880 Nat
-    - 82 Int
-  TTP_TPP_PPP:
-    f_max:
-    - '`layout: TTP_TPP_PPP'
-    r_min:
-    - 3 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1500 $
-    - 1110 Nat
-    - 45 Int
-  GPT_PPG_PPP:
-    f_max:
-    - '`layout: GPT_PPG_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  PGP_PTP_PPP:
-    f_max:
-    - '`layout: PGP_PTP_PPP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 0 Nat
-    - 850 $
-    - 920 Nat
-    - 67 Int
-  PGG_PPP_GPB:
-    f_max:
-    - '`layout: PGG_PPP_GPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  PPG_PPP_PGB:
-    f_max:
-    - '`layout: PPG_PPP_PGB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  GPG_PPP_GPT:
-    f_max:
-    - '`layout: GPG_PPP_GPT'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  GPT_PPP_PGB:
-    f_max:
-    - '`layout: GPT_PPP_PGB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PTB_PPB_TPP:
-    f_max:
-    - '`layout: PTB_PPB_TPP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 2 Nat
-    - 1250 $
-    - 1130 Nat
-    - 80 Int
-  PPP_BGP_PBP:
-    f_max:
-    - '`layout: PPP_BGP_PBP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  GTP_PPP_GPB:
-    f_max:
-    - '`layout: GTP_PPP_GPB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PTP_PGT_PPP:
-    f_max:
-    - '`layout: PTP_PGT_PPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  GPP_BPP_PPP:
-    f_max:
-    - '`layout: GPP_BPP_PPP'
-    r_min:
-    - 0 Nat
-    - 7 Nat
-    - 1 Nat
-    - 550 $
     - 910 Nat
-    - 92 Int
-  TGP_GGP_PPP:
+    - 64 Int
+  TGT_BTP_BBP:
     f_max:
-    - '`layout: TGP_GGP_PPP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  PPT_PPP_PPB:
-    f_max:
-    - '`layout: PPT_PPP_PPB'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  PTP_PPP_BTP:
-    f_max:
-    - '`layout: PTP_PPP_BTP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 1 Nat
-    - 1200 $
-    - 1100 Nat
-    - 70 Int
-  GGP_PPP_PTP:
-    f_max:
-    - '`layout: GGP_PPP_PTP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  PTP_PPT_PPP:
-    f_max:
-    - '`layout: PTP_PPT_PPP'
-    r_min:
-    - 2 Nat
-    - 7 Nat
-    - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  TPP_PPT_PTB:
-    f_max:
-    - '`layout: TPP_PPT_PTB'
+    - '`layout: TGT_BTP_BBP'
     r_min:
     - 3 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1550 $
-    - 1140 Nat
-    - 55 Int
-  TPP_PPP_BGP:
-    f_max:
-    - '`layout: TPP_PPP_BGP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  TGP_PTP_PPP:
-    f_max:
-    - '`layout: TGP_PTP_PPP'
-    r_min:
     - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  GPG_BPB_PPP:
-    f_max:
-    - '`layout: GPG_BPB_PPP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 2 Nat
-    - 650 $
-    - 830 Nat
-    - 94 Int
-  GPP_PPB_BPB:
-    f_max:
-    - '`layout: GPP_PPB_BPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
     - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  PPP_BBP_BBP:
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  PPG_BBG_TBG:
     f_max:
-    - '`layout: PPP_BBP_BBP'
+    - '`layout: PPG_BBG_TBG'
     r_min:
-    - 0 Nat
-    - 5 Nat
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  GTG_BBP_PBB:
+    f_max:
+    - '`layout: GTG_BBP_PBB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
     - 4 Nat
-    - 650 $
-    - 1110 Nat
-    - 130 Int
-  PGT_PPP_PPB:
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  TGT_TBP_PBP:
     f_max:
-    - '`layout: PGT_PPP_PPB'
+    - '`layout: TGT_TBP_PBP'
     r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  TTP_PPP_PPG:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  TPG_BTT_TTB:
     f_max:
-    - '`layout: TTP_PPP_PPG'
+    - '`layout: TPG_BTT_TTB'
+    r_min:
+    - 5 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2350 $
+    - 1140 Nat
+    - 27 Int
+  GTB_PGT_TBP:
+    f_max:
+    - '`layout: GTB_PGT_TBP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  GPG_BPP_BGB:
+    f_max:
+    - '`layout: GPG_BPP_BGB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 3 Nat
+    - 750 $
+    - 750 Nat
+    - 96 Int
+  PGT_BTP_GPB:
+    f_max:
+    - '`layout: PGT_BTP_GPB'
     r_min:
     - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TGP_PTB_TTG:
+    f_max:
+    - '`layout: TGP_PTB_TTG'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2000 $
     - 960 Nat
-    - 52 Int
-  PPP_PTG_PBG:
+    - 24 Int
+  GTP_BPT_PTB:
     f_max:
-    - '`layout: PPP_PTG_PBG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  GPT_PPP_PTT:
-    f_max:
-    - '`layout: GPT_PPP_PTT'
+    - '`layout: GTP_BPT_PTB'
     r_min:
     - 3 Nat
-    - 5 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  TGT_TGG_PTP:
+    f_max:
+    - '`layout: TGT_TGG_PTP'
+    r_min:
+    - 4 Nat
+    - 2 Nat
     - 0 Nat
-    - 1550 $
-    - 1000 Nat
-    - 37 Int
-  TPP_BPB_PPB:
+    - 2000 $
+    - 820 Nat
+    - 6 Int
+  TTB_PGB_PGP:
     f_max:
-    - '`layout: TPP_BPB_PPB'
+    - '`layout: TTB_PGB_PGP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TTT_TGB_PPP:
+    f_max:
+    - '`layout: TTT_TGB_PPP'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1950 $
+    - 1070 Nat
+    - 32 Int
+  GGT_PTG_GPG:
+    f_max:
+    - '`layout: GGT_PTG_GPG'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 0 Nat
+    - 1400 $
+    - 520 Nat
+    - 20 Int
+  PTT_PTP_TPB:
+    f_max:
+    - '`layout: PTT_PTP_TPB'
+    r_min:
+    - 4 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1900 $
+    - 1180 Nat
+    - 40 Int
+  TBP_BPG_PGB:
+    f_max:
+    - '`layout: TBP_BPG_PGB'
     r_min:
     - 1 Nat
-    - 5 Nat
     - 3 Nat
-    - 950 $
-    - 1120 Nat
-    - 105 Int
-  PTT_PPP_PTB:
+    - 3 Nat
+    - 1050 $
+    - 900 Nat
+    - 89 Int
+  TTB_PGP_TBT:
     f_max:
-    - '`layout: PTT_PPP_PTB'
+    - '`layout: TTB_PGP_TBT'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2000 $
+    - 1100 Nat
+    - 42 Int
+  TGP_TTT_PBT:
+    f_max:
+    - '`layout: TGP_TTT_PBT'
+    r_min:
+    - 5 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2300 $
+    - 1110 Nat
+    - 17 Int
+  PGT_BPT_BTP:
+    f_max:
+    - '`layout: PGT_BPT_BTP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  PTP_TTP_PBP:
+    f_max:
+    - '`layout: PTP_TTP_PBP'
     r_min:
     - 3 Nat
     - 5 Nat
@@ -2638,99 +928,169 @@ implementations:
     - 1550 $
     - 1140 Nat
     - 55 Int
-  PTP_PPP_PTP:
+  GGG_GTG_GTT:
     f_max:
-    - '`layout: PTP_PPP_PTP'
+    - '`layout: GGG_GTG_GTT'
     r_min:
+    - 3 Nat
+    - 0 Nat
+    - 0 Nat
+    - 1800 $
+    - 450 Nat
+    - -3 Int
+  GGP_BPB_BBG:
+    f_max:
+    - '`layout: GGP_BPB_BBG'
+    r_min:
+    - 0 Nat
     - 2 Nat
-    - 7 Nat
-    - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  GTP_PPP_TPP:
+    - 4 Nat
+    - 800 $
+    - 780 Nat
+    - 106 Int
+  GBG_BPP_BGP:
     f_max:
-    - '`layout: GTP_PPP_TPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  GGP_PBP_PPP:
-    f_max:
-    - '`layout: GGP_PBP_PPP'
+    - '`layout: GBG_BPP_BGP'
     r_min:
     - 0 Nat
-    - 6 Nat
+    - 3 Nat
+    - 3 Nat
+    - 750 $
+    - 750 Nat
+    - 96 Int
+  TPP_BBP_BBB:
+    f_max:
+    - '`layout: TPP_BBP_BBB'
+    r_min:
     - 1 Nat
-    - 600 $
+    - 3 Nat
+    - 5 Nat
+    - 1050 $
+    - 1180 Nat
+    - 125 Int
+  TGB_TGP_GPB:
+    f_max:
+    - '`layout: TGB_TGP_GPB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
     - 800 Nat
-    - 84 Int
-  GPT_PPP_PPT:
+    - 56 Int
+  TPG_BGB_BPT:
     f_max:
-    - '`layout: GPT_PPP_PPT'
+    - '`layout: TPG_BGB_BPT'
     r_min:
     - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  GGP_BPP_PPT:
-    f_max:
-    - '`layout: GGP_BPP_PPT'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  GPP_BPB_PPP:
-    f_max:
-    - '`layout: GPP_BPB_PPP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
     - 2 Nat
-    - 600 $
+    - 3 Nat
+    - 1400 $
     - 940 Nat
-    - 102 Int
-  GTP_PPP_GPT:
+    - 74 Int
+  PTP_BGB_TGB:
     f_max:
-    - '`layout: GTP_PPP_GPT'
+    - '`layout: PTP_BGB_TGB'
     r_min:
     - 2 Nat
-    - 5 Nat
-    - 0 Nat
-    - 1250 $
-    - 850 Nat
-    - 44 Int
-  PTT_PPP_GPB:
-    f_max:
-    - '`layout: PTT_PPP_GPB'
-    r_min:
     - 2 Nat
-    - 5 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  GGB_TPT_BBT:
+    f_max:
+    - '`layout: GGB_TPT_BBT'
+    r_min:
+    - 3 Nat
     - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  TPG_PPP_PBB:
-    f_max:
-    - '`layout: TPG_PPP_PBB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
+    - 3 Nat
+    - 1750 $
     - 980 Nat
-    - 87 Int
-  TGP_PPP_TBP:
+    - 59 Int
+  GTB_BBT_GPT:
     f_max:
-    - '`layout: TGP_PPP_TBP'
+    - '`layout: GTB_BBT_GPT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  GGT_BGB_BPT:
+    f_max:
+    - '`layout: GGT_BGB_BPT'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  GTB_BBB_GBT:
+    f_max:
+    - '`layout: GTB_BBB_GBT'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 5 Nat
+    - 1500 $
+    - 1000 Nat
+    - 94 Int
+  PGT_GGT_BPB:
+    f_max:
+    - '`layout: PGT_GGT_BPB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  GGT_GGG_BGT:
+    f_max:
+    - '`layout: GGT_GGG_BGT'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 1 Nat
+    - 1500 $
+    - 440 Nat
+    - 22 Int
+  GGG_PBG_BPB:
+    f_max:
+    - '`layout: GGG_PBG_BPB'
+    r_min:
+    - 0 Nat
+    - 2 Nat
+    - 3 Nat
+    - 800 $
+    - 640 Nat
+    - 88 Int
+  GGP_GPP_BPP:
+    f_max:
+    - '`layout: GGP_GPP_BPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  BTT_PPG_GTB:
+    f_max:
+    - '`layout: BTT_PPG_GTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  GPT_PTP_BPP:
+    f_max:
+    - '`layout: GPT_PTP_BPP'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -2738,19 +1098,79 @@ implementations:
     - 1250 $
     - 990 Nat
     - 62 Int
-  PGP_PPB_BPP:
+  TGP_BTG_PBG:
     f_max:
-    - '`layout: PGP_PPB_BPP'
+    - '`layout: TGP_BTG_PBG'
     r_min:
-    - 0 Nat
-    - 6 Nat
     - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  GGP_GPP_PPP:
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  TGP_BTB_TTB:
     f_max:
-    - '`layout: GGP_GPP_PPP'
+    - '`layout: TGP_BTB_TTB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2050 $
+    - 1130 Nat
+    - 52 Int
+  TGP_TPP_PBB:
+    f_max:
+    - '`layout: TGP_TPP_PBB'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1300 $
+    - 1020 Nat
+    - 72 Int
+  TTB_PPT_GTB:
+    f_max:
+    - '`layout: TTB_PPT_GTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2000 $
+    - 1100 Nat
+    - 42 Int
+  GGB_TBP_BPT:
+    f_max:
+    - '`layout: GGB_TBP_BPT'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  TTB_BGP_BGB:
+    f_max:
+    - '`layout: TTB_BGP_BGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  GGT_TTT_BTB:
+    f_max:
+    - '`layout: GGT_TTT_BTB'
+    r_min:
+    - 5 Nat
+    - 0 Nat
+    - 2 Nat
+    - 2400 $
+    - 1030 Nat
+    - 19 Int
+  GGP_PPG_PPP:
+    f_max:
+    - '`layout: GGP_PPG_PPP'
     r_min:
     - 0 Nat
     - 6 Nat
@@ -2758,529 +1178,59 @@ implementations:
     - 600 $
     - 660 Nat
     - 66 Int
-  TGP_PPP_PBP:
+  TGG_GPB_BGP:
     f_max:
-    - '`layout: TGP_PPP_PBP'
+    - '`layout: TGG_GPB_BGP'
     r_min:
     - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPB_BPP_BBP:
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  TPB_BPB_TPP:
     f_max:
-    - '`layout: PPB_BPP_BBP'
+    - '`layout: TPB_BPB_TPP'
     r_min:
-    - 0 Nat
-    - 5 Nat
+    - 2 Nat
     - 4 Nat
-    - 650 $
-    - 1110 Nat
-    - 130 Int
-  TPG_PPP_PTB:
-    f_max:
-    - '`layout: TPG_PPP_PTB'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  PTP_TPP_PPP:
-    f_max:
-    - '`layout: PTP_TPP_PPP'
-    r_min:
-    - 2 Nat
-    - 7 Nat
-    - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  PPT_PPB_BPP:
-    f_max:
-    - '`layout: PPT_PPB_BPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 2 Nat
-    - 900 $
-    - 1090 Nat
-    - 95 Int
-  PTT_PTG_PPP:
-    f_max:
-    - '`layout: PTT_PTG_PPP'
-    r_min:
     - 3 Nat
-    - 5 Nat
-    - 0 Nat
-    - 1550 $
-    - 1000 Nat
-    - 37 Int
-  PPP_PBG_PGB:
+    - 1300 $
+    - 1160 Nat
+    - 90 Int
+  TGB_PPB_GPP:
     f_max:
-    - '`layout: PPP_PBG_PGB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 2 Nat
-    - 650 $
-    - 830 Nat
-    - 94 Int
-  GTP_TPP_PPP:
-    f_max:
-    - '`layout: GTP_TPP_PPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  GPG_PPP_TPB:
-    f_max:
-    - '`layout: GPG_PPP_TPB'
+    - '`layout: TGB_PPB_GPP'
     r_min:
     - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PGP_PPP_TTP:
-    f_max:
-    - '`layout: PGP_PPP_TTP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  PGB_PPP_TTP:
-    f_max:
-    - '`layout: PGB_PPP_TTP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  PPG_BPP_GPB:
-    f_max:
-    - '`layout: PPG_BPP_GPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 2 Nat
-    - 650 $
-    - 830 Nat
-    - 94 Int
-  PGP_GPP_PPT:
-    f_max:
-    - '`layout: PGP_GPP_PPT'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  PTT_PPP_TPG:
-    f_max:
-    - '`layout: PTT_PPP_TPG'
-    r_min:
-    - 3 Nat
-    - 5 Nat
-    - 0 Nat
-    - 1550 $
-    - 1000 Nat
-    - 37 Int
-  TPP_PPG_PGB:
-    f_max:
-    - '`layout: TPP_PPG_PGB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PGB_PBB_PPP:
-    f_max:
-    - '`layout: PGB_PBB_PPP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  GPT_PPB_PPP:
-    f_max:
-    - '`layout: GPT_PPB_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PGP_PPP_PTB:
-    f_max:
-    - '`layout: PGP_PPP_PTB'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  BPP_PPB_PBB:
-    f_max:
-    - '`layout: BPP_PPB_PBB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
     - 4 Nat
-    - 650 $
-    - 1110 Nat
-    - 130 Int
-  PPP_BPG_TPG:
-    f_max:
-    - '`layout: PPP_BPG_TPG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  PGB_PPP_BTP:
-    f_max:
-    - '`layout: PGB_PPP_BTP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
     - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  GGP_BPP_PPP:
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  GGB_BTT_TTT:
     f_max:
-    - '`layout: GGP_BPP_PPP'
+    - '`layout: GGB_BTT_TTT'
     r_min:
+    - 5 Nat
     - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  PTP_PPP_PGB:
-    f_max:
-    - '`layout: PTP_PPP_PGB'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  GGP_PPP_PGB:
-    f_max:
-    - '`layout: GGP_PPP_PGB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  PPP_BPT_PPB:
-    f_max:
-    - '`layout: PPP_BPT_PPB'
-    r_min:
-    - 1 Nat
-    - 6 Nat
     - 2 Nat
-    - 900 $
-    - 1090 Nat
-    - 95 Int
-  TGP_BPP_PPP:
-    f_max:
-    - '`layout: TGP_BPP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPP_PGB_PBP:
-    f_max:
-    - '`layout: PPP_PGB_PBP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  PPP_PGB_PBG:
-    f_max:
-    - '`layout: PPP_PGB_PBG'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 2 Nat
-    - 650 $
-    - 830 Nat
-    - 94 Int
-  PTP_PTG_PPP:
-    f_max:
-    - '`layout: PTP_PTG_PPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  PTB_PPP_GBP:
-    f_max:
-    - '`layout: PTB_PPP_GBP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  PGG_PPG_BPP:
-    f_max:
-    - '`layout: PGG_PPG_BPP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  TBP_BPP_PPP:
-    f_max:
-    - '`layout: TBP_BPP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 2 Nat
-    - 900 $
-    - 1090 Nat
-    - 95 Int
-  PGT_PPP_PPG:
-    f_max:
-    - '`layout: PGT_PPP_PPG'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  GPB_BPP_PPT:
-    f_max:
-    - '`layout: GPB_BPP_PPT'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  PPP_PTT_PTB:
-    f_max:
-    - '`layout: PPP_PTT_PTB'
-    r_min:
-    - 3 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1550 $
-    - 1140 Nat
-    - 55 Int
-  PPT_PBP_PPP:
-    f_max:
-    - '`layout: PPT_PBP_PPP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  GPP_PPG_PTP:
-    f_max:
-    - '`layout: GPP_PPG_PTP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  PPT_PTP_PPP:
-    f_max:
-    - '`layout: PPT_PTP_PPP'
-    r_min:
-    - 2 Nat
-    - 7 Nat
-    - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  GPP_BPG_PPT:
-    f_max:
-    - '`layout: GPP_BPG_PPT'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  GPP_PPT_BPT:
-    f_max:
-    - '`layout: GPP_PPT_BPT'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  TPP_PPP_BPP:
-    f_max:
-    - '`layout: TPP_PPP_BPP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  GPP_PPB_BPT:
-    f_max:
-    - '`layout: GPP_PPB_BPT'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  PGT_PPT_BPP:
-    f_max:
-    - '`layout: PGT_PPT_BPP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  TGP_PPP_BTP:
-    f_max:
-    - '`layout: TGP_PPP_BTP'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  PPT_PPP_PPP:
-    f_max:
-    - '`layout: PPT_PPP_PPP'
-    r_min:
-    - 1 Nat
-    - 8 Nat
-    - 0 Nat
-    - 800 $
+    - 2400 $
     - 1030 Nat
-    - 75 Int
-  GPP_PPP_BTP:
+    - 19 Int
+  GTB_BBG_GGT:
     f_max:
-    - '`layout: GPP_PPP_BTP'
+    - '`layout: GTB_BBG_GGT'
     r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PGP_PPP_BTP:
-    f_max:
-    - '`layout: PGP_PPP_BTP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPP_PGT_PPG:
-    f_max:
-    - '`layout: PPP_PGT_PPG'
-    r_min:
-    - 1 Nat
-    - 6 Nat
+    - 2 Nat
     - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  PPG_PPP_TPB:
+    - 3 Nat
+    - 1500 $
+    - 720 Nat
+    - 58 Int
+  TPT_BPP_PBP:
     f_max:
-    - '`layout: PPG_PPP_TPB'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PTB_PTP_PPP:
-    f_max:
-    - '`layout: PTB_PTP_PPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 1 Nat
-    - 1200 $
-    - 1100 Nat
-    - 70 Int
-  GPB_BPT_PPP:
-    f_max:
-    - '`layout: GPB_BPT_PPP'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  TGP_PPP_PTP:
-    f_max:
-    - '`layout: TGP_PPP_PTP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  PPP_BPT_TPB:
-    f_max:
-    - '`layout: PPP_BPT_TPB'
+    - '`layout: TPT_BPP_PBP'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3288,39 +1238,259 @@ implementations:
     - 1250 $
     - 1130 Nat
     - 80 Int
-  PPG_PPP_PBB:
+  PTB_TPT_BPB:
     f_max:
-    - '`layout: PPG_PPP_PBB'
+    - '`layout: PTB_TPT_BPB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1650 $
+    - 1200 Nat
+    - 75 Int
+  TGT_BGB_TTT:
+    f_max:
+    - '`layout: TGT_BGB_TTT'
+    r_min:
+    - 5 Nat
+    - 0 Nat
+    - 2 Nat
+    - 2400 $
+    - 1030 Nat
+    - 19 Int
+  PTT_TGT_PGG:
+    f_max:
+    - '`layout: PTT_TGT_PGG'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 0 Nat
+    - 2000 $
+    - 820 Nat
+    - 6 Int
+  GBG_BGB_BPP:
+    f_max:
+    - '`layout: GBG_BGB_BPP'
     r_min:
     - 0 Nat
-    - 6 Nat
     - 2 Nat
-    - 600 $
+    - 4 Nat
+    - 800 $
+    - 780 Nat
+    - 106 Int
+  GGB_TGT_GPG:
+    f_max:
+    - '`layout: GGB_TGT_GPG'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 1 Nat
+    - 1450 $
+    - 550 Nat
+    - 30 Int
+  TGB_BPT_PBB:
+    f_max:
+    - '`layout: TGB_BPT_PBB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  TBT_BBP_BGP:
+    f_max:
+    - '`layout: TBT_BBP_BGP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  PPT_BTB_PGB:
+    f_max:
+    - '`layout: PPT_BTB_PGB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  PGT_TGT_TTB:
+    f_max:
+    - '`layout: PGT_TGT_TTB'
+    r_min:
+    - 5 Nat
+    - 1 Nat
+    - 1 Nat
+    - 2350 $
+    - 1000 Nat
+    - 9 Int
+  TTT_PBB_PTP:
+    f_max:
+    - '`layout: TTT_PBB_PTP'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1950 $
+    - 1210 Nat
+    - 50 Int
+  TGB_PGB_BBP:
+    f_max:
+    - '`layout: TGB_PGB_BBP'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  GGG_PGP_PTB:
+    f_max:
+    - '`layout: GGG_PGP_PTB'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1050 $
+    - 620 Nat
+    - 53 Int
+  PBT_BPG_TGB:
+    f_max:
+    - '`layout: PBT_BPG_TGB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
     - 940 Nat
-    - 102 Int
-  PTP_PPP_TPP:
+    - 74 Int
+  TGT_PPG_PGG:
     f_max:
-    - '`layout: PTP_PPP_TPP'
+    - '`layout: TGT_PPG_PGG'
     r_min:
     - 2 Nat
-    - 7 Nat
+    - 3 Nat
     - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  TPT_PPP_PPP:
+    - 1350 $
+    - 630 Nat
+    - 28 Int
+  GTT_BBG_PBT:
     f_max:
-    - '`layout: TPT_PPP_PPP'
+    - '`layout: GTT_BBG_PBT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  GPT_PGB_BGP:
+    f_max:
+    - '`layout: GPT_PGB_BGP'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  GTG_BTP_PTB:
+    f_max:
+    - '`layout: GTG_BTP_PTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  TTP_TPP_BBP:
+    f_max:
+    - '`layout: TTP_TPP_BBP'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1600 $
+    - 1170 Nat
+    - 65 Int
+  GGP_TGG_GPB:
+    f_max:
+    - '`layout: GGP_TGG_GPB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1100 $
+    - 510 Nat
+    - 45 Int
+  TGT_PPT_TBB:
+    f_max:
+    - '`layout: TGT_PPT_TBB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2000 $
+    - 1100 Nat
+    - 42 Int
+  TGT_TTG_BTT:
+    f_max:
+    - '`layout: TGT_TTG_BTT'
+    r_min:
+    - 6 Nat
+    - 0 Nat
+    - 1 Nat
+    - 2700 $
+    - 1040 Nat
+    - -6 Int
+  PGT_GPB_BBP:
+    f_max:
+    - '`layout: PGT_GPB_BBP'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1050 $
+    - 900 Nat
+    - 89 Int
+  BTP_PPG_TGB:
+    f_max:
+    - '`layout: BTP_PPG_TGB'
     r_min:
     - 2 Nat
-    - 7 Nat
-    - 0 Nat
-    - 1150 $
-    - 1070 Nat
-    - 60 Int
-  PTB_PGT_PPP:
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  PBP_BBB_PBP:
     f_max:
-    - '`layout: PTB_PGT_PPP'
+    - '`layout: PBP_BBB_PBP'
+    r_min:
+    - 0 Nat
+    - 4 Nat
+    - 5 Nat
+    - 700 $
+    - 1140 Nat
+    - 140 Int
+  GTT_BPT_GTB:
+    f_max:
+    - '`layout: GTT_BPT_GTB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  TPG_PPT_PPB:
+    f_max:
+    - '`layout: TPG_PPT_PPB'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3328,99 +1498,179 @@ implementations:
     - 1250 $
     - 990 Nat
     - 62 Int
-  PGB_PPP_PTB:
+  GTT_BPT_TGG:
     f_max:
-    - '`layout: PGB_PPP_PTB'
+    - '`layout: GTT_BPT_TGG'
     r_min:
+    - 4 Nat
     - 1 Nat
-    - 5 Nat
-    - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  GPP_BPG_PPG:
+    - 1 Nat
+    - 2050 $
+    - 850 Nat
+    - 16 Int
+  GTP_TTP_PBP:
     f_max:
-    - '`layout: GPP_BPG_PPG'
+    - '`layout: GTP_TTP_PBP'
     r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  TPP_BPP_PPP:
-    f_max:
-    - '`layout: TPP_BPP_PPP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  PPB_PPP_BBP:
-    f_max:
-    - '`layout: PPB_PPP_BBP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
     - 3 Nat
-    - 600 $
-    - 1080 Nat
-    - 120 Int
-  GTP_PPP_PPG:
-    f_max:
-    - '`layout: GTP_PPP_PPG'
-    r_min:
+    - 4 Nat
     - 1 Nat
-    - 6 Nat
+    - 1600 $
+    - 1030 Nat
+    - 47 Int
+  GBP_BBP_PPG:
+    f_max:
+    - '`layout: GBP_BBP_PPG'
+    r_min:
     - 0 Nat
-    - 900 $
-    - 810 Nat
-    - 59 Int
-  GPP_PPG_PBT:
+    - 4 Nat
+    - 3 Nat
+    - 700 $
+    - 860 Nat
+    - 104 Int
+  TTB_PBB_GTP:
     f_max:
-    - '`layout: GPP_PPG_PBT'
+    - '`layout: TTB_PBB_GTP'
     r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  TPP_PPP_PPB:
-    f_max:
-    - '`layout: TPP_PPP_PPB'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  PGP_PPP_PTP:
-    f_max:
-    - '`layout: PGP_PPP_PTP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 0 Nat
-    - 850 $
-    - 920 Nat
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
     - 67 Int
-  GGP_GBP_PPP:
+  GPT_BGP_PBT:
     f_max:
-    - '`layout: GGP_GBP_PPP'
+    - '`layout: GPT_BGP_PBT'
     r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TTP_PPT_GPB:
+    f_max:
+    - '`layout: TTP_PPT_GPB'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1600 $
+    - 1030 Nat
+    - 47 Int
+  TBB_BGG_BGB:
+    f_max:
+    - '`layout: TBB_BGG_BGB'
+    r_min:
+    - 1 Nat
     - 0 Nat
     - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  GGP_PPP_PBB:
+    - 1200 $
+    - 850 Nat
+    - 101 Int
+  TTG_TBT_BBB:
     f_max:
-    - '`layout: GGP_PPP_PBB'
+    - '`layout: TTG_TBT_BBB'
+    r_min:
+    - 4 Nat
+    - 0 Nat
+    - 4 Nat
+    - 2100 $
+    - 1160 Nat
+    - 62 Int
+  GPT_BGB_TBP:
+    f_max:
+    - '`layout: GPT_BGB_TBP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  PGB_BBT_TGB:
+    f_max:
+    - '`layout: PGB_BBT_TGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  TTT_PPT_PPT:
+    f_max:
+    - '`layout: TTT_PPT_PPT'
+    r_min:
+    - 5 Nat
+    - 4 Nat
+    - 0 Nat
+    - 2200 $
+    - 1190 Nat
+    - 15 Int
+  TBP_BGB_BBT:
+    f_max:
+    - '`layout: TBP_BGB_BBT'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 5 Nat
+    - 1450 $
+    - 1110 Nat
+    - 102 Int
+  GTG_BBP_TBB:
+    f_max:
+    - '`layout: GTG_BBP_TBB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  GTG_BPP_GPB:
+    f_max:
+    - '`layout: GTG_BPP_GPB'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  TGP_BGP_PTT:
+    f_max:
+    - '`layout: TGP_BGP_PTT'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  TGT_GGB_PTP:
+    f_max:
+    - '`layout: TGT_GGB_PTP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1700 $
+    - 810 Nat
+    - 31 Int
+  GGB_GTT_BPB:
+    f_max:
+    - '`layout: GGB_GTT_BPB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  GGP_BPP_BPP:
+    f_max:
+    - '`layout: GGP_BPP_BPP'
     r_min:
     - 0 Nat
     - 5 Nat
@@ -3428,9 +1678,949 @@ implementations:
     - 650 $
     - 830 Nat
     - 94 Int
-  PPB_BPP_TPB:
+  GTB_PTP_TPB:
     f_max:
-    - '`layout: PPB_BPP_TPB'
+    - '`layout: GTB_PTP_TPB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  GBP_BBG_PGT:
+    f_max:
+    - '`layout: GBP_BBG_PGT'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  PBP_BBT_PPB:
+    f_max:
+    - '`layout: PBP_BBT_PPB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 4 Nat
+    - 1000 $
+    - 1150 Nat
+    - 115 Int
+  GTG_TTG_BGB:
+    f_max:
+    - '`layout: GTG_TTG_BGB'
+    r_min:
+    - 3 Nat
+    - 0 Nat
+    - 2 Nat
+    - 1800 $
+    - 730 Nat
+    - 33 Int
+  GPB_BPT_GPT:
+    f_max:
+    - '`layout: GPB_BPT_GPT'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TPB_BBG_BTB:
+    f_max:
+    - '`layout: TPB_BBG_BTB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 5 Nat
+    - 1450 $
+    - 1110 Nat
+    - 102 Int
+  GGB_BTT_BTP:
+    f_max:
+    - '`layout: GGB_BTT_BTP'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  TTG_TPG_PBG:
+    f_max:
+    - '`layout: TTG_TPG_PBG'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1700 $
+    - 810 Nat
+    - 31 Int
+  PGG_BBG_TBG:
+    f_max:
+    - '`layout: PGG_BBG_TBG'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1150 $
+    - 680 Nat
+    - 73 Int
+  PGP_PTG_TBB:
+    f_max:
+    - '`layout: PGP_PTG_TBB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  BTG_BGP_BTB:
+    f_max:
+    - '`layout: BTG_BGP_BTB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  TGG_GBP_GBB:
+    f_max:
+    - '`layout: TGG_GBP_GBB'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1150 $
+    - 680 Nat
+    - 73 Int
+  PGT_PPG_GGG:
+    f_max:
+    - '`layout: PGT_PPG_GGG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1050 $
+    - 480 Nat
+    - 35 Int
+  PTG_PTB_TPB:
+    f_max:
+    - '`layout: PTG_PTB_TPB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  GGB_PPG_PBB:
+    f_max:
+    - '`layout: GGB_PPG_PBB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 3 Nat
+    - 750 $
+    - 750 Nat
+    - 96 Int
+  GPT_PBG_TPB:
+    f_max:
+    - '`layout: GPT_PBG_TPB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  PTB_PPT_TBB:
+    f_max:
+    - '`layout: PTB_PPT_TBB'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1650 $
+    - 1200 Nat
+    - 75 Int
+  TPB_BBP_GGP:
+    f_max:
+    - '`layout: TPB_BBP_GGP'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1050 $
+    - 900 Nat
+    - 89 Int
+  GBP_BGG_BTP:
+    f_max:
+    - '`layout: GBP_BGG_BTP'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  GTT_BPP_TPG:
+    f_max:
+    - '`layout: GTT_BPP_TPG'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  TGB_BGB_BTB:
+    f_max:
+    - '`layout: TGB_BGB_BTB'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 5 Nat
+    - 1500 $
+    - 1000 Nat
+    - 94 Int
+  GGT_PGT_GTB:
+    f_max:
+    - '`layout: GGT_PGT_GTB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 1 Nat
+    - 1750 $
+    - 700 Nat
+    - 23 Int
+  GPT_BTG_GBP:
+    f_max:
+    - '`layout: GPT_BTG_GBP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  GGG_PBB_BGT:
+    f_max:
+    - '`layout: GGG_PBB_BGT'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1150 $
+    - 680 Nat
+    - 73 Int
+  PTP_PPB_TBB:
+    f_max:
+    - '`layout: PTP_PPB_TBB'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1300 $
+    - 1160 Nat
+    - 90 Int
+  PGP_BTG_GTB:
+    f_max:
+    - '`layout: PGP_BTG_GTB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  GGG_BBB_TGB:
+    f_max:
+    - '`layout: GGG_BBB_TGB'
+    r_min:
+    - 1 Nat
+    - 0 Nat
+    - 4 Nat
+    - 1200 $
+    - 710 Nat
+    - 83 Int
+  PGG_PGB_BGP:
+    f_max:
+    - '`layout: PGG_PGB_BGP'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 2 Nat
+    - 750 $
+    - 610 Nat
+    - 78 Int
+  GGP_BPP_BBB:
+    f_max:
+    - '`layout: GGP_BPP_BBB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 4 Nat
+    - 750 $
+    - 890 Nat
+    - 114 Int
+  TPT_BGB_PTB:
+    f_max:
+    - '`layout: TPT_BGB_PTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  PGT_PBP_TBB:
+    f_max:
+    - '`layout: PGT_PBP_TBB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  GTB_BTB_BTP:
+    f_max:
+    - '`layout: GTB_BTB_BTP'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1750 $
+    - 1120 Nat
+    - 77 Int
+  TPG_BPB_TGB:
+    f_max:
+    - '`layout: TPG_BPB_TGB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  TTP_PBG_PGB:
+    f_max:
+    - '`layout: TTP_PBG_PGB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  PGT_BTB_TBP:
+    f_max:
+    - '`layout: PGT_BTB_TBP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  TTB_BGP_TGB:
+    f_max:
+    - '`layout: TTB_BGP_TGB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  GTG_BBT_BTT:
+    f_max:
+    - '`layout: GTG_BBT_BTT'
+    r_min:
+    - 4 Nat
+    - 0 Nat
+    - 3 Nat
+    - 2100 $
+    - 1020 Nat
+    - 44 Int
+  GTT_PGG_PBT:
+    f_max:
+    - '`layout: GTT_PGG_PBT'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1700 $
+    - 810 Nat
+    - 31 Int
+  GGB_TTT_TPG:
+    f_max:
+    - '`layout: GGB_TTT_TPG'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 1 Nat
+    - 2050 $
+    - 850 Nat
+    - 16 Int
+  PGB_PTB_PTB:
+    f_max:
+    - '`layout: PGB_PTB_PTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  PGP_BGP_TTG:
+    f_max:
+    - '`layout: PGP_BGP_TTG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1350 $
+    - 770 Nat
+    - 46 Int
+  PGT_BGB_PPG:
+    f_max:
+    - '`layout: PGT_BGB_PPG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  PTG_BBG_GTB:
+    f_max:
+    - '`layout: PTG_BBG_GTB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  TGT_TGB_TPP:
+    f_max:
+    - '`layout: TGT_TGB_TPP'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2000 $
+    - 960 Nat
+    - 24 Int
+  PGT_BTP_PPB:
+    f_max:
+    - '`layout: PGT_BTP_PPB'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1300 $
+    - 1020 Nat
+    - 72 Int
+  PGB_BPP_GTP:
+    f_max:
+    - '`layout: PGB_BPP_GTP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  GGB_BGT_PTG:
+    f_max:
+    - '`layout: GGB_BGT_PTG'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  GGT_BPG_PBT:
+    f_max:
+    - '`layout: GGT_BPG_PBT'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  TGT_PTT_BBT:
+    f_max:
+    - '`layout: TGT_PTT_BBT'
+    r_min:
+    - 5 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2350 $
+    - 1140 Nat
+    - 27 Int
+  PBG_BPP_TPB:
+    f_max:
+    - '`layout: PBG_BPP_TPB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1000 $
+    - 1010 Nat
+    - 97 Int
+  PPP_BPG_PGG:
+    f_max:
+    - '`layout: PPP_BPG_PGG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  GGG_GPT_BTB:
+    f_max:
+    - '`layout: GGG_GPT_BTB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  TPT_PGP_TBG:
+    f_max:
+    - '`layout: TPT_PGP_TBG'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  PGP_TGB_BPP:
+    f_max:
+    - '`layout: PGP_TGB_BPP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  GTP_PPG_BGP:
+    f_max:
+    - '`layout: GTP_PPG_BGP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1000 $
+    - 730 Nat
+    - 61 Int
+  TPT_PGB_BGP:
+    f_max:
+    - '`layout: TPT_PGB_BGP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  GBT_BPT_BPP:
+    f_max:
+    - '`layout: GBT_BPT_BPP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  GPT_BGT_GBT:
+    f_max:
+    - '`layout: GPT_BGT_GBT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1750 $
+    - 840 Nat
+    - 41 Int
+  GGT_BTG_TBG:
+    f_max:
+    - '`layout: GGT_BTG_TBG'
+    r_min:
+    - 3 Nat
+    - 0 Nat
+    - 2 Nat
+    - 1800 $
+    - 730 Nat
+    - 33 Int
+  TPB_PTP_BBP:
+    f_max:
+    - '`layout: TPB_PTP_BBP'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1300 $
+    - 1160 Nat
+    - 90 Int
+  GTG_TGT_TPP:
+    f_max:
+    - '`layout: GTG_TGT_TPP'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 0 Nat
+    - 2000 $
+    - 820 Nat
+    - 6 Int
+  GGG_BBT_PPB:
+    f_max:
+    - '`layout: GGG_BBT_PPB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  TGB_BTP_PGB:
+    f_max:
+    - '`layout: TGB_BTP_PGB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  GPB_BPB_BGP:
+    f_max:
+    - '`layout: GPB_BPB_BGP'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 4 Nat
+    - 750 $
+    - 890 Nat
+    - 114 Int
+  TBT_BPG_BTP:
+    f_max:
+    - '`layout: TBT_BPG_BTP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  GGP_BTT_BTT:
+    f_max:
+    - '`layout: GGP_BTT_BTT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  GTB_BBB_BGB:
+    f_max:
+    - '`layout: GTB_BBB_BGB'
+    r_min:
+    - 1 Nat
+    - 0 Nat
+    - 6 Nat
+    - 1200 $
+    - 990 Nat
+    - 119 Int
+  GPP_BGT_TBT:
+    f_max:
+    - '`layout: GPP_BGT_TBT'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  TPT_PGP_PTB:
+    f_max:
+    - '`layout: TPT_PGP_PTB'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1600 $
+    - 1030 Nat
+    - 47 Int
+  PGP_GGT_PTG:
+    f_max:
+    - '`layout: PGP_GGT_PTG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1350 $
+    - 630 Nat
+    - 28 Int
+  BTB_BTB_GBB:
+    f_max:
+    - '`layout: BTB_BTB_GBB'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 6 Nat
+    - 1500 $
+    - 1140 Nat
+    - 112 Int
+  TBT_BPT_PPG:
+    f_max:
+    - '`layout: TBT_BPT_PPG'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  GGG_PGB_TGB:
+    f_max:
+    - '`layout: GGG_PGB_TGB'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1150 $
+    - 540 Nat
+    - 55 Int
+  GTB_PPP_GPG:
+    f_max:
+    - '`layout: GTB_PPP_GPG'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1000 $
+    - 730 Nat
+    - 61 Int
+  PTP_PPT_PBP:
+    f_max:
+    - '`layout: PTP_PPT_PBP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  TPP_BBB_PBG:
+    f_max:
+    - '`layout: TPP_BBB_PBG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 4 Nat
+    - 1050 $
+    - 1040 Nat
+    - 107 Int
+  GPB_BGT_TGT:
+    f_max:
+    - '`layout: GPB_BGT_TGT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1750 $
+    - 840 Nat
+    - 41 Int
+  GGT_PTP_TTB:
+    f_max:
+    - '`layout: GGT_PTP_TTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2000 $
+    - 960 Nat
+    - 24 Int
+  TGT_BPB_BPB:
+    f_max:
+    - '`layout: TGT_BPB_BPB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  PTT_BBG_BGB:
+    f_max:
+    - '`layout: PTT_BBG_BGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  TPT_PBG_TBP:
+    f_max:
+    - '`layout: TPT_PBG_TBP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  BTT_PPB_TTB:
+    f_max:
+    - '`layout: BTT_PPB_TTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 3 Nat
+    - 2000 $
+    - 1240 Nat
+    - 60 Int
+  TGB_PGB_PPP:
+    f_max:
+    - '`layout: TGB_PGB_PPP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  TPT_BBT_PTB:
+    f_max:
+    - '`layout: TPT_BBT_PTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 3 Nat
+    - 2000 $
+    - 1240 Nat
+    - 60 Int
+  GGG_GPB_TBG:
+    f_max:
+    - '`layout: GGG_GPB_TBG'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1150 $
+    - 540 Nat
+    - 55 Int
+  GGG_GBB_PTP:
+    f_max:
+    - '`layout: GGG_GBB_PTP'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  GTT_PGP_PPG:
+    f_max:
+    - '`layout: GTT_PGP_PPG'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 0 Nat
+    - 1300 $
+    - 740 Nat
+    - 36 Int
+  TTT_PPG_TTB:
+    f_max:
+    - '`layout: TTT_PPG_TTB'
+    r_min:
+    - 5 Nat
+    - 2 Nat
+    - 1 Nat
+    - 2300 $
+    - 1110 Nat
+    - 17 Int
+  PPT_BPB_TBP:
+    f_max:
+    - '`layout: PPT_BPB_TBP'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1300 $
+    - 1160 Nat
+    - 90 Int
+  TPP_BBB_PPB:
+    f_max:
+    - '`layout: TPP_BBB_PPB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 4 Nat
+    - 1000 $
+    - 1150 Nat
+    - 115 Int
+  GGP_TBB_PBG:
+    f_max:
+    - '`layout: GGP_TBB_PBG'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  PBP_BBP_BBB:
+    f_max:
+    - '`layout: PBP_BBP_BBB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 6 Nat
+    - 750 $
+    - 1170 Nat
+    - 150 Int
+  PGB_TGP_PTB:
+    f_max:
+    - '`layout: PGB_TGP_PTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  GTB_PTG_BGP:
+    f_max:
+    - '`layout: GTB_PTG_BGP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  TPB_BPP_PBP:
+    f_max:
+    - '`layout: TPB_BPP_PBP'
     r_min:
     - 1 Nat
     - 5 Nat
@@ -3438,79 +2628,729 @@ implementations:
     - 950 $
     - 1120 Nat
     - 105 Int
-  TPP_PPG_BPB:
+  GTP_BTP_BTG:
     f_max:
-    - '`layout: TPP_PPG_BPB'
+    - '`layout: GTP_BTP_BTG'
     r_min:
-    - 1 Nat
-    - 5 Nat
+    - 3 Nat
     - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  TPP_BPT_PPP:
-    f_max:
-    - '`layout: TPP_BPT_PPP'
-    r_min:
     - 2 Nat
-    - 6 Nat
-    - 1 Nat
-    - 1200 $
-    - 1100 Nat
-    - 70 Int
-  TPP_PPG_BPP:
-    f_max:
-    - '`layout: TPP_PPG_BPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
+    - 1700 $
     - 950 Nat
-    - 77 Int
-  PPP_BPT_GPB:
+    - 49 Int
+  PGB_TTP_TBB:
     f_max:
-    - '`layout: PPP_BPT_GPB'
+    - '`layout: PGB_TTP_TBB'
     r_min:
-    - 1 Nat
-    - 5 Nat
+    - 3 Nat
     - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  GPP_PPP_BPP:
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  TBP_BGT_PPG:
     f_max:
-    - '`layout: GPP_PPP_BPP'
+    - '`layout: TBP_BGT_PPG'
     r_min:
-    - 0 Nat
-    - 7 Nat
-    - 1 Nat
-    - 550 $
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
     - 910 Nat
-    - 92 Int
-  PTB_PPP_TBP:
+    - 64 Int
+  GGT_GPG_BPB:
     f_max:
-    - '`layout: PTB_PPP_TBP'
+    - '`layout: GGT_GPG_BPB'
     r_min:
+    - 1 Nat
     - 2 Nat
-    - 5 Nat
     - 2 Nat
-    - 1250 $
-    - 1130 Nat
-    - 80 Int
-  PGP_PPP_PGP:
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  BGB_PGG_PBB:
     f_max:
-    - '`layout: PGP_PPP_PGP'
+    - '`layout: BGB_PGG_PBB'
     r_min:
     - 0 Nat
+    - 2 Nat
+    - 4 Nat
+    - 800 $
+    - 780 Nat
+    - 106 Int
+  TGB_BPP_BGB:
+    f_max:
+    - '`layout: TGB_BPP_BGB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  PBG_BGP_BTB:
+    f_max:
+    - '`layout: PBG_BGP_BTB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  TGP_PTP_PPT:
+    f_max:
+    - '`layout: TGP_PTP_PPT'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GTB_PBG_BGB:
+    f_max:
+    - '`layout: GTB_PBG_BGB'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1150 $
+    - 820 Nat
+    - 91 Int
+  GGB_BPG_BTB:
+    f_max:
+    - '`layout: GGB_BPG_BTB'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1150 $
+    - 820 Nat
+    - 91 Int
+  PPP_BBB_BGB:
+    f_max:
+    - '`layout: PPP_BBB_BGB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 5 Nat
+    - 750 $
+    - 1030 Nat
+    - 132 Int
+  TTB_PPB_TBP:
+    f_max:
+    - '`layout: TTB_PPB_TBP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1650 $
+    - 1200 Nat
+    - 75 Int
+  BTG_PTP_TBB:
+    f_max:
+    - '`layout: BTG_PTP_TBB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  PGG_GPB_BPB:
+    f_max:
+    - '`layout: PGG_GPB_BPB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 3 Nat
+    - 750 $
+    - 750 Nat
+    - 96 Int
+  TGP_PGB_PTG:
+    f_max:
+    - '`layout: TGP_PGB_PTG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1350 $
+    - 770 Nat
+    - 46 Int
+  GGT_GBG_PBT:
+    f_max:
+    - '`layout: GGT_GBG_PBT'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  PGG_TTT_GBB:
+    f_max:
+    - '`layout: PGG_TTT_GBB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1750 $
+    - 840 Nat
+    - 41 Int
+  TGG_BTP_BGB:
+    f_max:
+    - '`layout: TGG_BTP_BGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  PGT_PBB_TGP:
+    f_max:
+    - '`layout: PGT_PBB_TGP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  GGT_TGT_PGT:
+    f_max:
+    - '`layout: GGT_TGT_PGT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 0 Nat
+    - 2050 $
+    - 710 Nat
+    - -2 Int
+  TTT_BTB_TTT:
+    f_max:
+    - '`layout: TTT_BTB_TTT'
+    r_min:
     - 7 Nat
     - 0 Nat
-    - 550 $
-    - 770 Nat
-    - 74 Int
-  PGP_PPP_GPB:
+    - 2 Nat
+    - 3000 $
+    - 1330 Nat
+    - 5 Int
+  GGT_GBT_BPB:
     f_max:
-    - '`layout: PGP_PPP_GPB'
+    - '`layout: GGT_GBT_BPB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  TGP_TGG_GTG:
+    f_max:
+    - '`layout: TGP_TGG_GTG'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 0 Nat
+    - 1750 $
+    - 560 Nat
+    - 5 Int
+  TGB_PTB_BTP:
+    f_max:
+    - '`layout: TGB_PTB_BTP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  GGG_GBB_BBG:
+    f_max:
+    - '`layout: GGG_GBB_BBG'
+    r_min:
+    - 0 Nat
+    - 0 Nat
+    - 4 Nat
+    - 900 $
+    - 560 Nat
+    - 90 Int
+  TTT_TBG_PBB:
+    f_max:
+    - '`layout: TTT_TBG_PBB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2050 $
+    - 1130 Nat
+    - 52 Int
+  PGG_TTP_TBG:
+    f_max:
+    - '`layout: PGG_TTP_TBG'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1700 $
+    - 810 Nat
+    - 31 Int
+  TPP_BGB_GPG:
+    f_max:
+    - '`layout: TPP_BGB_GPG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  TGT_GBP_BGB:
+    f_max:
+    - '`layout: TGT_GBP_BGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  GGG_BBG_GGB:
+    f_max:
+    - '`layout: GGG_BBG_GGB'
+    r_min:
+    - 0 Nat
+    - 0 Nat
+    - 3 Nat
+    - 900 $
+    - 420 Nat
+    - 72 Int
+  TGP_PBT_BPT:
+    f_max:
+    - '`layout: TGP_PBT_BPT'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  GGT_TPP_BPP:
+    f_max:
+    - '`layout: GGT_TPP_BPP'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1300 $
+    - 880 Nat
+    - 54 Int
+  TTG_BPP_TTB:
+    f_max:
+    - '`layout: TTG_BPP_TTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2000 $
+    - 1100 Nat
+    - 42 Int
+  TTP_TBT_BBT:
+    f_max:
+    - '`layout: TTP_TBT_BBT'
+    r_min:
+    - 5 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2350 $
+    - 1280 Nat
+    - 45 Int
+  GGB_TBG_TBG:
+    f_max:
+    - '`layout: GGB_TBG_TBG'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 3 Nat
+    - 1500 $
+    - 720 Nat
+    - 58 Int
+  TGP_PTP_TTP:
+    f_max:
+    - '`layout: TGP_PTP_TTP'
+    r_min:
+    - 4 Nat
+    - 4 Nat
+    - 0 Nat
+    - 1900 $
+    - 1040 Nat
+    - 22 Int
+  TGT_GTB_TBP:
+    f_max:
+    - '`layout: TGT_GTB_TBP'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  TGG_BPP_TTB:
+    f_max:
+    - '`layout: TGG_BPP_TTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  BTG_PTB_GTB:
+    f_max:
+    - '`layout: BTG_PTB_GTB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  TTB_BGB_PGP:
+    f_max:
+    - '`layout: TTB_BGB_PGP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  PBG_BTG_BTB:
+    f_max:
+    - '`layout: PBG_BTG_BTB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1450 $
+    - 970 Nat
+    - 84 Int
+  TTT_BGP_BTB:
+    f_max:
+    - '`layout: TTT_BGP_BTB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2050 $
+    - 1130 Nat
+    - 52 Int
+  BGT_PPT_BBB:
+    f_max:
+    - '`layout: BGT_PPT_BBB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  BGB_GTP_BPG:
+    f_max:
+    - '`layout: BGB_GTP_BPG'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  PTP_PBG_GGG:
+    f_max:
+    - '`layout: PTP_PBG_GGG'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1050 $
+    - 620 Nat
+    - 53 Int
+  PGP_PTB_BGP:
+    f_max:
+    - '`layout: PGP_PTB_BGP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  GGP_PGP_TTG:
+    f_max:
+    - '`layout: GGP_PGP_TTG'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1350 $
+    - 630 Nat
+    - 28 Int
+  GGT_TPT_PPP:
+    f_max:
+    - '`layout: GGT_TPT_PPP'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 0 Nat
+    - 1600 $
+    - 890 Nat
+    - 29 Int
+  TTP_BTB_BPP:
+    f_max:
+    - '`layout: TTP_BTB_BPP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1650 $
+    - 1200 Nat
+    - 75 Int
+  PTP_BTT_PTB:
+    f_max:
+    - '`layout: PTP_BTT_PTB'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1950 $
+    - 1210 Nat
+    - 50 Int
+  TGB_TPG_BTT:
+    f_max:
+    - '`layout: TGB_TPG_BTT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  GPT_PTT_PGT:
+    f_max:
+    - '`layout: GPT_PTT_PGT'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1950 $
+    - 930 Nat
+    - 14 Int
+  GTG_TGP_PBB:
+    f_max:
+    - '`layout: GTG_TGP_PBB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  TGT_GTG_TTB:
+    f_max:
+    - '`layout: TGT_GTG_TTB'
+    r_min:
+    - 5 Nat
+    - 0 Nat
+    - 1 Nat
+    - 2400 $
+    - 890 Nat
+    - 1 Int
+  GTP_BBT_TGT:
+    f_max:
+    - '`layout: GTP_BBT_TGT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  PGB_PPT_PBB:
+    f_max:
+    - '`layout: PGB_PPT_PBB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1000 $
+    - 1010 Nat
+    - 97 Int
+  TGT_TPG_BPP:
+    f_max:
+    - '`layout: TGT_TPG_BPP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 1 Nat
+    - 1650 $
+    - 920 Nat
+    - 39 Int
+  GPG_PBB_BGB:
+    f_max:
+    - '`layout: GPG_PBB_BGB'
+    r_min:
+    - 0 Nat
+    - 2 Nat
+    - 4 Nat
+    - 800 $
+    - 780 Nat
+    - 106 Int
+  BTT_PPG_TBB:
+    f_max:
+    - '`layout: BTT_PPG_TBB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  PPT_BTG_BTB:
+    f_max:
+    - '`layout: PPT_BTG_BTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  PPT_BBT_TGG:
+    f_max:
+    - '`layout: PPT_BBT_TGG'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  GPT_PBB_PGP:
+    f_max:
+    - '`layout: GPT_PBB_PGP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  TTT_BPG_PBP:
+    f_max:
+    - '`layout: TTT_BPG_PBP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1650 $
+    - 1060 Nat
+    - 57 Int
+  PGP_GGG_BBB:
+    f_max:
+    - '`layout: PGP_GGG_BBB'
+    r_min:
+    - 0 Nat
+    - 2 Nat
+    - 3 Nat
+    - 800 $
+    - 640 Nat
+    - 88 Int
+  PGB_PBB_PGB:
+    f_max:
+    - '`layout: PGB_PBB_PGB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 4 Nat
+    - 750 $
+    - 890 Nat
+    - 114 Int
+  GTP_BGB_GBG:
+    f_max:
+    - '`layout: GTP_BGB_GBG'
+    r_min:
+    - 1 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1150 $
+    - 680 Nat
+    - 73 Int
+  TPB_PTG_BTB:
+    f_max:
+    - '`layout: TPB_PTG_BTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1700 $
+    - 1090 Nat
+    - 67 Int
+  GGT_PPG_TTB:
+    f_max:
+    - '`layout: GGT_PPG_TTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 1 Nat
+    - 1700 $
+    - 810 Nat
+    - 31 Int
+  PGG_PBG_BGB:
+    f_max:
+    - '`layout: PGG_PBG_BGB'
+    r_min:
+    - 0 Nat
+    - 2 Nat
+    - 3 Nat
+    - 800 $
+    - 640 Nat
+    - 88 Int
+  GPT_BBG_BPB:
+    f_max:
+    - '`layout: GPT_BBG_BPB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  GGB_TGG_PBT:
+    f_max:
+    - '`layout: GGB_TGG_PBT'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  GTB_PTP_BBP:
+    f_max:
+    - '`layout: GTB_PTP_BBP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  PGP_PPB_PGP:
+    f_max:
+    - '`layout: PGP_PPB_PGP'
     r_min:
     - 0 Nat
     - 6 Nat
@@ -3518,29 +3358,339 @@ implementations:
     - 600 $
     - 800 Nat
     - 84 Int
-  PPP_BPB_BPB:
+  TTB_BPT_TBP:
     f_max:
-    - '`layout: PPP_BPB_BPB'
+    - '`layout: TTB_BPT_TBP'
     r_min:
-    - 0 Nat
-    - 5 Nat
     - 4 Nat
-    - 650 $
-    - 1110 Nat
-    - 130 Int
-  PTT_PGP_PPP:
+    - 2 Nat
+    - 3 Nat
+    - 2000 $
+    - 1240 Nat
+    - 60 Int
+  TGP_GBP_BBT:
     f_max:
-    - '`layout: PTT_PGP_PPP'
+    - '`layout: TGP_GBP_BBT'
     r_min:
     - 2 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
-  PPP_PBG_PBG:
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  GGB_TTP_TBP:
     f_max:
-    - '`layout: PPP_PBG_PBG'
+    - '`layout: GGB_TTP_TBP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  PGG_TPB_TGB:
+    f_max:
+    - '`layout: PGG_TPB_TGB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1400 $
+    - 800 Nat
+    - 56 Int
+  PTT_PPG_PPB:
+    f_max:
+    - '`layout: PTT_PPG_PPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TTT_TGP_BTT:
+    f_max:
+    - '`layout: TTT_TGP_BTT'
+    r_min:
+    - 6 Nat
+    - 1 Nat
+    - 1 Nat
+    - 2650 $
+    - 1150 Nat
+    - 2 Int
+  BGP_BTP_BGB:
+    f_max:
+    - '`layout: BGP_BTP_BGB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1100 $
+    - 930 Nat
+    - 99 Int
+  GGG_GPG_PBP:
+    f_max:
+    - '`layout: GGG_GPG_PBP'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 1 Nat
+    - 750 $
+    - 470 Nat
+    - 60 Int
+  TGG_BGT_GPB:
+    f_max:
+    - '`layout: TGG_BGT_GPB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  TTP_BTB_PBP:
+    f_max:
+    - '`layout: TTP_BTB_PBP'
+    r_min:
+    - 3 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1650 $
+    - 1200 Nat
+    - 75 Int
+  GGG_PBP_PBG:
+    f_max:
+    - '`layout: GGG_PBP_PBG'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 2 Nat
+    - 750 $
+    - 610 Nat
+    - 78 Int
+  BGP_GTT_BGB:
+    f_max:
+    - '`layout: BGP_GTT_BGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  PTG_TPG_BPB:
+    f_max:
+    - '`layout: PTG_TPG_BPB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TGB_BGB_PTT:
+    f_max:
+    - '`layout: TGB_BGB_PTT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  PTP_BGP_BTB:
+    f_max:
+    - '`layout: PTP_BGP_BTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  GPB_BBB_PPB:
+    f_max:
+    - '`layout: GPB_BBB_PPB'
+    r_min:
+    - 0 Nat
+    - 3 Nat
+    - 5 Nat
+    - 750 $
+    - 1030 Nat
+    - 132 Int
+  TTP_BBT_TBG:
+    f_max:
+    - '`layout: TTP_BBT_TBG'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 3 Nat
+    - 2050 $
+    - 1130 Nat
+    - 52 Int
+  GBT_BTB_BBB:
+    f_max:
+    - '`layout: GBT_BTB_BBB'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 6 Nat
+    - 1500 $
+    - 1140 Nat
+    - 112 Int
+  TTP_TTT_BBP:
+    f_max:
+    - '`layout: TTP_TTT_BBP'
+    r_min:
+    - 5 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2300 $
+    - 1250 Nat
+    - 35 Int
+  TGG_PBG_BGP:
+    f_max:
+    - '`layout: TGG_PBG_BGP'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  GTB_BPP_TBG:
+    f_max:
+    - '`layout: GTB_BPP_TBG'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1400 $
+    - 940 Nat
+    - 74 Int
+  GGP_PBT_PGP:
+    f_max:
+    - '`layout: GGP_PBT_PGP'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1000 $
+    - 730 Nat
+    - 61 Int
+  PTB_BBB_TTB:
+    f_max:
+    - '`layout: PTB_BBB_TTB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 5 Nat
+    - 1750 $
+    - 1260 Nat
+    - 95 Int
+  TGT_GTT_PTP:
+    f_max:
+    - '`layout: TGT_GTT_PTP'
+    r_min:
+    - 5 Nat
+    - 2 Nat
+    - 0 Nat
+    - 2300 $
+    - 970 Nat
+    - -1 Int
+  GGT_GGG_TGB:
+    f_max:
+    - '`layout: GGT_GGG_TGB'
+    r_min:
+    - 2 Nat
+    - 0 Nat
+    - 1 Nat
+    - 1500 $
+    - 440 Nat
+    - 22 Int
+  BGG_BGB_GBB:
+    f_max:
+    - '`layout: BGG_BGB_GBB'
+    r_min:
+    - 0 Nat
+    - 0 Nat
+    - 5 Nat
+    - 900 $
+    - 700 Nat
+    - 108 Int
+  PTG_PGG_GBB:
+    f_max:
+    - '`layout: PTG_PGG_GBB'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1100 $
+    - 650 Nat
+    - 63 Int
+  GGT_BGT_BBP:
+    f_max:
+    - '`layout: GGT_BGT_BBP'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1450 $
+    - 830 Nat
+    - 66 Int
+  TPT_PBP_TBP:
+    f_max:
+    - '`layout: TPT_PBP_TBP'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1600 $
+    - 1170 Nat
+    - 65 Int
+  GGT_GBP_PPB:
+    f_max:
+    - '`layout: GGT_GBP_PPB'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  GPT_PGG_BPB:
+    f_max:
+    - '`layout: GPT_PGG_BPB'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  TTP_PBB_GBB:
+    f_max:
+    - '`layout: TTP_PBB_GBB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  TTT_BPP_BPT:
+    f_max:
+    - '`layout: TTT_BPP_BPT'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1950 $
+    - 1210 Nat
+    - 50 Int
+  PGB_PPG_PPB:
+    f_max:
+    - '`layout: PGB_PPG_PPB'
     r_min:
     - 0 Nat
     - 5 Nat
@@ -3548,49 +3698,339 @@ implementations:
     - 650 $
     - 830 Nat
     - 94 Int
-  PTT_PPP_PGB:
+  TPG_PTG_PGB:
     f_max:
-    - '`layout: PTT_PPP_PGB'
+    - '`layout: TPG_PTG_PGB'
     r_min:
     - 2 Nat
-    - 5 Nat
+    - 3 Nat
     - 1 Nat
-    - 1250 $
+    - 1350 $
+    - 770 Nat
+    - 46 Int
+  TGB_BBP_TBP:
+    f_max:
+    - '`layout: TGB_BBP_TBP'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  GGB_PTT_GGB:
+    f_max:
+    - '`layout: GGB_PTT_GGB'
+    r_min:
+    - 2 Nat
+    - 1 Nat
+    - 2 Nat
+    - 1450 $
+    - 690 Nat
+    - 48 Int
+  PTG_PGT_BTB:
+    f_max:
+    - '`layout: PTG_PGT_BTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  PGT_GPP_PTB:
+    f_max:
+    - '`layout: PGT_GPP_PTB'
+    r_min:
+    - 2 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1300 $
+    - 880 Nat
+    - 54 Int
+  TTT_PGB_TGB:
+    f_max:
+    - '`layout: TTT_PGB_TGB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
     - 990 Nat
-    - 62 Int
-  BTP_PPP_PGB:
+    - 34 Int
+  GTT_PGP_TGB:
     f_max:
-    - '`layout: BTP_PPP_PGB'
+    - '`layout: GTT_PGP_TGB'
     r_min:
-    - 1 Nat
-    - 5 Nat
+    - 3 Nat
     - 2 Nat
-    - 950 $
-    - 980 Nat
-    - 87 Int
-  GGP_TPP_PPP:
-    f_max:
-    - '`layout: GGP_TPP_PPP'
-    r_min:
     - 1 Nat
-    - 6 Nat
-    - 0 Nat
-    - 900 $
+    - 1700 $
     - 810 Nat
-    - 59 Int
-  GPP_PPB_BPP:
+    - 31 Int
+  PPP_BTT_PTB:
     f_max:
-    - '`layout: GPP_PPB_BPP'
+    - '`layout: PPP_BTT_PTB'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1600 $
+    - 1170 Nat
+    - 65 Int
+  TPP_BPB_GPB:
+    f_max:
+    - '`layout: TPP_BPB_GPB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 3 Nat
+    - 1000 $
+    - 1010 Nat
+    - 97 Int
+  GGP_TBP_PTB:
+    f_max:
+    - '`layout: GGP_TBP_PTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TPP_PTT_BGP:
+    f_max:
+    - '`layout: TPP_PTT_BGP'
+    r_min:
+    - 3 Nat
+    - 4 Nat
+    - 1 Nat
+    - 1600 $
+    - 1030 Nat
+    - 47 Int
+  GTT_PBB_TGP:
+    f_max:
+    - '`layout: GTT_PBB_TGP'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  BTG_TTP_BGB:
+    f_max:
+    - '`layout: BTG_TTP_BGB'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  TGP_PTT_TPG:
+    f_max:
+    - '`layout: TGP_PTT_TPG'
+    r_min:
+    - 4 Nat
+    - 3 Nat
+    - 0 Nat
+    - 1950 $
+    - 930 Nat
+    - 14 Int
+  PGP_GTG_BPB:
+    f_max:
+    - '`layout: PGP_GTG_BPB'
+    r_min:
+    - 1 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1050 $
+    - 760 Nat
+    - 71 Int
+  GGG_TGT_GTP:
+    f_max:
+    - '`layout: GGG_TGT_GTP'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 0 Nat
+    - 1750 $
+    - 560 Nat
+    - 5 Int
+  TGB_PGT_GTT:
+    f_max:
+    - '`layout: TGB_PGT_GTT'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 1 Nat
+    - 2050 $
+    - 850 Nat
+    - 16 Int
+  GBT_BPT_BGT:
+    f_max:
+    - '`layout: GBT_BPT_BGT'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 3 Nat
+    - 1750 $
+    - 980 Nat
+    - 59 Int
+  GTB_PGT_TTB:
+    f_max:
+    - '`layout: GTB_PGT_TTB'
+    r_min:
+    - 4 Nat
+    - 1 Nat
+    - 2 Nat
+    - 2050 $
+    - 990 Nat
+    - 34 Int
+  PPT_PGP_BGB:
+    f_max:
+    - '`layout: PPT_PGP_BGB'
+    r_min:
+    - 1 Nat
+    - 4 Nat
+    - 2 Nat
+    - 1000 $
+    - 870 Nat
+    - 79 Int
+  PGP_PBB_TTB:
+    f_max:
+    - '`layout: PGP_PBB_TTB'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 3 Nat
+    - 1350 $
+    - 1050 Nat
+    - 82 Int
+  GGP_GGG_BPP:
+    f_max:
+    - '`layout: GGP_GGG_BPP'
     r_min:
     - 0 Nat
-    - 6 Nat
-    - 2 Nat
-    - 600 $
-    - 940 Nat
-    - 102 Int
-  BTP_TPP_PPB:
+    - 3 Nat
+    - 1 Nat
+    - 750 $
+    - 470 Nat
+    - 60 Int
+  TGP_BGT_BPP:
     f_max:
-    - '`layout: BTP_TPP_PPB'
+    - '`layout: TGP_BGT_BPP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  PTT_PGB_TTB:
+    f_max:
+    - '`layout: PTT_PGB_TTB'
+    r_min:
+    - 4 Nat
+    - 2 Nat
+    - 2 Nat
+    - 2000 $
+    - 1100 Nat
+    - 42 Int
+  BTB_PPT_GBB:
+    f_max:
+    - '`layout: BTB_PPT_GBB'
+    r_min:
+    - 2 Nat
+    - 2 Nat
+    - 4 Nat
+    - 1400 $
+    - 1080 Nat
+    - 92 Int
+  GGP_GBG_BPB:
+    f_max:
+    - '`layout: GGP_GBG_BPB'
+    r_min:
+    - 0 Nat
+    - 2 Nat
+    - 3 Nat
+    - 800 $
+    - 640 Nat
+    - 88 Int
+  TBT_BBT_BGP:
+    f_max:
+    - '`layout: TBT_BBT_BGP'
+    r_min:
+    - 3 Nat
+    - 1 Nat
+    - 4 Nat
+    - 1750 $
+    - 1120 Nat
+    - 77 Int
+  GPP_BGT_BTP:
+    f_max:
+    - '`layout: GPP_BGT_BTP'
+    r_min:
+    - 2 Nat
+    - 3 Nat
+    - 2 Nat
+    - 1350 $
+    - 910 Nat
+    - 64 Int
+  TPG_BPT_GTB:
+    f_max:
+    - '`layout: TPG_BPT_GTB'
+    r_min:
+    - 3 Nat
+    - 2 Nat
+    - 2 Nat
+    - 1700 $
+    - 950 Nat
+    - 49 Int
+  GGP_TBP_BBG:
+    f_max:
+    - '`layout: GGP_TBP_BBG'
+    r_min:
+    - 1 Nat
+    - 2 Nat
+    - 3 Nat
+    - 1100 $
+    - 790 Nat
+    - 81 Int
+  TGP_TBT_TTG:
+    f_max:
+    - '`layout: TGP_TBT_TTG'
+    r_min:
+    - 5 Nat
+    - 1 Nat
+    - 1 Nat
+    - 2350 $
+    - 1000 Nat
+    - 9 Int
+  TPT_PPP_TPB:
+    f_max:
+    - '`layout: TPT_PPP_TPB'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PGP_PPT_BPP:
+    f_max:
+    - '`layout: PGP_PPT_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTT_PPB_BPP:
+    f_max:
+    - '`layout: PTT_PPB_BPP'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3598,9 +4038,9 @@ implementations:
     - 1250 $
     - 1130 Nat
     - 80 Int
-  PPP_PTT_PBG:
+  TPT_PPP_PBG:
     f_max:
-    - '`layout: PPP_PTT_PBG'
+    - '`layout: TPT_PPP_PBG'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3608,159 +4048,9 @@ implementations:
     - 1250 $
     - 990 Nat
     - 62 Int
-  BPP_PPP_PBB:
+  PPP_PBG_PTB:
     f_max:
-    - '`layout: BPP_PPP_PBB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 3 Nat
-    - 600 $
-    - 1080 Nat
-    - 120 Int
-  PPG_PPP_PBG:
-    f_max:
-    - '`layout: PPG_PPP_PBG'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  GPT_PPP_PTB:
-    f_max:
-    - '`layout: GPT_PPP_PTB'
-    r_min:
-    - 2 Nat
-    - 5 Nat
-    - 1 Nat
-    - 1250 $
-    - 990 Nat
-    - 62 Int
-  GGP_PPP_PPP:
-    f_max:
-    - '`layout: GGP_PPP_PPP'
-    r_min:
-    - 0 Nat
-    - 7 Nat
-    - 0 Nat
-    - 550 $
-    - 770 Nat
-    - 74 Int
-  PGG_PPP_BGP:
-    f_max:
-    - '`layout: PGG_PPP_BGP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  PPT_PPP_BPP:
-    f_max:
-    - '`layout: PPT_PPP_BPP'
-    r_min:
-    - 1 Nat
-    - 7 Nat
-    - 1 Nat
-    - 850 $
-    - 1060 Nat
-    - 85 Int
-  PGG_PPP_PPB:
-    f_max:
-    - '`layout: PGG_PPP_PPB'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  BPP_PPG_BPB:
-    f_max:
-    - '`layout: BPP_PPG_BPB'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 3 Nat
-    - 650 $
-    - 970 Nat
-    - 112 Int
-  PPP_PBG_PGP:
-    f_max:
-    - '`layout: PPP_PBG_PGP'
-    r_min:
-    - 0 Nat
-    - 6 Nat
-    - 1 Nat
-    - 600 $
-    - 800 Nat
-    - 84 Int
-  GPT_BPP_PPP:
-    f_max:
-    - '`layout: GPT_BPP_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPT_PPP_PBB:
-    f_max:
-    - '`layout: PPT_PPP_PBB'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 2 Nat
-    - 900 $
-    - 1090 Nat
-    - 95 Int
-  TPG_PPP_GPB:
-    f_max:
-    - '`layout: TPG_PPP_GPB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  TPT_PPT_PPP:
-    f_max:
-    - '`layout: TPT_PPT_PPP'
-    r_min:
-    - 3 Nat
-    - 6 Nat
-    - 0 Nat
-    - 1500 $
-    - 1110 Nat
-    - 45 Int
-  GPP_PPP_BPT:
-    f_max:
-    - '`layout: GPP_PPP_BPT'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  TPT_PPP_PPB:
-    f_max:
-    - '`layout: TPT_PPP_PPB'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 1 Nat
-    - 1200 $
-    - 1100 Nat
-    - 70 Int
-  GPP_BPT_PPB:
-    f_max:
-    - '`layout: GPP_BPT_PPB'
+    - '`layout: PPP_PBG_PTB'
     r_min:
     - 1 Nat
     - 5 Nat
@@ -3768,49 +4058,9 @@ implementations:
     - 950 $
     - 980 Nat
     - 87 Int
-  PTG_PPP_GPG:
+  TGP_PPP_BPB:
     f_max:
-    - '`layout: PTG_PPP_GPG'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 0 Nat
-    - 950 $
-    - 700 Nat
-    - 51 Int
-  GPG_PPG_BPP:
-    f_max:
-    - '`layout: GPG_PPG_BPP'
-    r_min:
-    - 0 Nat
-    - 5 Nat
-    - 1 Nat
-    - 650 $
-    - 690 Nat
-    - 76 Int
-  GPT_PPP_PBP:
-    f_max:
-    - '`layout: GPT_PPP_PBP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PGG_PPP_PTB:
-    f_max:
-    - '`layout: PGG_PPP_PTB'
-    r_min:
-    - 1 Nat
-    - 5 Nat
-    - 1 Nat
-    - 950 $
-    - 840 Nat
-    - 69 Int
-  BTP_PPP_GPB:
-    f_max:
-    - '`layout: BTP_PPP_GPB'
+    - '`layout: TGP_PPP_BPB'
     r_min:
     - 1 Nat
     - 5 Nat
@@ -3828,19 +4078,29 @@ implementations:
     - 950 $
     - 980 Nat
     - 87 Int
-  GGP_PPP_GGP:
+  PGB_PBT_PPP:
     f_max:
-    - '`layout: GGP_PPP_GGP'
+    - '`layout: PGB_PBT_PPP'
     r_min:
-    - 0 Nat
+    - 1 Nat
     - 5 Nat
-    - 0 Nat
-    - 650 $
-    - 550 Nat
-    - 58 Int
-  PTP_PPP_PBG:
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  TGP_PPP_BPT:
     f_max:
-    - '`layout: PTP_PPP_PBG'
+    - '`layout: TGP_PPP_BPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGP_TPP_PPB:
+    f_max:
+    - '`layout: PGP_TPP_PPB'
     r_min:
     - 1 Nat
     - 6 Nat
@@ -3848,19 +4108,9 @@ implementations:
     - 900 $
     - 950 Nat
     - 77 Int
-  TPP_BPG_PPP:
+  PPG_BPB_BPP:
     f_max:
-    - '`layout: TPP_BPG_PPP'
-    r_min:
-    - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PPP_PBB_PBG:
-    f_max:
-    - '`layout: PPP_PBB_PBG'
+    - '`layout: PPG_BPB_BPP'
     r_min:
     - 0 Nat
     - 5 Nat
@@ -3868,19 +4118,19 @@ implementations:
     - 650 $
     - 970 Nat
     - 112 Int
-  PPT_PPP_PGB:
+  PTP_PPP_PPP:
     f_max:
-    - '`layout: PPT_PPP_PGB'
+    - '`layout: PTP_PPP_PPP'
     r_min:
     - 1 Nat
-    - 6 Nat
-    - 1 Nat
-    - 900 $
-    - 950 Nat
-    - 77 Int
-  PTT_PPP_PBB:
+    - 8 Nat
+    - 0 Nat
+    - 800 $
+    - 1030 Nat
+    - 75 Int
+  TPP_PPB_BPT:
     f_max:
-    - '`layout: PTT_PPP_PBB'
+    - '`layout: TPP_PPB_BPT'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3888,19 +4138,19 @@ implementations:
     - 1250 $
     - 1130 Nat
     - 80 Int
-  TTP_PPP_PBT:
+  GTP_PPP_BBP:
     f_max:
-    - '`layout: TTP_PPP_PBT'
+    - '`layout: GTP_PPP_BBP'
     r_min:
-    - 3 Nat
-    - 5 Nat
     - 1 Nat
-    - 1550 $
-    - 1140 Nat
-    - 55 Int
-  TGP_PPP_PBG:
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  TGP_GBP_PPP:
     f_max:
-    - '`layout: TGP_PPP_PBG'
+    - '`layout: TGP_GBP_PPP'
     r_min:
     - 1 Nat
     - 5 Nat
@@ -3908,19 +4158,19 @@ implementations:
     - 950 $
     - 840 Nat
     - 69 Int
-  TTP_BTP_PPP:
+  TGP_PPP_PPP:
     f_max:
-    - '`layout: TTP_BTP_PPP'
+    - '`layout: TGP_PPP_PPP'
     r_min:
-    - 3 Nat
-    - 5 Nat
     - 1 Nat
-    - 1550 $
-    - 1140 Nat
-    - 55 Int
-  PGP_PPP_BPB:
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  PGB_PPB_PPP:
     f_max:
-    - '`layout: PGP_PPP_BPB'
+    - '`layout: PGB_PPB_PPP'
     r_min:
     - 0 Nat
     - 6 Nat
@@ -3928,16 +4178,36 @@ implementations:
     - 600 $
     - 940 Nat
     - 102 Int
-  TPP_PPG_PTP:
+  PPP_PGT_PTB:
     f_max:
-    - '`layout: TPP_PPG_PTP'
+    - '`layout: PPP_PGT_PTB'
     r_min:
     - 2 Nat
-    - 6 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GGP_PPP_PPP:
+    f_max:
+    - '`layout: GGP_PPP_PPP'
+    r_min:
     - 0 Nat
-    - 1200 $
-    - 960 Nat
-    - 52 Int
+    - 7 Nat
+    - 0 Nat
+    - 550 $
+    - 770 Nat
+    - 74 Int
+  TPP_PPP_PPG:
+    f_max:
+    - '`layout: TPP_PPP_PPG'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
   TPP_BPG_PPB:
     f_max:
     - '`layout: TPP_BPG_PPB'
@@ -3948,29 +4218,19 @@ implementations:
     - 950 $
     - 980 Nat
     - 87 Int
-  GPP_PPG_PGP:
+  PPB_BPP_PBP:
     f_max:
-    - '`layout: GPP_PPG_PGP'
+    - '`layout: PPB_BPP_PBP'
     r_min:
     - 0 Nat
     - 6 Nat
-    - 0 Nat
+    - 3 Nat
     - 600 $
-    - 660 Nat
-    - 66 Int
-  TPT_BPP_PPP:
+    - 1080 Nat
+    - 120 Int
+  PPP_PBP_PPB:
     f_max:
-    - '`layout: TPT_BPP_PPP'
-    r_min:
-    - 2 Nat
-    - 6 Nat
-    - 1 Nat
-    - 1200 $
-    - 1100 Nat
-    - 70 Int
-  PPP_PPP_BBP:
-    f_max:
-    - '`layout: PPP_PPP_BBP'
+    - '`layout: PPP_PBP_PPB'
     r_min:
     - 0 Nat
     - 7 Nat
@@ -3978,9 +4238,209 @@ implementations:
     - 550 $
     - 1050 Nat
     - 110 Int
-  TPP_BPT_PPG:
+  PTB_PPP_PBP:
     f_max:
-    - '`layout: TPP_BPT_PPG'
+    - '`layout: PTB_PPP_PBP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PTP_BGP_PPP:
+    f_max:
+    - '`layout: PTP_BGP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TPP_PPP_PPP:
+    f_max:
+    - '`layout: TPP_PPP_PPP'
+    r_min:
+    - 1 Nat
+    - 8 Nat
+    - 0 Nat
+    - 800 $
+    - 1030 Nat
+    - 75 Int
+  GPG_PPP_TPP:
+    f_max:
+    - '`layout: GPG_PPP_TPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  TPG_PPP_BGP:
+    f_max:
+    - '`layout: TPG_PPP_BGP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPG_PPP_PGB:
+    f_max:
+    - '`layout: PPG_PPP_PGB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PTP_PPP_BPP:
+    f_max:
+    - '`layout: PTP_PPP_BPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  PGB_PBG_PPP:
+    f_max:
+    - '`layout: PGB_PBG_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PTT_PGG_PPP:
+    f_max:
+    - '`layout: PTT_PGG_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  PPP_PPP_PPG:
+    f_max:
+    - '`layout: PPP_PPP_PPG'
+    r_min:
+    - 0 Nat
+    - 8 Nat
+    - 0 Nat
+    - 500 $
+    - 880 Nat
+    - 82 Int
+  PPP_PTG_PBP:
+    f_max:
+    - '`layout: PPP_PTG_PBP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPP_BPP_TPG:
+    f_max:
+    - '`layout: PPP_BPP_TPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPB_PPP_BPP:
+    f_max:
+    - '`layout: PPB_PPP_BPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 2 Nat
+    - 550 $
+    - 1050 Nat
+    - 110 Int
+  PTP_PPP_PBB:
+    f_max:
+    - '`layout: PTP_PPP_PBB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PTT_PPP_TPG:
+    f_max:
+    - '`layout: PTT_PPP_TPG'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  TTP_PPP_PPT:
+    f_max:
+    - '`layout: TTP_PPP_PPT'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  PPP_BBP_BBP:
+    f_max:
+    - '`layout: PPP_BBP_BBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 4 Nat
+    - 650 $
+    - 1110 Nat
+    - 130 Int
+  PPT_PPB_PPP:
+    f_max:
+    - '`layout: PPT_PPB_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  TPP_BBP_PPP:
+    f_max:
+    - '`layout: TPP_BBP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPP_BPB_PPT:
+    f_max:
+    - '`layout: GPP_BPB_PPT'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GTP_PPP_BTP:
+    f_max:
+    - '`layout: GTP_PPP_BTP'
     r_min:
     - 2 Nat
     - 5 Nat
@@ -3988,6 +4448,1476 @@ implementations:
     - 1250 $
     - 990 Nat
     - 62 Int
+  PTB_PPP_PGB:
+    f_max:
+    - '`layout: PTB_PPP_PGB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGP_PPP_BTP:
+    f_max:
+    - '`layout: PGP_PPP_BTP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TPB_PPP_BPT:
+    f_max:
+    - '`layout: TPB_PPP_BPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PTT_PPP_TBP:
+    f_max:
+    - '`layout: PTT_PPP_TBP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  TPP_PPB_BPB:
+    f_max:
+    - '`layout: TPP_PPB_BPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 3 Nat
+    - 950 $
+    - 1120 Nat
+    - 105 Int
+  GPP_BPP_PPG:
+    f_max:
+    - '`layout: GPP_BPP_PPG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PTG_PPP_BTP:
+    f_max:
+    - '`layout: PTG_PPP_BTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GGP_BPP_PPT:
+    f_max:
+    - '`layout: GGP_BPP_PPT'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  GTP_PPP_BPB:
+    f_max:
+    - '`layout: GTP_PPP_BPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  TPT_PPP_BPB:
+    f_max:
+    - '`layout: TPT_PPP_BPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  GPP_PPG_PPB:
+    f_max:
+    - '`layout: GPP_PPG_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GGP_GPP_PPB:
+    f_max:
+    - '`layout: GGP_GPP_PPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PGB_PTB_PPP:
+    f_max:
+    - '`layout: PGB_PTB_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GTP_PPP_GPB:
+    f_max:
+    - '`layout: GTP_PPP_GPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  TPT_PPB_PPP:
+    f_max:
+    - '`layout: TPT_PPB_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PPP_PTG_PTG:
+    f_max:
+    - '`layout: PPP_PTG_PTG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GTP_PPP_GPT:
+    f_max:
+    - '`layout: GTP_PPP_GPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  BPG_PPP_PGB:
+    f_max:
+    - '`layout: BPG_PPP_PGB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TPP_PBP_PPP:
+    f_max:
+    - '`layout: TPP_PBP_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  PGG_PPP_TPB:
+    f_max:
+    - '`layout: PGG_PPP_TPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  TTP_PPP_BTP:
+    f_max:
+    - '`layout: TTP_PPP_BTP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PPP_PTG_PGP:
+    f_max:
+    - '`layout: PPP_PTG_PGP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  TPP_BPP_PPB:
+    f_max:
+    - '`layout: TPP_BPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TGP_PPP_PPB:
+    f_max:
+    - '`layout: TGP_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  GPP_BPP_PPP:
+    f_max:
+    - '`layout: GPP_BPP_PPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  TPP_PPG_PPP:
+    f_max:
+    - '`layout: TPP_PPG_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  TPP_PPT_PTP:
+    f_max:
+    - '`layout: TPP_PPT_PTP'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  GPP_PPT_PTB:
+    f_max:
+    - '`layout: GPP_PPT_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPP_PPP_BPB:
+    f_max:
+    - '`layout: GPP_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PPG_PPP_BPB:
+    f_max:
+    - '`layout: PPG_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PTP_PBB_PPP:
+    f_max:
+    - '`layout: PTP_PBB_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TPB_BPP_PPP:
+    f_max:
+    - '`layout: TPB_BPP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TGP_PPP_PTB:
+    f_max:
+    - '`layout: TGP_PPP_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGB_PPP_TPP:
+    f_max:
+    - '`layout: PGB_PPP_TPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TTP_PPP_PTG:
+    f_max:
+    - '`layout: TTP_PPP_PTG'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GGP_PPP_TTP:
+    f_max:
+    - '`layout: GGP_PPP_TTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GPG_PPP_TBP:
+    f_max:
+    - '`layout: GPG_PPP_TBP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPB_BPP_GBP:
+    f_max:
+    - '`layout: PPB_BPP_GBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  GPP_PPG_PTG:
+    f_max:
+    - '`layout: GPP_PPG_PTG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  TPB_BPP_PPB:
+    f_max:
+    - '`layout: TPB_BPP_PPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 3 Nat
+    - 950 $
+    - 1120 Nat
+    - 105 Int
+  GGP_PPP_GGP:
+    f_max:
+    - '`layout: GGP_PPP_GGP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 0 Nat
+    - 650 $
+    - 550 Nat
+    - 58 Int
+  PTT_PPP_TPB:
+    f_max:
+    - '`layout: PTT_PPP_TPB'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PPP_PPP_PPP:
+    f_max:
+    - '`layout: PPP_PPP_PPP'
+    r_min:
+    - 0 Nat
+    - 9 Nat
+    - 0 Nat
+    - 450 $
+    - 990 Nat
+    - 90 Int
+  GPP_PPT_PBT:
+    f_max:
+    - '`layout: GPP_PPT_PBT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TPP_PPB_PBB:
+    f_max:
+    - '`layout: TPP_PPB_PBB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 3 Nat
+    - 950 $
+    - 1120 Nat
+    - 105 Int
+  PPP_PGT_PBB:
+    f_max:
+    - '`layout: PPP_PGT_PBB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PTT_PGB_PPP:
+    f_max:
+    - '`layout: PTT_PGB_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TPP_PPB_PBG:
+    f_max:
+    - '`layout: TPP_PPB_PBG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGT_PPP_PGB:
+    f_max:
+    - '`layout: PGT_PPP_PGB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPP_PBG_PGB:
+    f_max:
+    - '`layout: PPP_PBG_PGB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PTP_PGG_PPP:
+    f_max:
+    - '`layout: PTP_PGG_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GGP_PPP_BPB:
+    f_max:
+    - '`layout: GGP_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GGP_TPP_PPT:
+    f_max:
+    - '`layout: GGP_TPP_PPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  PPP_PGT_PPG:
+    f_max:
+    - '`layout: PPP_PGT_PPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  PPT_PPP_BPP:
+    f_max:
+    - '`layout: PPT_PPP_BPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  PPP_BPT_BPB:
+    f_max:
+    - '`layout: PPP_BPT_BPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 3 Nat
+    - 950 $
+    - 1120 Nat
+    - 105 Int
+  TPP_BPB_PPG:
+    f_max:
+    - '`layout: TPP_BPB_PPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PTT_PTB_PPP:
+    f_max:
+    - '`layout: PTT_PTB_PPP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  GGP_GPP_PPP:
+    f_max:
+    - '`layout: GGP_GPP_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  GTP_PPP_PTT:
+    f_max:
+    - '`layout: GTP_PPP_PTT'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GPG_PPP_BPG:
+    f_max:
+    - '`layout: GPG_PPP_BPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PPT_PPP_PTG:
+    f_max:
+    - '`layout: PPT_PPP_PTG'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  PPP_PPG_PTB:
+    f_max:
+    - '`layout: PPP_PPG_PTB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PGB_PPP_BBP:
+    f_max:
+    - '`layout: PGB_PPP_BBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  TTP_PPP_BPP:
+    f_max:
+    - '`layout: TTP_PPP_BPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  TTP_PPP_PPB:
+    f_max:
+    - '`layout: TTP_PPP_PPB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PGB_PPG_TPP:
+    f_max:
+    - '`layout: PGB_PPG_TPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPP_PTG_PTB:
+    f_max:
+    - '`layout: PPP_PTG_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PPP_PGG_PGG:
+    f_max:
+    - '`layout: PPP_PGG_PGG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 0 Nat
+    - 650 $
+    - 550 Nat
+    - 58 Int
+  PPP_PPG_PBP:
+    f_max:
+    - '`layout: PPP_PPG_PBP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  TTP_TPP_PPB:
+    f_max:
+    - '`layout: TTP_TPP_PPB'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PPT_PPP_BPB:
+    f_max:
+    - '`layout: PPT_PPP_BPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PPB_PPP_BPB:
+    f_max:
+    - '`layout: PPB_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 3 Nat
+    - 600 $
+    - 1080 Nat
+    - 120 Int
+  PPB_PPP_BBP:
+    f_max:
+    - '`layout: PPB_PPP_BBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 3 Nat
+    - 600 $
+    - 1080 Nat
+    - 120 Int
+  PGB_PPG_GPP:
+    f_max:
+    - '`layout: PGB_PPG_GPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  TPT_PPP_PTG:
+    f_max:
+    - '`layout: TPT_PPP_PTG'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GTP_PBP_PPP:
+    f_max:
+    - '`layout: GTP_PBP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  BPP_PPP_PBB:
+    f_max:
+    - '`layout: BPP_PPP_PBB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 3 Nat
+    - 600 $
+    - 1080 Nat
+    - 120 Int
+  PTB_PPP_BPP:
+    f_max:
+    - '`layout: PTB_PPP_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  BTP_PPP_PPB:
+    f_max:
+    - '`layout: BTP_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TGP_PPP_PBG:
+    f_max:
+    - '`layout: TGP_PPP_PBG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PGB_PGP_PPP:
+    f_max:
+    - '`layout: PGB_PGP_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GTP_PPP_PGP:
+    f_max:
+    - '`layout: GTP_PPP_PGP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GTP_PPP_PTB:
+    f_max:
+    - '`layout: GTP_PPP_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGB_PBP_PPP:
+    f_max:
+    - '`layout: PGB_PBP_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  GPP_PPG_PBG:
+    f_max:
+    - '`layout: GPP_PPG_PBG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PGP_GGP_PPP:
+    f_max:
+    - '`layout: PGP_GGP_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  PTB_PPB_GPP:
+    f_max:
+    - '`layout: PTB_PPB_GPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PPP_PPP_BPB:
+    f_max:
+    - '`layout: PPP_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 2 Nat
+    - 550 $
+    - 1050 Nat
+    - 110 Int
+  PPT_BPP_TPG:
+    f_max:
+    - '`layout: PPT_BPP_TPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PPB_BPP_BPB:
+    f_max:
+    - '`layout: PPB_BPP_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 4 Nat
+    - 650 $
+    - 1110 Nat
+    - 130 Int
+  PGB_PTP_PPP:
+    f_max:
+    - '`layout: PGB_PTP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPP_BPT_TPG:
+    f_max:
+    - '`layout: PPP_BPT_TPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGT_PPP_PBP:
+    f_max:
+    - '`layout: PGT_PPP_PBP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TPG_PPP_BTP:
+    f_max:
+    - '`layout: TPG_PPP_BTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PTP_PPT_BPP:
+    f_max:
+    - '`layout: PTP_PPT_BPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  TGP_GGP_PPP:
+    f_max:
+    - '`layout: TGP_GGP_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  PPP_BPB_TPG:
+    f_max:
+    - '`layout: PPP_BPB_TPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GPG_PPP_GPP:
+    f_max:
+    - '`layout: GPG_PPP_GPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  GGP_PPP_BGP:
+    f_max:
+    - '`layout: GGP_PPP_BGP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PPT_PPP_PBG:
+    f_max:
+    - '`layout: PPT_PPP_PBG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TGP_PPP_TPG:
+    f_max:
+    - '`layout: TGP_PPP_TPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GPG_BPB_PPP:
+    f_max:
+    - '`layout: GPG_BPB_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PPP_PBP_PBG:
+    f_max:
+    - '`layout: PPP_PBP_PBG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PGB_PGB_PPP:
+    f_max:
+    - '`layout: PGB_PGB_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GPG_PPP_PBG:
+    f_max:
+    - '`layout: GPG_PPP_PBG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  GGP_GGP_PPP:
+    f_max:
+    - '`layout: GGP_GGP_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 0 Nat
+    - 650 $
+    - 550 Nat
+    - 58 Int
+  PPT_BPP_GPB:
+    f_max:
+    - '`layout: PPT_BPP_GPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGT_PPP_BTP:
+    f_max:
+    - '`layout: PGT_PPP_BTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PTT_PPB_TPP:
+    f_max:
+    - '`layout: PTT_PPB_TPP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PTG_PPP_BPB:
+    f_max:
+    - '`layout: PTG_PPP_BPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGP_PPP_PBG:
+    f_max:
+    - '`layout: PGP_PPP_PBG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPP_BPT_PPP:
+    f_max:
+    - '`layout: GPP_BPT_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPP_PBG_PPG:
+    f_max:
+    - '`layout: PPP_PBG_PPG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PTT_PPP_PBG:
+    f_max:
+    - '`layout: PTT_PPP_PBG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGP_GPP_PPG:
+    f_max:
+    - '`layout: PGP_GPP_PPG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  PTP_BBP_PPP:
+    f_max:
+    - '`layout: PTP_BBP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TPG_PPP_PPB:
+    f_max:
+    - '`layout: TPG_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TTP_TPP_PPG:
+    f_max:
+    - '`layout: TTP_TPP_PPG'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  PPP_PGT_PPB:
+    f_max:
+    - '`layout: PPP_PGT_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPP_PGG_PPB:
+    f_max:
+    - '`layout: PPP_PGG_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GTP_PPP_PPB:
+    f_max:
+    - '`layout: GTP_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTG_PPP_PBG:
+    f_max:
+    - '`layout: PTG_PPP_PBG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  GPT_PPP_PTT:
+    f_max:
+    - '`layout: GPT_PPP_PTT'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  PGP_PGB_PPP:
+    f_max:
+    - '`layout: PGP_PGB_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PPP_BPG_PPG:
+    f_max:
+    - '`layout: PPP_BPG_PPG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPT_PPT_PPP:
+    f_max:
+    - '`layout: GPT_PPT_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  PTT_PTP_PPP:
+    f_max:
+    - '`layout: PTT_PTP_PPP'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  TPT_PPG_TPP:
+    f_max:
+    - '`layout: TPT_PPG_TPP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  TTP_PPP_TPG:
+    f_max:
+    - '`layout: TTP_PPP_TPG'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GPT_BPP_PPB:
+    f_max:
+    - '`layout: GPT_BPP_PPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GPP_PTP_PPP:
+    f_max:
+    - '`layout: GPP_PTP_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  GPG_PPP_TPT:
+    f_max:
+    - '`layout: GPG_PPP_TPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  TGP_PPP_PBB:
+    f_max:
+    - '`layout: TGP_PPP_PBB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PPP_PPG_PPB:
+    f_max:
+    - '`layout: PPP_PPG_PPB'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  TPG_PPT_BPP:
+    f_max:
+    - '`layout: TPG_PPT_BPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TTP_PPP_TGP:
+    f_max:
+    - '`layout: TTP_PPP_TGP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  GGP_PPP_GPG:
+    f_max:
+    - '`layout: GGP_PPP_GPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 0 Nat
+    - 650 $
+    - 550 Nat
+    - 58 Int
+  TPP_BPB_PPP:
+    f_max:
+    - '`layout: TPP_BPB_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TGP_TPP_PPB:
+    f_max:
+    - '`layout: TGP_TPP_PPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GGP_BPP_PPG:
+    f_max:
+    - '`layout: GGP_BPP_PPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PPG_PPP_PPB:
+    f_max:
+    - '`layout: PPG_PPP_PPB'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  PPP_PBT_PPG:
+    f_max:
+    - '`layout: PPP_PBT_PPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTP_PPP_TPB:
+    f_max:
+    - '`layout: PTP_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PBP_BPP_PPG:
+    f_max:
+    - '`layout: PBP_BPP_PPG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  GPP_BPB_PPP:
+    f_max:
+    - '`layout: GPP_BPB_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PPB_BPP_BBP:
+    f_max:
+    - '`layout: PPB_BPP_BBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 4 Nat
+    - 650 $
+    - 1110 Nat
+    - 130 Int
   GPT_PPP_PTP:
     f_max:
     - '`layout: GPT_PPP_PTP'
@@ -3998,9 +5928,39 @@ implementations:
     - 1200 $
     - 960 Nat
     - 52 Int
-  PPT_PPG_TPP:
+  GGP_BGP_PPP:
     f_max:
-    - '`layout: PPT_PPG_TPP'
+    - '`layout: GGP_BGP_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PTG_PPP_PPG:
+    f_max:
+    - '`layout: PTG_PPP_PPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GTP_PPP_TTP:
+    f_max:
+    - '`layout: GTP_PPP_TTP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  TPP_PPT_PPG:
+    f_max:
+    - '`layout: TPP_PPT_PPG'
     r_min:
     - 2 Nat
     - 6 Nat
@@ -4008,3 +5968,2043 @@ implementations:
     - 1200 $
     - 960 Nat
     - 52 Int
+  PPP_PGP_PPB:
+    f_max:
+    - '`layout: PPP_PGP_PPB'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  PPP_PGP_PPG:
+    f_max:
+    - '`layout: PPP_PGP_PPG'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 0 Nat
+    - 550 $
+    - 770 Nat
+    - 74 Int
+  PGP_GPP_PPP:
+    f_max:
+    - '`layout: PGP_GPP_PPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 0 Nat
+    - 550 $
+    - 770 Nat
+    - 74 Int
+  GPG_PPP_PPB:
+    f_max:
+    - '`layout: GPG_PPP_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  TTP_PPP_PBT:
+    f_max:
+    - '`layout: TTP_PPP_PBT'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PPT_PPP_PBB:
+    f_max:
+    - '`layout: PPT_PPP_PBB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PPP_BPP_TPB:
+    f_max:
+    - '`layout: PPP_BPP_TPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPP_BPG_PPG:
+    f_max:
+    - '`layout: GPP_BPG_PPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  GPP_PPT_PBG:
+    f_max:
+    - '`layout: GPP_PPT_PBG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPP_PPT_PBG:
+    f_max:
+    - '`layout: PPP_PPT_PBG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PGP_TTP_PPP:
+    f_max:
+    - '`layout: PGP_TTP_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  GGP_PPP_PBP:
+    f_max:
+    - '`layout: GGP_PPP_PBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PGB_PPB_BPP:
+    f_max:
+    - '`layout: PGB_PPB_BPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  PGP_PPP_PBP:
+    f_max:
+    - '`layout: PGP_PPP_PBP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  PPP_BPG_BPB:
+    f_max:
+    - '`layout: PPP_BPG_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  PPP_PGB_PBP:
+    f_max:
+    - '`layout: PPP_PGB_PBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  TTP_BGP_PPP:
+    f_max:
+    - '`layout: TTP_BGP_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPG_PPP_BPB:
+    f_max:
+    - '`layout: GPG_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PPG_PPP_BBP:
+    f_max:
+    - '`layout: PPG_PPP_BBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  GTP_BPP_PPB:
+    f_max:
+    - '`layout: GTP_BPP_PPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GPP_PPT_BPT:
+    f_max:
+    - '`layout: GPP_PPT_BPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PTP_PPB_PPP:
+    f_max:
+    - '`layout: PTP_PPB_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  TPT_PPP_TPP:
+    f_max:
+    - '`layout: TPT_PPP_TPP'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  PGP_PPP_PPG:
+    f_max:
+    - '`layout: PGP_PPP_PPG'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 0 Nat
+    - 550 $
+    - 770 Nat
+    - 74 Int
+  PPP_PGG_PTG:
+    f_max:
+    - '`layout: PPP_PGG_PTG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  PGB_PGT_PPP:
+    f_max:
+    - '`layout: PGB_PGT_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PGP_TPP_PPP:
+    f_max:
+    - '`layout: PGP_TPP_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  PPP_PPG_PGG:
+    f_max:
+    - '`layout: PPP_PPG_PGG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  TTP_PTP_PPP:
+    f_max:
+    - '`layout: TTP_PTP_PPP'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  PPG_PPP_PTB:
+    f_max:
+    - '`layout: PPG_PPP_PTB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PGP_PPP_PPP:
+    f_max:
+    - '`layout: PGP_PPP_PPP'
+    r_min:
+    - 0 Nat
+    - 8 Nat
+    - 0 Nat
+    - 500 $
+    - 880 Nat
+    - 82 Int
+  GPG_PPP_GBP:
+    f_max:
+    - '`layout: GPG_PPP_GBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  TPP_BPT_PPP:
+    f_max:
+    - '`layout: TPP_BPT_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PGT_PPB_TPP:
+    f_max:
+    - '`layout: PGT_PPB_TPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TPP_PPT_PPB:
+    f_max:
+    - '`layout: TPP_PPT_PPB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PPT_PPP_PGB:
+    f_max:
+    - '`layout: PPT_PPP_PGB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  GPB_PPP_BPB:
+    f_max:
+    - '`layout: GPB_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  PGB_PPP_PPP:
+    f_max:
+    - '`layout: PGB_PPP_PPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  GPP_PPT_PPB:
+    f_max:
+    - '`layout: GPP_PPT_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PPP_PBG_PPB:
+    f_max:
+    - '`layout: PPP_PBG_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  GTP_PPP_GPG:
+    f_max:
+    - '`layout: GTP_PPP_GPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  PPP_PTP_PBB:
+    f_max:
+    - '`layout: PPP_PTP_PBB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPP_BPB_PPG:
+    f_max:
+    - '`layout: GPP_BPB_PPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PGP_PBP_PPP:
+    f_max:
+    - '`layout: PGP_PBP_PPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  PTT_PPP_PTB:
+    f_max:
+    - '`layout: PTT_PPP_PTB'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PGG_PPP_BBP:
+    f_max:
+    - '`layout: PGG_PPP_BBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TGP_PPP_TTP:
+    f_max:
+    - '`layout: TGP_PPP_TTP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  PPP_PBP_BPP:
+    f_max:
+    - '`layout: PPP_PBP_BPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 2 Nat
+    - 550 $
+    - 1050 Nat
+    - 110 Int
+  PPG_PPP_TPB:
+    f_max:
+    - '`layout: PPG_PPP_TPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TBP_BPP_PPP:
+    f_max:
+    - '`layout: TBP_BPP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PTT_PPP_BPP:
+    f_max:
+    - '`layout: PTT_PPP_BPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PPP_PTG_PBG:
+    f_max:
+    - '`layout: PPP_PTG_PBG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PGT_PPP_TPB:
+    f_max:
+    - '`layout: PGT_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPT_PPP_BTP:
+    f_max:
+    - '`layout: GPT_PPP_BTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGB_PPP_BPP:
+    f_max:
+    - '`layout: PGB_PPP_BPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  TPP_PPT_PBB:
+    f_max:
+    - '`layout: TPP_PPT_PBB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PGP_TPP_PPG:
+    f_max:
+    - '`layout: PGP_TPP_PPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GPT_BPG_PPP:
+    f_max:
+    - '`layout: GPT_BPG_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPP_PTG_PGG:
+    f_max:
+    - '`layout: PPP_PTG_PGG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  GGP_PPP_TPG:
+    f_max:
+    - '`layout: GGP_PPP_TPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  TTP_PPP_PGG:
+    f_max:
+    - '`layout: TTP_PPP_PGG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  BGP_PPP_PBB:
+    f_max:
+    - '`layout: BGP_PPP_PBB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  TTP_PPP_PTP:
+    f_max:
+    - '`layout: TTP_PPP_PTP'
+    r_min:
+    - 3 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1500 $
+    - 1110 Nat
+    - 45 Int
+  PGT_PPG_BPP:
+    f_max:
+    - '`layout: PGT_PPG_BPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  GPP_PPP_BBP:
+    f_max:
+    - '`layout: GPP_PPP_BBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PPP_PBP_PPG:
+    f_max:
+    - '`layout: PPP_PBP_PPG'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  PPT_PPP_PTB:
+    f_max:
+    - '`layout: PPT_PPP_PTB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PPT_PGP_PPP:
+    f_max:
+    - '`layout: PPT_PGP_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  TBP_BPP_PPG:
+    f_max:
+    - '`layout: TBP_BPP_PPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PPP_BGP_PBP:
+    f_max:
+    - '`layout: PPP_BGP_PBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PPG_PPP_PBG:
+    f_max:
+    - '`layout: PPG_PPP_PBG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPP_PPB_PBT:
+    f_max:
+    - '`layout: GPP_PPB_PBT'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGP_PPP_PGB:
+    f_max:
+    - '`layout: PGP_PPP_PGB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPT_PPP_PPB:
+    f_max:
+    - '`layout: GPT_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TGP_PPP_PGB:
+    f_max:
+    - '`layout: TGP_PPP_PGB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PTB_PBB_PPP:
+    f_max:
+    - '`layout: PTB_PBB_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 3 Nat
+    - 950 $
+    - 1120 Nat
+    - 105 Int
+  PPP_PTB_PBP:
+    f_max:
+    - '`layout: PPP_PTB_PBP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPP_PPG_PTP:
+    f_max:
+    - '`layout: GPP_PPG_PTP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  PPT_PPP_TPG:
+    f_max:
+    - '`layout: PPT_PPP_TPG'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  GTP_PPP_TPP:
+    f_max:
+    - '`layout: GTP_PPP_TPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  TPB_PPP_BPP:
+    f_max:
+    - '`layout: TPB_PPP_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPT_PPP_PPT:
+    f_max:
+    - '`layout: GPT_PPP_PPT'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  GTP_BBP_PPP:
+    f_max:
+    - '`layout: GTP_BBP_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GBP_BBP_PPP:
+    f_max:
+    - '`layout: GBP_BBP_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  TGP_PPP_PGT:
+    f_max:
+    - '`layout: TGP_PPP_PGT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GGP_PPP_PPB:
+    f_max:
+    - '`layout: GGP_PPP_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPP_PPP_PBG:
+    f_max:
+    - '`layout: GPP_PPP_PBG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  PPP_PPG_PBB:
+    f_max:
+    - '`layout: PPP_PPG_PBB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  TGP_PPP_BPP:
+    f_max:
+    - '`layout: TGP_PPP_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTB_PTB_PPP:
+    f_max:
+    - '`layout: PTB_PTB_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PTP_BTP_PPP:
+    f_max:
+    - '`layout: PTP_BTP_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  GPT_PPP_TPB:
+    f_max:
+    - '`layout: GPT_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPG_BPP_PPB:
+    f_max:
+    - '`layout: GPG_BPP_PPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PPT_PPB_BPP:
+    f_max:
+    - '`layout: PPT_PPB_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  PTB_PPP_TPB:
+    f_max:
+    - '`layout: PTB_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PTP_PBT_PPP:
+    f_max:
+    - '`layout: PTP_PBT_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  GPB_BPG_PPP:
+    f_max:
+    - '`layout: GPB_BPG_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PPP_PPP_PPB:
+    f_max:
+    - '`layout: PPP_PPP_PPB'
+    r_min:
+    - 0 Nat
+    - 8 Nat
+    - 1 Nat
+    - 500 $
+    - 1020 Nat
+    - 100 Int
+  PPP_PBT_PTB:
+    f_max:
+    - '`layout: PPP_PBT_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PGB_PPP_GBP:
+    f_max:
+    - '`layout: PGB_PPP_GBP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PTB_PPT_PPP:
+    f_max:
+    - '`layout: PTB_PPT_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PGB_PBB_PPP:
+    f_max:
+    - '`layout: PGB_PBB_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  PPT_PBG_PPP:
+    f_max:
+    - '`layout: PPT_PBG_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TGP_GPP_PPB:
+    f_max:
+    - '`layout: TGP_GPP_PPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  TGP_PPP_TBP:
+    f_max:
+    - '`layout: TGP_PPP_TBP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TTP_PPP_PTT:
+    f_max:
+    - '`layout: TTP_PPP_PTT'
+    r_min:
+    - 4 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1850 $
+    - 1150 Nat
+    - 30 Int
+  PPP_PPT_PPG:
+    f_max:
+    - '`layout: PPP_PPT_PPG'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  PPP_PBG_PBG:
+    f_max:
+    - '`layout: PPP_PBG_PBG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GGP_BPP_PPB:
+    f_max:
+    - '`layout: GGP_BPP_PPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TPG_PPP_TPB:
+    f_max:
+    - '`layout: TPG_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GTP_PTP_PPP:
+    f_max:
+    - '`layout: GTP_PTP_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  PGB_PTT_PPP:
+    f_max:
+    - '`layout: PGB_PTT_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TPT_PPT_BPP:
+    f_max:
+    - '`layout: TPT_PPT_BPP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PGB_PPT_BPP:
+    f_max:
+    - '`layout: PGB_PPT_BPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PTB_PPP_BTP:
+    f_max:
+    - '`layout: PTB_PPP_BTP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PPG_BPP_BPB:
+    f_max:
+    - '`layout: PPG_BPP_BPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  TPP_PPB_PBT:
+    f_max:
+    - '`layout: TPP_PPB_PBT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PPT_PPP_PGG:
+    f_max:
+    - '`layout: PPT_PPP_PGG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  PGP_TGP_PPP:
+    f_max:
+    - '`layout: PGP_TGP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  PGP_TBP_PPP:
+    f_max:
+    - '`layout: PGP_TBP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTP_PTG_PPP:
+    f_max:
+    - '`layout: PTP_PTG_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  PPG_PPP_PGG:
+    f_max:
+    - '`layout: PPG_PPP_PGG'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 0 Nat
+    - 600 $
+    - 660 Nat
+    - 66 Int
+  GBP_BPP_PPG:
+    f_max:
+    - '`layout: GBP_BPP_PPG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TGP_PPP_PGG:
+    f_max:
+    - '`layout: TGP_PPP_PGG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  TPP_PPG_PPB:
+    f_max:
+    - '`layout: TPP_PPG_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  GTP_PPP_BPT:
+    f_max:
+    - '`layout: GTP_PPP_BPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GTP_PPP_PTP:
+    f_max:
+    - '`layout: GTP_PPP_PTP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  GBP_BPP_PPT:
+    f_max:
+    - '`layout: GBP_BPP_PPT'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PGP_PPP_PTG:
+    f_max:
+    - '`layout: PGP_PPP_PTG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GGP_GPP_PPT:
+    f_max:
+    - '`layout: GGP_GPP_PPT'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 0 Nat
+    - 950 $
+    - 700 Nat
+    - 51 Int
+  PGB_PPP_GPB:
+    f_max:
+    - '`layout: PGB_PPP_GPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  TGP_PPP_TPB:
+    f_max:
+    - '`layout: TGP_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PTG_PPP_PTB:
+    f_max:
+    - '`layout: PTG_PPP_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PGP_GBP_PPP:
+    f_max:
+    - '`layout: PGP_GBP_PPP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 1 Nat
+    - 600 $
+    - 800 Nat
+    - 84 Int
+  GPP_PPG_PGG:
+    f_max:
+    - '`layout: GPP_PPG_PGG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 0 Nat
+    - 650 $
+    - 550 Nat
+    - 58 Int
+  TPT_PPP_BGP:
+    f_max:
+    - '`layout: TPT_PPP_BGP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PPT_PPP_TPB:
+    f_max:
+    - '`layout: PPT_PPP_TPB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  TPT_PPP_PBB:
+    f_max:
+    - '`layout: TPT_PPP_PBB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PPP_BPT_PPB:
+    f_max:
+    - '`layout: PPP_BPT_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TPT_PPP_PPG:
+    f_max:
+    - '`layout: TPT_PPP_PPG'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  TGP_GPP_PPP:
+    f_max:
+    - '`layout: TGP_GPP_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  TPP_PTP_PPP:
+    f_max:
+    - '`layout: TPP_PTP_PPP'
+    r_min:
+    - 2 Nat
+    - 7 Nat
+    - 0 Nat
+    - 1150 $
+    - 1070 Nat
+    - 60 Int
+  TPT_PPP_TBP:
+    f_max:
+    - '`layout: TPT_PPP_TBP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  GPT_PPP_BPG:
+    f_max:
+    - '`layout: GPT_PPP_BPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPP_PPP_PBG:
+    f_max:
+    - '`layout: PPP_PPP_PBG'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  GTP_PPP_BGP:
+    f_max:
+    - '`layout: GTP_PPP_BGP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  TPG_PPP_PTB:
+    f_max:
+    - '`layout: TPG_PPP_PTB'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPP_PPP_BTP:
+    f_max:
+    - '`layout: GPP_PPP_BTP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  BPG_PPP_PBB:
+    f_max:
+    - '`layout: BPG_PPP_PBB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 3 Nat
+    - 650 $
+    - 970 Nat
+    - 112 Int
+  PTB_PPP_GPB:
+    f_max:
+    - '`layout: PTB_PPP_GPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GPP_PPP_PBT:
+    f_max:
+    - '`layout: GPP_PPP_PBT'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TGP_PPP_PPG:
+    f_max:
+    - '`layout: TGP_PPP_PPG'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  TPP_PPP_PPB:
+    f_max:
+    - '`layout: TPP_PPP_PPB'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  PPP_PGB_PBG:
+    f_max:
+    - '`layout: PPP_PGB_PBG'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GGP_PPP_TPP:
+    f_max:
+    - '`layout: GGP_PPP_TPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 0 Nat
+    - 900 $
+    - 810 Nat
+    - 59 Int
+  GGP_PPP_GPB:
+    f_max:
+    - '`layout: GGP_PPP_GPB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  BPP_PPG_PPB:
+    f_max:
+    - '`layout: BPP_PPG_PPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 2 Nat
+    - 600 $
+    - 940 Nat
+    - 102 Int
+  PPP_PGG_PBB:
+    f_max:
+    - '`layout: PPP_PGG_PBB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GPP_PPP_BPT:
+    f_max:
+    - '`layout: GPP_PPP_BPT'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  PTG_PPP_TPG:
+    f_max:
+    - '`layout: PTG_PPP_TPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  PTG_PPT_BPP:
+    f_max:
+    - '`layout: PTG_PPT_BPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TTP_BPP_PPP:
+    f_max:
+    - '`layout: TTP_BPP_PPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PGT_PPB_BPP:
+    f_max:
+    - '`layout: PGT_PPB_BPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  BPP_PPP_BPB:
+    f_max:
+    - '`layout: BPP_PPP_BPB'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 3 Nat
+    - 600 $
+    - 1080 Nat
+    - 120 Int
+  PTP_PPB_BPP:
+    f_max:
+    - '`layout: PTP_PPB_BPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  TGP_PPP_PBT:
+    f_max:
+    - '`layout: TGP_PPP_PBT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPG_PPT_BPP:
+    f_max:
+    - '`layout: GPG_PPT_BPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PGG_PPP_PBB:
+    f_max:
+    - '`layout: PGG_PPP_PBB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  PPP_PPT_PPB:
+    f_max:
+    - '`layout: PPP_PPT_PPB'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  PTG_PPP_BBP:
+    f_max:
+    - '`layout: PTG_PPP_BBP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  PPP_PTG_PGB:
+    f_max:
+    - '`layout: PPP_PTG_PGB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  GPP_PPG_PPP:
+    f_max:
+    - '`layout: GPP_PPG_PPP'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 0 Nat
+    - 550 $
+    - 770 Nat
+    - 74 Int
+  GPT_PPT_TPP:
+    f_max:
+    - '`layout: GPT_PPT_TPP'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1550 $
+    - 1000 Nat
+    - 37 Int
+  PPP_BPG_TPG:
+    f_max:
+    - '`layout: PPP_BPG_TPG'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  PPT_PBB_PPP:
+    f_max:
+    - '`layout: PPT_PBB_PPP'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 2 Nat
+    - 900 $
+    - 1090 Nat
+    - 95 Int
+  GPT_PPB_BPP:
+    f_max:
+    - '`layout: GPT_PPB_BPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  TPP_BPP_PPP:
+    f_max:
+    - '`layout: TPP_BPP_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  TGP_PPP_TPP:
+    f_max:
+    - '`layout: TGP_PPP_TPP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 0 Nat
+    - 1200 $
+    - 960 Nat
+    - 52 Int
+  PPP_PTG_PPB:
+    f_max:
+    - '`layout: PPP_PTG_PPB'
+    r_min:
+    - 1 Nat
+    - 6 Nat
+    - 1 Nat
+    - 900 $
+    - 950 Nat
+    - 77 Int
+  TGP_TBP_PPP:
+    f_max:
+    - '`layout: TGP_TBP_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GPP_PPT_PPP:
+    f_max:
+    - '`layout: GPP_PPT_PPP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 0 Nat
+    - 850 $
+    - 920 Nat
+    - 67 Int
+  GPT_BPP_PPT:
+    f_max:
+    - '`layout: GPT_BPP_PPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  PPP_PPT_PTB:
+    f_max:
+    - '`layout: PPP_PPT_PTB'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  PPP_PGG_PGB:
+    f_max:
+    - '`layout: PPP_PGG_PGB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 1 Nat
+    - 650 $
+    - 690 Nat
+    - 76 Int
+  PGB_PPT_TPP:
+    f_max:
+    - '`layout: PGB_PPT_TPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TPT_PPP_TPT:
+    f_max:
+    - '`layout: TPT_PPP_TPT'
+    r_min:
+    - 4 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1850 $
+    - 1150 Nat
+    - 30 Int
+  TGP_BPP_PPB:
+    f_max:
+    - '`layout: TGP_BPP_PPB'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  TGP_TPP_PPG:
+    f_max:
+    - '`layout: TGP_TPP_PPG'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  GPP_PPP_PPB:
+    f_max:
+    - '`layout: GPP_PPP_PPB'
+    r_min:
+    - 0 Nat
+    - 7 Nat
+    - 1 Nat
+    - 550 $
+    - 910 Nat
+    - 92 Int
+  TTP_PPP_BPT:
+    f_max:
+    - '`layout: TTP_PPP_BPT'
+    r_min:
+    - 3 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1550 $
+    - 1140 Nat
+    - 55 Int
+  PPP_PBB_PBP:
+    f_max:
+    - '`layout: PPP_PBB_PBP'
+    r_min:
+    - 0 Nat
+    - 6 Nat
+    - 3 Nat
+    - 600 $
+    - 1080 Nat
+    - 120 Int
+  PGT_PTB_PPP:
+    f_max:
+    - '`layout: PGT_PTB_PPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GGP_BTP_PPP:
+    f_max:
+    - '`layout: GGP_BTP_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 1 Nat
+    - 950 $
+    - 840 Nat
+    - 69 Int
+  GPT_PPP_TBP:
+    f_max:
+    - '`layout: GPT_PPP_TBP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  TGP_BBP_PPP:
+    f_max:
+    - '`layout: TGP_BBP_PPP'
+    r_min:
+    - 1 Nat
+    - 5 Nat
+    - 2 Nat
+    - 950 $
+    - 980 Nat
+    - 87 Int
+  GGP_PPP_PBB:
+    f_max:
+    - '`layout: GGP_PPP_PBB'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int
+  GTP_PPP_TGP:
+    f_max:
+    - '`layout: GTP_PPP_TGP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 0 Nat
+    - 1250 $
+    - 850 Nat
+    - 44 Int
+  PTT_PPP_PPP:
+    f_max:
+    - '`layout: PTT_PPP_PPP'
+    r_min:
+    - 2 Nat
+    - 7 Nat
+    - 0 Nat
+    - 1150 $
+    - 1070 Nat
+    - 60 Int
+  TPT_PPB_BPP:
+    f_max:
+    - '`layout: TPT_PPB_BPP'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 2 Nat
+    - 1250 $
+    - 1130 Nat
+    - 80 Int
+  PTT_PPP_PBP:
+    f_max:
+    - '`layout: PTT_PPP_PBP'
+    r_min:
+    - 2 Nat
+    - 6 Nat
+    - 1 Nat
+    - 1200 $
+    - 1100 Nat
+    - 70 Int
+  GPP_PPP_PPP:
+    f_max:
+    - '`layout: GPP_PPP_PPP'
+    r_min:
+    - 0 Nat
+    - 8 Nat
+    - 0 Nat
+    - 500 $
+    - 880 Nat
+    - 82 Int
+  PTP_PPP_PBP:
+    f_max:
+    - '`layout: PTP_PPP_PBP'
+    r_min:
+    - 1 Nat
+    - 7 Nat
+    - 1 Nat
+    - 850 $
+    - 1060 Nat
+    - 85 Int
+  TPG_PPP_BPT:
+    f_max:
+    - '`layout: TPG_PPP_BPT'
+    r_min:
+    - 2 Nat
+    - 5 Nat
+    - 1 Nat
+    - 1250 $
+    - 990 Nat
+    - 62 Int
+  GGP_BBP_PPP:
+    f_max:
+    - '`layout: GGP_BBP_PPP'
+    r_min:
+    - 0 Nat
+    - 5 Nat
+    - 2 Nat
+    - 650 $
+    - 830 Nat
+    - 94 Int

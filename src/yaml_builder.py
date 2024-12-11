@@ -96,11 +96,14 @@ def generate_quality_yaml(layouts: list[Layout], output_file: str) -> None:
         "implementations": {}
     }
 
+    max_accessibility = max(layout.accessibility() for layout in layouts)
+    max_greenery = max(layout.greenery() for layout in layouts)
+
     for layout in layouts:
         yaml_data["implementations"][layout.pretty_flat] = {
             "f_max": [
-                f"{layout.accessibility()} dimensionless",
-                f"{layout.greenery()} dimensionless"
+                f"{layout.accessibility()/max_accessibility} dimensionless",
+                f"{layout.greenery()/max_greenery} dimensionless"
             ],
             "r_min": [
                 f"`layout: {layout.pretty_flat}"
