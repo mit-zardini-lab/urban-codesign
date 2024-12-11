@@ -8,7 +8,7 @@ mcdp {
     
     quality = required greenery * required accessibility
     
-    approval_per_co2_kg = 0.0001 [dimensionless]
+    approval_per_co2_kg = 0.005 [dimensionless]
     co2_approval = approval_per_co2_kg * provided acceptable_co2_impact_yearly
     
     approval_per_dollar = 0.01 [dimensionless/$]
