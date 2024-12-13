@@ -1,6 +1,6 @@
 ![The Composable Life of Small Urban Spaces](assets/composable-life.png)
 
-1.S980: Applied Category Theory for Engineering Design
+1.S980: Applied Category Theory for Engineering Design, Gioele Zardini
 
 Deniz Aydemir
 
@@ -16,7 +16,7 @@ The goal of this project is to show how co-design may be used for urban and poli
 
 ## Co-design for Small Urban Spaces
 
-The design problem in this project builds and evaluates a small 3x3 grid that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. While a simplified example, we see the co-design framework produce reasonable results from a pool of 400 design layouts: prioritizing accessibility at lower budgets and providing lush greenery at higher budgets. See #Implementation for more details.
+The design problem in this project builds and evaluates a small 3x3 grid that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. While a simplified example, we see the co-design framework produce reasonable results from a pool of 400 design layouts: prioritizing accessibility at lower budgets and providing lush greenery at higher budgets. See [Implementation](#implementation) for more details.
 
 ## Further Study
 Co-design and System Dynamics seem to provide similar capabilities and intuitive power. There is likely a way to connect the two paradigms formally using category theory.
@@ -62,6 +62,10 @@ After filtering out symmetrically equivalent 3x3 grid designs, there were 67,056
 Due to this, a reduced set of designs were used as the pool of implementation options for the design problem. This was done by separating the designs into two subsets: designs with pavement access both east-west and north-south, and the rest. Then 200 designs were selected from each subset, making a pool of 400 designs.
 
 ### Rsults for Fix Functionality Minimize Resources (FixFunMinRes):
+For each query I changed the values in `urban_space_res` and ran
+```bash
+mcdp-solve-query --optimistic 80 --pessimistic 80 urban_space_res --imp
+```
 ![Results for Community Approval >= 0.1](assets/image-1.png)
 ![Results for Community Approval >= 0.3](assets/image-2.png)
 ![Results for Community Approval >= 0.5](assets/image-3.png)
@@ -74,7 +78,10 @@ An interesting takeaway: it seems like designs with through-cutting paths provid
 This of course depends on the specific logic used in the design problems, but it is an unexpected emergent phenomenon nonetheless.
 
 ### Results for Fix Resources Maximize Functionality (FixResMaxFun):
-
+For each query I changed the values in `urban_space_fun` and ran
+```bash
+mcdp-solve-query --optimistic 80 --pessimistic 80 urban_space_fun --imp
+```
 ![Results for $2000 Initial Budget](assets/image-5.png)
 ![Results for $3000 Initial Budget](assets/image-6.png)
 
