@@ -14,7 +14,7 @@ The goal of this project is to show how co-design may be used for urban and poli
 </div>
 
 
-## Designing Small Urban Spaces
+## Co-design for Small Urban Spaces
 
 The design problem in this project builds and evaluates a small 3x3 grid that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. While a simplified example, we see the co-design framework produce reasonable results from a pool of 400 design layouts: prioritizing accessibility at lower budgets and providing lush greenery at higher budgets. See #Implementation for more details.
 
@@ -42,8 +42,8 @@ The overall design problem considered for this project contains the following fu
 - Investment: provides raw materials for an initial budget
 - Assembly: provides spatial designs for a set of raw materials
 - Maintenance: provides acceptable maintenance costs for a community approval level
-- Evaluation: provides the positive qualities (accessibility, greenness) for a spatial design
-- Engagement: provides a community approval for a positive quality value
+- Qualities: provides the positive qualities (accessibility, greenness) for a spatial design
+- Evaluation: provides a community approval for a positive quality value
 
 ### Feedback
 An especially powerful capability of co-design is its ability to handle feedback loops, of which there were three in this design problem:
@@ -80,7 +80,7 @@ This of course depends on the specific logic used in the design problems, but it
 
 More detailed outputs from the mcdp-solve-query runs (and the results of many trial runs) can be found in the [out-query](out-query/) folder.
 
-# Other Materials
+# Materials
 
 [Slides for the Composable Life of Small Urban Spaces Presentation](assets/urban-codesign.pdf)
 
