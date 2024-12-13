@@ -4,4803 +4,2403 @@ F:
 R:
 - '`layout'
 implementations:
-  GGT_TTT_GBG:
+  PTG_BTP_TBB:
     f_max:
-    - 0.1056910569105691 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GGT_TTT_GBG'
-  GGG_PTB_TBP:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: GGG_PTB_TBP'
-  GGB_PGT_BGT:
-    f_max:
-    - 0.2398373983739837 dimensionless
-    - 0.3 dimensionless
-    r_min:
-    - '`layout: GGB_PGT_BGT'
-  GGB_TGB_PBG:
-    f_max:
-    - 0.3130081300813008 dimensionless
-    - 0.3 dimensionless
-    r_min:
-    - '`layout: GGB_TGB_PBG'
-  PTT_BBT_PPG:
-    f_max:
-    - 0.26422764227642276 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: PTT_BBT_PPG'
-  GGT_BGP_BTG:
-    f_max:
-    - 0.20325203252032517 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GGT_BGP_BTG'
-  PTT_BGG_GTB:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: PTT_BGG_GTB'
-  GTP_PGT_PPP:
-    f_max:
-    - 0.35772357723577236 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GTP_PGT_PPP'
-  PPG_PTP_TBB:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PPG_PTP_TBB'
-  PPT_BBP_TPG:
-    f_max:
-    - 0.28861788617886175 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: PPT_BBP_TPG'
-  TBT_BTP_TBG:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.8111111111111111 dimensionless
-    r_min:
-    - '`layout: TBT_BTP_TBG'
-  TGT_TBB_BTT:
-    f_max:
-    - 0.19105691056910568 dimensionless
-    - 0.8666666666666667 dimensionless
-    r_min:
-    - '`layout: TGT_TBB_BTT'
-  TTT_PPB_BPP:
-    f_max:
-    - 0.4817073170731707 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TTT_PPB_BPP'
-  TGP_PTB_TPT:
-    f_max:
-    - 0.1910569105691057 dimensionless
-    - 0.7666666666666667 dimensionless
-    r_min:
-    - '`layout: TGP_PTB_TPT'
-  BTP_PTB_GPB:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.7 dimensionless
-    r_min:
-    - '`layout: BTP_PTB_GPB'
-  TTG_BPP_PPB:
-    f_max:
-    - 0.4898373983739838 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: TTG_BPP_PPB'
-  TTT_PGG_PTB:
-    f_max:
-    - 0.1382113821138211 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TTT_PGG_PTB'
-  PGB_TBB_PBB:
-    f_max:
-    - 0.4593495934959349 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGB_TBB_PBB'
-  TGB_TTB_BGT:
-    f_max:
-    - 0.23577235772357721 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TGB_TTB_BGT'
-  TTT_BTT_PGG:
-    f_max:
-    - 0.15040650406504064 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: TTT_BTT_PGG'
-  GTT_TPB_BPT:
-    f_max:
-    - 0.2764227642276423 dimensionless
-    - 0.8 dimensionless
-    r_min:
-    - '`layout: GTT_TPB_BPT'
-  GGG_TTT_BPT:
-    f_max:
-    - 0.15853658536585366 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: GGG_TTT_BPT'
-  GTP_BBP_PPB:
-    f_max:
-    - 0.39837398373983735 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_BBP_PPB'
-  GGG_GPB_BTG:
-    f_max:
-    - 0.2845528455284553 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: GGG_GPB_BTG'
-  GGT_TTP_TTT:
-    f_max:
-    - 0.04065040650406504 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: GGT_TTP_TTT'
-  PGG_BTP_TPB:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: PGG_BTP_TPB'
-  GTT_TGG_PGP:
-    f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: GTT_TGG_PGP'
-  TGT_GTT_BPB:
-    f_max:
-    - 0.26016260162601623 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: TGT_GTT_BPB'
-  TPT_BBB_TTB:
-    f_max:
-    - 0.3902439024390244 dimensionless
-    - 0.8888888888888888 dimensionless
-    r_min:
-    - '`layout: TPT_BBB_TTB'
-  TPT_BGP_GGB:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: TPT_BGP_GGB'
-  PPT_PBT_TBB:
-    f_max:
-    - 0.32926829268292684 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: PPT_PBT_TBB'
-  GTT_TBB_PGB:
-    f_max:
-    - 0.26016260162601623 dimensionless
-    - 0.5777777777777777 dimensionless
-    r_min:
-    - '`layout: GTT_TBB_PGB'
-  GGT_BBG_GPG:
-    f_max:
-    - 0.24796747967479674 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: GGT_BBG_GPG'
-  TTP_PBT_BBT:
-    f_max:
-    - 0.34146341463414637 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TTP_PBT_BBT'
-  TTT_TGB_BGB:
-    f_max:
-    - 0.23577235772357721 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: TTT_TGB_BGB'
-  TGT_PTT_BTP:
-    f_max:
-    - 0.16666666666666669 dimensionless
+    - 0.4166666666666667 dimensionless
     - 0.7444444444444445 dimensionless
     r_min:
-    - '`layout: TGT_PTT_BTP'
-  TGB_TBB_BGT:
+    - '`layout: PTG_BTP_TBB'
+  GTG_PBB_GPB:
     f_max:
-    - 0.27235772357723576 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TGB_TBB_BGT'
-  GGB_BPG_TTP:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GGB_BPG_TTP'
-  PPT_PGP_PTG:
-    f_max:
-    - 0.35772357723577236 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: PPT_PGP_PTG'
-  PGT_PBT_PGB:
-    f_max:
-    - 0.4552845528455284 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PGT_PBT_PGB'
-  GTP_BGP_GGB:
-    f_max:
-    - 0.26422764227642276 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: GTP_BGP_GGB'
-  GGB_TBG_PPP:
-    f_max:
-    - 0.4634146341463415 dimensionless
+    - 0.39473684210526316 dimensionless
     - 0.3333333333333333 dimensionless
     r_min:
-    - '`layout: GGB_TBG_PPP'
-  PPP_BPP_TTB:
+    - '`layout: GTG_PBB_GPB'
+  GTG_PTB_PBB:
     f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_TTB'
-  TGB_BTB_TTB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7666666666666667 dimensionless
-    r_min:
-    - '`layout: TGB_BTB_TTB'
-  TTG_TGB_BBT:
-    f_max:
-    - 0.23577235772357721 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TTG_TGB_BBT'
-  PPT_BBB_GBB:
-    f_max:
-    - 0.4959349593495935 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PPT_BBB_GBB'
-  TTG_PGG_BPB:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: TTG_PGG_BPB'
-  PGP_PTB_TBP:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: PGP_PTB_TBP'
-  TPG_BGT_GTB:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: TPG_BGT_GTB'
-  BPT_BGG_TBB:
-    f_max:
-    - 0.40650406504065045 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: BPT_BGG_TBB'
-  PGG_PGT_TBB:
-    f_max:
-    - 0.25609756097560976 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: PGG_PGT_TBB'
-  GPG_PBT_PPB:
-    f_max:
-    - 0.2967479674796748 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: GPG_PBT_PPB'
-  TTB_PPB_GGP:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TTB_PPB_GGP'
-  GGG_PTB_TTT:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.6333333333333333 dimensionless
-    r_min:
-    - '`layout: GGG_PTB_TTT'
-  PGG_BBB_GGB:
-    f_max:
-    - 0.3861788617886179 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: PGG_BBB_GGB'
-  GGB_TTP_BGP:
-    f_max:
-    - 0.25609756097560976 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GGB_TTP_BGP'
-  TGB_TTT_BGT:
-    f_max:
-    - 0.16260162601626016 dimensionless
+    - 0.3464912280701754 dimensionless
     - 0.5444444444444444 dimensionless
     r_min:
-    - '`layout: TGB_TTT_BGT'
-  GPT_PGG_TGT:
+    - '`layout: GTG_PTB_PBB'
+  GGG_TBB_BPG:
     f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_PGG_TGT'
-  PTG_PPG_GPG:
-    f_max:
-    - 0.29471544715447157 dimensionless
+    - 0.3771929824561403 dimensionless
     - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: PTG_PPG_GPG'
-  TPG_PBG_GTB:
+    - '`layout: GGG_TBB_BPG'
+  GTT_PTG_BPP:
     f_max:
-    - 0.21951219512195122 dimensionless
+    - 0.21491228070175436 dimensionless
+    - 0.5 dimensionless
+    r_min:
+    - '`layout: GTT_PTG_BPP'
+  GGG_GTT_BPB:
+    f_max:
+    - 0.2982456140350877 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: GGG_GTT_BPB'
+  TGG_TBB_BGT:
+    f_max:
+    - 0.2236842105263158 dimensionless
     - 0.5555555555555556 dimensionless
     r_min:
-    - '`layout: TPG_PBG_GTB'
-  GTG_PGG_PGB:
+    - '`layout: TGG_TBB_BGT'
+  PGG_GBB_BTP:
     f_max:
-    - 0.16260162601626016 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: GTG_PGG_PGB'
-  GTB_PBT_GBP:
-    f_max:
-    - 0.3211382113821138 dimensionless
-    - 0.5777777777777777 dimensionless
-    r_min:
-    - '`layout: GTB_PBT_GBP'
-  TTP_PBG_TGG:
-    f_max:
-    - 0.14634146341463414 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: TTP_PBG_TGG'
-  GPB_BBP_PGT:
-    f_max:
-    - 0.38211382113821135 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPB_BBP_PGT'
-  GGB_GTG_BPP:
-    f_max:
-    - 0.26422764227642276 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: GGB_GTG_BPP'
-  TGP_TBG_TPB:
-    f_max:
-    - 0.24796747967479674 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TGP_TBG_TPB'
-  PGP_PBP_TTG:
-    f_max:
-    - 0.1869918699186992 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: PGP_PBP_TTG'
-  TPT_PPB_PPG:
-    f_max:
-    - 0.459349593495935 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TPT_PPB_PPG'
-  TPT_BPT_PBP:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_BPT_PBP'
-  PTT_BPB_PTG:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7555555555555555 dimensionless
-    r_min:
-    - '`layout: PTT_BPB_PTG'
-  GTG_TGT_TGG:
-    f_max:
-    - 0.04065040650406504 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: GTG_TGT_TGG'
-  GTT_PPP_BPB:
-    f_max:
-    - 0.5447154471544716 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: GTT_PPP_BPB'
-  GTP_BBT_PGB:
-    f_max:
-    - 0.3211382113821138 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_BBT_PGB'
-  TGG_PBB_TPB:
-    f_max:
-    - 0.35772357723577236 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: TGG_PBB_TPB'
-  GGG_GGP_BTB:
-    f_max:
-    - 0.24796747967479674 dimensionless
-    - 0.34444444444444444 dimensionless
-    r_min:
-    - '`layout: GGG_GGP_BTB'
-  GGT_BPG_TGP:
-    f_max:
-    - 0.19105691056910568 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: GGT_BPG_TGP'
-  GGG_TTP_TGG:
-    f_max:
-    - 0.06504065040650406 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: GGG_TTP_TGG'
-  TTP_PGT_TPT:
-    f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.7666666666666667 dimensionless
-    r_min:
-    - '`layout: TTP_PGT_TPT'
-  GGT_PPG_GBB:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GGT_PPG_GBB'
-  GBG_BTB_GBP:
-    f_max:
-    - 0.4146341463414634 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: GBG_BTB_GBP'
-  GGB_PPG_GPB:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGB_PPG_GPB'
-  PTG_TBT_TBG:
-    f_max:
-    - 0.18699186991869918 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: PTG_TBT_TBG'
-  GPG_PGT_GTB:
-    f_max:
-    - 0.15447154471544713 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GPG_PGT_GTB'
-  TGB_PGP_PBP:
-    f_max:
-    - 0.33333333333333337 dimensionless
-    - 0.23333333333333334 dimensionless
-    r_min:
-    - '`layout: TGB_PGP_PBP'
-  PGP_BTP_BPP:
-    f_max:
-    - 0.5691056910569107 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PGP_BTP_BPP'
-  GGP_PBP_BGG:
-    f_max:
-    - 0.28861788617886175 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGP_PBP_BGG'
-  TGT_TTT_TBG:
-    f_max:
-    - 0.08943089430894309 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: TGT_TTT_TBG'
-  GGT_PBT_TTG:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: GGT_PBT_TTG'
-  GGT_PBP_BPG:
-    f_max:
-    - 0.2804878048780488 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: GGT_PBP_BPG'
-  PTG_PPB_PBB:
-    f_max:
-    - 0.6544715447154472 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PTG_PPB_PBB'
-  TTG_TTP_GPG:
-    f_max:
-    - 0.07317073170731707 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: TTG_TTP_GPG'
-  TPT_BTG_BTB:
-    f_max:
-    - 0.2886178861788618 dimensionless
-    - 0.8111111111111111 dimensionless
-    r_min:
-    - '`layout: TPT_BTG_BTB'
-  GBP_BGG_BBP:
-    f_max:
-    - 0.43902439024390244 dimensionless
-    - 0.16666666666666666 dimensionless
-    r_min:
-    - '`layout: GBP_BGG_BBP'
-  TPB_BTP_BGB:
-    f_max:
-    - 0.4593495934959349 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: TPB_BTP_BGB'
-  GPT_BGG_PBP:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: GPT_BGG_PBP'
-  GGP_GPP_BGB:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GGP_GPP_BGB'
-  PGB_PGB_BTP:
-    f_max:
-    - 0.38211382113821135 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: PGB_PGB_BTP'
-  GGP_PBG_GBP:
-    f_max:
-    - 0.28861788617886175 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGP_PBG_GBP'
-  GGT_GBG_TGB:
-    f_max:
-    - 0.15040650406504064 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: GGT_GBG_TGB'
-  TGP_TBB_PBT:
-    f_max:
-    - 0.34959349593495936 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: TGP_TBB_PBT'
-  GBT_BBP_BTT:
-    f_max:
-    - 0.3617886178861789 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: GBT_BBP_BTT'
-  GGG_GTP_BBT:
-    f_max:
-    - 0.2398373983739837 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GGG_GTP_BBT'
-  TGT_PGG_PGG:
-    f_max:
-    - 0.08943089430894309 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: TGT_PGG_PGG'
-  GTB_BBG_PBT:
-    f_max:
-    - 0.40650406504065045 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: GTB_BBG_PBT'
-  GGG_GGT_BPB:
-    f_max:
-    - 0.2845528455284553 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: GGG_GGT_BPB'
-  TTG_TTT_PGG:
-    f_max:
-    - 0.04878048780487805 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: TTG_TTT_PGG'
-  PGB_TPB_BTB:
-    f_max:
-    - 0.4959349593495935 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PGB_TPB_BTB'
-  PBG_BTB_GBG:
-    f_max:
-    - 0.4146341463414634 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: PBG_BTB_GBG'
-  GGT_TTG_TPP:
-    f_max:
-    - 0.07317073170731707 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: GGT_TTG_TPP'
-  PGG_TTP_TBG:
-    f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PGG_TTP_TBG'
-  GTP_BPB_TTB:
-    f_max:
-    - 0.3861788617886179 dimensionless
-    - 0.7555555555555555 dimensionless
-    r_min:
-    - '`layout: GTP_BPB_TTB'
-  TBT_BTB_BPB:
-    f_max:
-    - 0.5365853658536586 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: TBT_BTB_BPB'
-  TTB_TBT_BBP:
-    f_max:
-    - 0.35365853658536583 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TTB_TBT_BBP'
-  PPT_BGT_PBG:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: PPT_BGT_PBG'
-  GTT_BTG_TTP:
-    f_max:
-    - 0.1138211382113821 dimensionless
-    - 0.6555555555555556 dimensionless
-    r_min:
-    - '`layout: GTT_BTG_TTP'
-  GPP_BPB_TGG:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: GPP_BPB_TGG'
-  TPB_BPP_BPB:
-    f_max:
-    - 0.7560975609756098 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPB_BPP_BPB'
-  PGT_BBG_BBP:
-    f_max:
-    - 0.43089430894308944 dimensionless
-    - 0.2 dimensionless
-    r_min:
-    - '`layout: PGT_BBG_BBP'
-  PGT_PTT_PTG:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: PGT_PTT_PTG'
-  GTP_TGG_PTT:
-    f_max:
-    - 0.07317073170731707 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GTP_TGG_PTT'
-  TPB_BGP_GBB:
-    f_max:
-    - 0.5040650406504066 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: TPB_BGP_GBB'
-  GTB_BBT_GBP:
-    f_max:
-    - 0.36991869918699183 dimensionless
-    - 0.5777777777777777 dimensionless
-    r_min:
-    - '`layout: GTB_BBT_GBP'
-  GBG_BTP_TBB:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: GBG_BTP_TBB'
-  TPP_BPG_BPB:
-    f_max:
-    - 0.6544715447154472 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TPP_BPG_BPB'
-  TTB_PPG_PPP:
-    f_max:
-    - 0.459349593495935 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TTB_PPG_PPP'
-  TPT_PTG_BBP:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.6555555555555556 dimensionless
-    r_min:
-    - '`layout: TPT_PTG_BBP'
-  GTG_PBP_TPT:
-    f_max:
-    - 0.16260162601626016 dimensionless
-    - 0.7333333333333333 dimensionless
-    r_min:
-    - '`layout: GTG_PBP_TPT'
-  GPT_PPB_TBT:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_PPB_TBT'
-  GTG_BBB_GTP:
-    f_max:
-    - 0.3048780487804878 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: GTG_BBB_GTP'
-  GGT_BGB_BBB:
-    f_max:
-    - 0.3902439024390244 dimensionless
-    - 0.23333333333333334 dimensionless
-    r_min:
-    - '`layout: GGT_BGB_BBB'
-  TTT_BBB_PBG:
-    f_max:
-    - 0.39837398373983735 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: TTT_BBB_PBG'
-  GTG_BPB_BTT:
-    f_max:
-    - 0.36991869918699183 dimensionless
-    - 0.7333333333333333 dimensionless
-    r_min:
-    - '`layout: GTG_BPB_BTT'
-  TTP_BTB_PTG:
-    f_max:
-    - 0.2764227642276423 dimensionless
-    - 0.8555555555555555 dimensionless
-    r_min:
-    - '`layout: TTP_BTB_PTG'
-  GGT_PGT_GTG:
-    f_max:
-    - 0.06504065040650406 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: GGT_PGT_GTG'
-  PTP_PPG_TPG:
-    f_max:
-    - 0.30284552845528456 dimensionless
-    - 0.5777777777777777 dimensionless
-    r_min:
-    - '`layout: PTP_PPG_TPG'
-  TPG_PPP_GBB:
-    f_max:
-    - 0.5528455284552845 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_GBB'
-  GGG_PBB_TBP:
-    f_max:
-    - 0.36585365853658536 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: GGG_PBB_TBP'
-  PTP_PBG_TGG:
-    f_max:
-    - 0.17073170731707318 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PBG_TGG'
-  PGB_PTG_TBB:
-    f_max:
-    - 0.3211382113821138 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PGB_PTG_TBB'
-  PGP_BPG_PGG:
-    f_max:
-    - 0.2398373983739837 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: PGP_BPG_PGG'
-  PTG_PGB_TGB:
-    f_max:
-    - 0.21951219512195122 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: PTG_PGB_TGB'
-  TTP_BTT_PBT:
-    f_max:
-    - 0.2682926829268293 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: TTP_BTT_PBT'
-  PPG_BGG_TGB:
-    f_max:
-    - 0.26422764227642276 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: PPG_BGG_TGB'
-  PGG_BBG_PGB:
-    f_max:
-    - 0.3373983739837398 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: PGG_BBG_PGB'
-  TTP_BPB_BGB:
-    f_max:
-    - 0.4959349593495935 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: TTP_BPB_BGB'
-  TGP_PGG_TPP:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: TGP_PGG_TPP'
-  GPG_BBB_TBP:
-    f_max:
-    - 0.467479674796748 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPG_BBB_TBP'
-  PGP_PTB_TPG:
-    f_max:
-    - 0.22357723577235775 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PGP_PTB_TPG'
-  BGG_BBB_TGB:
-    f_max:
-    - 0.35365853658536583 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: BGG_BBB_TGB'
-  TGP_PBG_BPP:
-    f_max:
-    - 0.2967479674796748 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: TGP_PBG_BPP'
-  GBP_BPP_BGT:
-    f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GBP_BPP_BGT'
-  TPT_PPT_PGG:
-    f_max:
-    - 0.2784552845528455 dimensionless
-    - 0.6222222222222222 dimensionless
-    r_min:
-    - '`layout: TPT_PPT_PGG'
-  TBG_BBT_BPB:
-    f_max:
-    - 0.5081300813008129 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TBG_BBT_BPB'
-  TPT_PGT_BPB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TPT_PGT_BPB'
-  TPG_BTP_GGB:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: TPG_BTP_GGB'
-  GPT_BGG_BTT:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: GPT_BGG_BTT'
-  GPB_BTT_PPT:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7 dimensionless
-    r_min:
-    - '`layout: GPB_BTT_PPT'
-  BGB_BTB_BGB:
-    f_max:
-    - 0.4552845528455285 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: BGB_BTB_BGB'
-  PBT_BTB_TBB:
-    f_max:
-    - 0.4634146341463415 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: PBT_BTB_TBB'
-  PPT_PGB_PTB:
-    f_max:
-    - 0.508130081300813 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: PPT_PGB_PTB'
-  TTT_PPB_BPT:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TTT_PPB_BPT'
-  TGB_PGP_GGP:
-    f_max:
-    - 0.2154471544715447 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: TGB_PGP_GGP'
-  GGB_BBG_PGP:
-    f_max:
-    - 0.3373983739837398 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGB_BBG_PGP'
-  BPG_PBG_BBB:
-    f_max:
-    - 0.540650406504065 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: BPG_PBG_BBB'
-  PGT_GTG_BPP:
-    f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: PGT_GTG_BPP'
-  GPT_BBB_BPG:
-    f_max:
-    - 0.467479674796748 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_BBB_BPG'
-  TGT_TGT_PGG:
-    f_max:
-    - 0.05691056910569105 dimensionless
-    - 0.34444444444444444 dimensionless
-    r_min:
-    - '`layout: TGT_TGT_PGG'
-  GGB_PGP_TBG:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: GGB_PGP_TBG'
-  TGG_GBB_TGB:
-    f_max:
-    - 0.21544715447154472 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: TGG_GBB_TGB'
-  PPT_PTB_PBP:
-    f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: PPT_PTB_PBP'
-  TTP_BBP_BBT:
-    f_max:
-    - 0.3780487804878049 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_BBP_BBT'
-  TGB_PBG_BBT:
-    f_max:
-    - 0.40650406504065045 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: TGB_PBG_BBT'
-  TPB_BGB_TTB:
-    f_max:
-    - 0.4349593495934959 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TPB_BGB_TTB'
-  PPG_PGG_TPB:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.3 dimensionless
-    r_min:
-    - '`layout: PPG_PGG_TPB'
-  PTG_BPB_GPB:
-    f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: PTG_BPB_GPB'
-  TPT_BPT_TGP:
-    f_max:
-    - 0.1910569105691057 dimensionless
-    - 0.8222222222222222 dimensionless
-    r_min:
-    - '`layout: TPT_BPT_TGP'
-  TPG_PGP_PGB:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: TPG_PGP_PGB'
-  TTT_TGT_BBT:
-    f_max:
-    - 0.15447154471544713 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: TTT_TGT_BBT'
-  GTG_PBB_GTT:
-    f_max:
-    - 0.1951219512195122 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: GTG_PBB_GTT'
-  GPB_BGB_PGT:
-    f_max:
-    - 0.4024390243902439 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: GPB_BGB_PGT'
-  GBP_BTB_BPP:
-    f_max:
-    - 0.5203252032520325 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GBP_BTB_BPP'
-  BTP_BTB_GBB:
-    f_max:
-    - 0.4349593495934959 dimensionless
-    - 0.7 dimensionless
-    r_min:
-    - '`layout: BTP_BTB_GBB'
-  TTP_BTG_BTP:
-    f_max:
-    - 0.20325203252032523 dimensionless
-    - 0.8111111111111111 dimensionless
-    r_min:
-    - '`layout: TTP_BTG_BTP'
-  GGT_BTT_PGT:
-    f_max:
-    - 0.15853658536585366 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GGT_BTT_PGT'
-  TGT_PPP_BGB:
-    f_max:
-    - 0.5284552845528455 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TGT_PPP_BGB'
-  BTB_BBB_PPB:
-    f_max:
-    - 0.5975609756097561 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: BTB_BBB_PPB'
-  GTT_PTP_TTB:
-    f_max:
-    - 0.16666666666666669 dimensionless
-    - 0.8555555555555555 dimensionless
-    r_min:
-    - '`layout: GTT_PTP_TTB'
-  TGP_BPB_BGP:
-    f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TGP_BPB_BGP'
-  TTP_TPG_PBB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TTP_TPG_PBB'
-  TTP_PGB_PBG:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: TTP_PGB_PBG'
-  GGG_BBT_BTG:
-    f_max:
-    - 0.21544715447154472 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: GGG_BBT_BTG'
-  GTT_PTP_BTG:
-    f_max:
-    - 0.17479674796747965 dimensionless
-    - 0.7666666666666667 dimensionless
-    r_min:
-    - '`layout: GTT_PTP_BTG'
-  GGP_BPG_PGG:
-    f_max:
-    - 0.22357723577235772 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGP_BPG_PGG'
-  GTG_TPB_TGP:
-    f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GTG_TPB_TGP'
-  TPB_BBG_TPP:
-    f_max:
-    - 0.3739837398373984 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: TPB_BBG_TPP'
-  BTG_BBB_BPB:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: BTG_BBB_BPB'
-  PTG_BBB_BTP:
-    f_max:
-    - 0.4227642276422764 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: PTG_BBB_BTP'
-  GGT_PPP_PBB:
-    f_max:
-    - 0.5528455284552845 dimensionless
-    - 0.24444444444444444 dimensionless
-    r_min:
-    - '`layout: GGT_PPP_PBB'
-  PGP_BTT_BGP:
-    f_max:
-    - 0.27235772357723576 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PGP_BTT_BGP'
-  GPB_BPB_PTT:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPB_BPB_PTT'
-  GPB_BBB_GBT:
-    f_max:
-    - 0.516260162601626 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPB_BBB_GBT'
-  TTT_BBB_BGB:
-    f_max:
-    - 0.33739837398373984 dimensionless
-    - 0.6222222222222222 dimensionless
-    r_min:
-    - '`layout: TTT_BBB_BGB'
-  TPT_PGT_TBP:
-    f_max:
-    - 0.1910569105691057 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: TPT_PGT_TBP'
-  PGP_BTB_TBG:
-    f_max:
-    - 0.35772357723577236 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PGP_BTB_TBG'
-  GBT_BBP_PPB:
-    f_max:
-    - 0.48373983739837395 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GBT_BBP_PPB'
-  GGB_BGB_TGB:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: GGB_BGB_TGB'
-  GGG_PTG_BPG:
-    f_max:
-    - 0.19918699186991867 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: GGG_PTG_BPG'
-  GBG_BPP_BPT:
-    f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GBG_BPP_BPT'
-  GGP_BPB_PGP:
-    f_max:
-    - 0.34146341463414637 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GGP_BPB_PGP'
-  GTP_BTB_GPB:
-    f_max:
-    - 0.39430894308943093 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: GTP_BTB_GPB'
-  TGG_PPT_BPP:
-    f_max:
-    - 0.3882113821138211 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TGG_PPT_BPP'
-  GTP_PPT_BBB:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_PPT_BBB'
-  GGP_TPB_GBG:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_TPB_GBG'
-  TTP_PBB_PPG:
-    f_max:
-    - 0.28861788617886175 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TTP_PBB_PPG'
-  GTP_PGT_GPT:
-    f_max:
-    - 0.0975609756097561 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: GTP_PGT_GPT'
-  TGG_TGP_TPB:
-    f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: TGG_TGP_TPB'
-  TGG_TPG_BBP:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: TGG_TPG_BBP'
-  GGP_GGP_BGG:
-    f_max:
-    - 0.17073170731707318 dimensionless
-    - 0.16666666666666666 dimensionless
-    r_min:
-    - '`layout: GGP_GGP_BGG'
-  TGT_BBG_TTP:
-    f_max:
-    - 0.18699186991869918 dimensionless
-    - 0.7333333333333333 dimensionless
-    r_min:
-    - '`layout: TGT_BBG_TTP'
-  GGG_TBT_BTB:
-    f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.6222222222222222 dimensionless
-    r_min:
-    - '`layout: GGG_TBT_BTB'
-  TTP_PBP_BPT:
-    f_max:
-    - 0.2804878048780488 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PBP_BPT'
-  TPG_BTG_PTB:
-    f_max:
-    - 0.24796747967479674 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: TPG_BTG_PTB'
-  PGG_BBG_GBB:
-    f_max:
-    - 0.3861788617886179 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: PGG_BBG_GBB'
-  GGP_TPP_TGG:
-    f_max:
-    - 0.1056910569105691 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: GGP_TPP_TGG'
-  GGP_TGT_PTP:
-    f_max:
-    - 0.0975609756097561 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: GGP_TGT_PTP'
-  TGP_BPB_TGG:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: TGP_BPB_TGG'
-  TBP_BGT_PBG:
-    f_max:
-    - 0.39430894308943093 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: TBP_BGT_PBG'
-  GTG_TPT_GTP:
-    f_max:
-    - 0.07317073170731707 dimensionless
-    - 0.6222222222222222 dimensionless
-    r_min:
-    - '`layout: GTG_TPT_GTP'
-  TTP_TGG_PGB:
-    f_max:
-    - 0.14634146341463414 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: TTP_TGG_PGB'
-  GTB_BBB_GTT:
-    f_max:
-    - 0.27235772357723576 dimensionless
-    - 0.7333333333333333 dimensionless
-    r_min:
-    - '`layout: GTB_BBB_GTT'
-  GGB_PGT_PBT:
-    f_max:
-    - 0.25609756097560976 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: GGB_PGT_PBT'
-  TTP_BGB_TTB:
-    f_max:
-    - 0.2886178861788618 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: TTP_BGB_TTB'
-  GBT_BBB_PGB:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: GBT_BBB_PGB'
-  TPP_BGB_GPB:
-    f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: TPP_BGB_GPB'
-  TTG_TTG_BGP:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: TTG_TTG_BGP'
-  GPT_BGB_TTT:
-    f_max:
-    - 0.26016260162601623 dimensionless
-    - 0.6333333333333333 dimensionless
-    r_min:
-    - '`layout: GPT_BGB_TTT'
-  PGT_TTT_PBG:
-    f_max:
-    - 0.17479674796747965 dimensionless
-    - 0.6555555555555556 dimensionless
-    r_min:
-    - '`layout: PGT_TTT_PBG'
-  PTP_PTB_TPB:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: PTP_PTB_TPB'
-  TPP_BBB_TGP:
-    f_max:
-    - 0.3739837398373984 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPP_BBB_TGP'
-  GPT_PPG_TGP:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: GPT_PPG_TGP'
-  PGG_PBG_TGB:
-    f_max:
-    - 0.2276422764227642 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PGG_PBG_TGB'
-  PPG_PGB_BPB:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.12222222222222222 dimensionless
-    r_min:
-    - '`layout: PPG_PGB_BPB'
-  GTT_PGT_BGP:
-    f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.3888888888888889 dimensionless
-    r_min:
-    - '`layout: GTT_PGT_BGP'
-  TGB_TPB_TTB:
-    f_max:
-    - 0.3617886178861789 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: TGB_TPB_TTB'
-  GTG_PTT_GPP:
-    f_max:
-    - 0.0975609756097561 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: GTG_PTT_GPP'
-  TGB_GPP_BPP:
-    f_max:
-    - 0.33333333333333337 dimensionless
-    - 0.2 dimensionless
-    r_min:
-    - '`layout: TGB_GPP_BPP'
-  BPT_PTB_PGB:
-    f_max:
-    - 0.3739837398373984 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: BPT_PTB_PGB'
-  BTB_PGP_TPB:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: BTB_PGP_TPB'
-  PTB_BBT_GTB:
-    f_max:
-    - 0.3617886178861789 dimensionless
-    - 0.7555555555555555 dimensionless
-    r_min:
-    - '`layout: PTB_BBT_GTB'
-  GGG_GPT_TPT:
-    f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: GGG_GPT_TPT'
-  GGG_PPB_PBT:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: GGG_PPB_PBT'
-  GTT_BTP_TBP:
-    f_max:
-    - 0.23983739837398377 dimensionless
-    - 0.7444444444444445 dimensionless
-    r_min:
-    - '`layout: GTT_BTP_TBP'
-  TTT_PGP_PBB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: TTT_PGP_PBB'
-  GPP_PBB_BTP:
-    f_max:
-    - 0.39837398373983735 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: GPP_PBB_BTP'
-  TGP_TGB_BTB:
-    f_max:
-    - 0.2967479674796748 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: TGP_TGB_BTB'
-  TPG_BPT_BPP:
-    f_max:
-    - 0.5447154471544716 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TPG_BPT_BPP'
-  BTG_BGB_PPB:
-    f_max:
-    - 0.467479674796748 dimensionless
-    - 0.32222222222222224 dimensionless
-    r_min:
-    - '`layout: BTG_BGB_PPB'
-  TTT_PBB_TPT:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 1.0 dimensionless
-    r_min:
-    - '`layout: TTT_PBB_TPT'
-  GGG_GGG_TTB:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: GGG_GGG_TTB'
-  TGT_TPT_PPP:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.6888888888888889 dimensionless
-    r_min:
-    - '`layout: TGT_TPT_PPP'
-  GTG_TGP_TPB:
-    f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GTG_TGP_TPB'
-  TGT_BBT_TBG:
-    f_max:
-    - 0.19918699186991867 dimensionless
-    - 0.7333333333333333 dimensionless
-    r_min:
-    - '`layout: TGT_BBT_TBG'
-  PGT_PBT_TGB:
-    f_max:
-    - 0.2113821138211382 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: PGT_PBT_TGB'
-  GPT_PBP_PBT:
-    f_max:
-    - 0.28861788617886175 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_PBP_PBT'
-  TTP_PGT_PPG:
-    f_max:
-    - 0.11382113821138212 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: TTP_PGT_PPG'
-  GPP_BTG_GPB:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GPP_BTG_GPB'
-  TBP_BTB_BBB:
-    f_max:
-    - 0.5365853658536586 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: TBP_BTB_BBB'
-  GTT_TBT_PBT:
-    f_max:
-    - 0.21544715447154472 dimensionless
-    - 0.8 dimensionless
-    r_min:
-    - '`layout: GTT_TBT_PBT'
-  BGG_PTB_PGB:
-    f_max:
-    - 0.32926829268292684 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: BGG_PTB_PGB'
-  TTP_BBP_TGP:
-    f_max:
-    - 0.4471544715447155 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_BBP_TGP'
-  BGP_GTP_PBB:
-    f_max:
-    - 0.38211382113821135 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: BGP_GTP_PBB'
-  TGG_BPG_PGB:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TGG_BPG_PGB'
-  GGP_PBB_TPT:
-    f_max:
-    - 0.27235772357723576 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GGP_PBB_TPT'
-  GGP_BTT_PTB:
-    f_max:
-    - 0.24796747967479674 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: GGP_BTT_PTB'
-  GGT_PPB_GBT:
-    f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GGT_PPB_GBT'
-  GGP_BGB_BBT:
-    f_max:
-    - 0.3780487804878049 dimensionless
-    - 0.3 dimensionless
-    r_min:
-    - '`layout: GGP_BGB_BBT'
-  BGP_TPP_TBB:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: BGP_TPP_TBB'
-  PGP_BTP_BBP:
-    f_max:
-    - 0.6178861788617886 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PGP_BTP_BBP'
-  GBG_BTB_TPB:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: GBG_BTB_TPB'
-  TGG_PGP_GBB:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: TGG_PGP_GBB'
-  TBG_BBP_BGB:
-    f_max:
-    - 0.47967479674796754 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: TBG_BBP_BGB'
-  GTG_PTB_PPB:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.5444444444444444 dimensionless
-    r_min:
-    - '`layout: GTG_PTB_PPB'
-  BPG_PGB_PBB:
-    f_max:
-    - 0.491869918699187 dimensionless
-    - 0.12222222222222222 dimensionless
-    r_min:
-    - '`layout: BPG_PGB_PBB'
-  PGP_TPB_BBB:
-    f_max:
-    - 0.5203252032520325 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGP_TPB_BBB'
-  PGT_BBT_GTB:
-    f_max:
-    - 0.2967479674796748 dimensionless
-    - 0.5777777777777777 dimensionless
-    r_min:
-    - '`layout: PGT_BBT_GTB'
-  GGP_PTB_BGG:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_PTB_BGG'
-  BTG_TBP_BGB:
-    f_max:
-    - 0.36991869918699183 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: BTG_TBP_BGB'
-  TBP_BTB_PBB:
-    f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: TBP_BTB_PBB'
-  TPP_BPT_TGB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: TPP_BPT_TGB'
-  GTT_TTB_BTB:
-    f_max:
-    - 0.22764227642276424 dimensionless
-    - 0.7888888888888889 dimensionless
-    r_min:
-    - '`layout: GTT_TTB_BTB'
-  GPP_BTB_TBB:
-    f_max:
-    - 0.4227642276422764 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_BTB_TBB'
-  PGP_TPT_GGB:
-    f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: PGP_TPT_GGB'
-  GGG_GPP_BTB:
-    f_max:
-    - 0.30081300813008127 dimensionless
+    - 0.35526315789473684 dimensionless
     - 0.4 dimensionless
     r_min:
-    - '`layout: GGG_GPP_BTB'
-  TTP_PPG_GTB:
+    - '`layout: PGG_GBB_BTP'
+  TTT_BGB_BTP:
     f_max:
-    - 0.19918699186991867 dimensionless
-    - 0.6888888888888889 dimensionless
+    - 0.31140350877192985 dimensionless
+    - 0.7222222222222222 dimensionless
     r_min:
-    - '`layout: TTP_PPG_GTB'
-  GPB_BGP_PBT:
+    - '`layout: TTT_BGB_BTP'
+  GGB_BBG_TPB:
     f_max:
-    - 0.4186991869918699 dimensionless
-    - 0.2777777777777778 dimensionless
+    - 0.4473684210526316 dimensionless
+    - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: GPB_BGP_PBT'
-  PGG_GGP_PBG:
+    - '`layout: GGB_BBG_TPB'
+  TBT_BGB_BGP:
     f_max:
-    - 0.22357723577235772 dimensionless
-    - 0.18888888888888888 dimensionless
-    r_min:
-    - '`layout: PGG_GGP_PBG'
-  PPG_BPG_TTB:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: PPG_BPG_TTB'
-  TTB_PGT_BBT:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: TTB_PGT_BBT'
-  BGT_BBP_BBB:
-    f_max:
-    - 0.5447154471544715 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: BGT_BBP_BBB'
-  GTG_TTP_PGG:
-    f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GTG_TTP_PGG'
-  TTB_PTP_PPT:
-    f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: TTB_PTP_PPT'
-  TPP_BPB_TTB:
-    f_max:
-    - 0.4024390243902439 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPP_BPB_TTB'
-  GGB_BPT_TTP:
-    f_max:
-    - 0.2845528455284553 dimensionless
-    - 0.6888888888888889 dimensionless
-    r_min:
-    - '`layout: GGB_BPT_TTP'
-  PGT_PBP_TGB:
-    f_max:
-    - 0.27235772357723576 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PGT_PBP_TGB'
-  GTP_BPG_PBG:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_BPG_PBG'
-  PGT_GTG_BTB:
-    f_max:
-    - 0.1951219512195122 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: PGT_GTG_BTB'
-  TTP_PGP_TBB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: TTP_PGP_TBB'
-  TTG_PGP_BTP:
-    f_max:
-    - 0.19918699186991867 dimensionless
-    - 0.6333333333333333 dimensionless
-    r_min:
-    - '`layout: TTG_PGP_BTP'
-  GTB_BTB_BPT:
-    f_max:
-    - 0.4349593495934959 dimensionless
-    - 0.7444444444444445 dimensionless
-    r_min:
-    - '`layout: GTB_BTB_BPT'
-  GBG_BTP_TPB:
-    f_max:
-    - 0.39430894308943093 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: GBG_BTP_TPB'
-  PGT_BPP_TGB:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PGT_BPP_TGB'
-  BTP_BTB_TPB:
-    f_max:
-    - 0.45121951219512196 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: BTP_BTB_TPB'
-  PBB_BBT_BTB:
-    f_max:
-    - 0.5365853658536586 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PBB_BBT_BTB'
-  PTB_PGB_TGB:
-    f_max:
-    - 0.2845528455284553 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PTB_PGB_TGB'
-  GTT_BTT_BGB:
-    f_max:
-    - 0.23577235772357721 dimensionless
-    - 0.5666666666666667 dimensionless
-    r_min:
-    - '`layout: GTT_BTT_BGB'
-  GPB_PPG_BBP:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GPB_PPG_BBP'
-  GPP_BBT_TTP:
-    f_max:
-    - 0.26422764227642276 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_BBT_TTP'
-  GPT_PGB_TBP:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: GPT_PGB_TBP'
-  GTG_TGT_BTT:
-    f_max:
-    - 0.0975609756097561 dimensionless
-    - 0.43333333333333335 dimensionless
-    r_min:
-    - '`layout: GTG_TGT_BTT'
-  GGP_BGB_TPP:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.3 dimensionless
-    r_min:
-    - '`layout: GGP_BGB_TPP'
-  GTG_BBB_TPP:
-    f_max:
-    - 0.35772357723577236 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GTG_BBB_TPP'
-  GTP_BGG_TGP:
-    f_max:
-    - 0.15447154471544713 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_BGG_TGP'
-  TGT_PGP_TGP:
-    f_max:
-    - 0.0975609756097561 dimensionless
+    - 0.3991228070175438 dimensionless
     - 0.45555555555555555 dimensionless
     r_min:
-    - '`layout: TGT_PGP_TGP'
-  TBP_BPT_PBB:
+    - '`layout: TBT_BGB_BGP'
+  GGT_PGP_PGB:
     f_max:
-    - 0.5121951219512195 dimensionless
-    - 0.5555555555555556 dimensionless
+    - 0.23245614035087717 dimensionless
+    - 0.2777777777777778 dimensionless
     r_min:
-    - '`layout: TBP_BPT_PBB'
-  GTB_BBT_PTB:
+    - '`layout: GGT_PGP_PGB'
+  PTT_TBP_PPP:
     f_max:
-    - 0.3617886178861789 dimensionless
-    - 0.7555555555555555 dimensionless
+    - 0.4473684210526316 dimensionless
+    - 0.6666666666666666 dimensionless
     r_min:
-    - '`layout: GTB_BBT_PTB'
-  TGB_TBP_BPT:
+    - '`layout: PTT_TBP_PPP'
+  PTP_BGP_TBP:
     f_max:
-    - 0.34959349593495936 dimensionless
-    - 0.6 dimensionless
+    - 0.5877192982456141 dimensionless
+    - 0.5222222222222223 dimensionless
     r_min:
-    - '`layout: TGB_TBP_BPT'
-  GBT_BGG_BBB:
+    - '`layout: PTP_BGP_TBP'
+  GGT_BPP_TTT:
     f_max:
-    - 0.3902439024390244 dimensionless
-    - 0.25555555555555554 dimensionless
+    - 0.18859649122807015 dimensionless
+    - 0.8 dimensionless
     r_min:
-    - '`layout: GBT_BGG_BBB'
-  GGB_PGB_TPP:
+    - '`layout: GGT_BPP_TTT'
+  TGP_PPG_PGP:
     f_max:
-    - 0.2804878048780488 dimensionless
-    - 0.3 dimensionless
+    - 0.15789473684210525 dimensionless
+    - 0.3111111111111111 dimensionless
     r_min:
-    - '`layout: GGB_PGB_TPP'
-  GTT_PTB_GTG:
+    - '`layout: TGP_PPG_PGP'
+  GTP_PBB_BPG:
     f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.6777777777777778 dimensionless
+    - 0.41228070175438597 dimensionless
+    - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: GTT_PTB_GTG'
-  TTT_TGT_BBP:
+    - '`layout: GTP_PBB_BPG'
+  GPT_BPB_BBP:
     f_max:
-    - 0.21544715447154472 dimensionless
-    - 0.5444444444444444 dimensionless
+    - 0.5614035087719298 dimensionless
+    - 0.26666666666666666 dimensionless
     r_min:
-    - '`layout: TTT_TGT_BBP'
-  TPT_PBG_PGP:
+    - '`layout: GPT_BPB_BBP'
+  BTG_PTG_GTB:
     f_max:
-    - 0.1869918699186992 dimensionless
-    - 0.4888888888888889 dimensionless
+    - 0.25 dimensionless
+    - 0.6111111111111112 dimensionless
     r_min:
-    - '`layout: TPT_PBG_PGP'
-  TGT_BPT_BPT:
+    - '`layout: BTG_PTG_GTB'
+  PTT_BPB_TGP:
     f_max:
-    - 0.2764227642276423 dimensionless
-    - 0.6444444444444445 dimensionless
+    - 0.32456140350877194 dimensionless
+    - 0.6666666666666666 dimensionless
     r_min:
-    - '`layout: TGT_BPT_BPT'
-  PGT_TGP_GTG:
+    - '`layout: PTT_BPB_TGP'
+  BTG_TGP_BGB:
     f_max:
-    - 0.08130081300813008 dimensionless
+    - 0.32894736842105265 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: BTG_TGP_BGB'
+  PPT_BBG_TBB:
+    f_max:
+    - 0.4166666666666667 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: PPT_BBG_TBB'
+  GTB_BPB_GGB:
+    f_max:
+    - 0.5263157894736842 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: GTB_BPB_GGB'
+  PGP_BBG_PBG:
+    f_max:
+    - 0.42105263157894735 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: PGP_BBG_PBG'
+  TGT_TGB_PPP:
+    f_max:
+    - 0.45175438596491224 dimensionless
+    - 0.4111111111111111 dimensionless
+    r_min:
+    - '`layout: TGT_TGB_PPP'
+  GGG_TTB_GBG:
+    f_max:
+    - 0.20175438596491227 dimensionless
+    - 0.3888888888888889 dimensionless
+    r_min:
+    - '`layout: GGG_TTB_GBG'
+  GTG_PTG_GBB:
+    f_max:
+    - 0.2587719298245614 dimensionless
     - 0.43333333333333335 dimensionless
     r_min:
-    - '`layout: PGT_TGP_GTG'
-  TGT_BPP_TPB:
+    - '`layout: GTG_PTG_GBB'
+  TGT_BGG_TTB:
     f_max:
-    - 0.3008130081300813 dimensionless
+    - 0.18421052631578946 dimensionless
+    - 0.5222222222222223 dimensionless
+    r_min:
+    - '`layout: TGT_BGG_TTB'
+  GPT_PTB_BPT:
+    f_max:
+    - 0.32456140350877194 dimensionless
+    - 0.7 dimensionless
+    r_min:
+    - '`layout: GPT_PTB_BPT'
+  BTG_PBT_PGB:
+    f_max:
+    - 0.3464912280701754 dimensionless
+    - 0.4666666666666667 dimensionless
+    r_min:
+    - '`layout: BTG_PBT_PGB'
+  GGP_BGP_TBT:
+    f_max:
+    - 0.27631578947368424 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: GGP_BGP_TBT'
+  GGB_BPP_PPB:
+    f_max:
+    - 0.6557017543859649 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GGB_BPP_PPB'
+  GGP_BBG_PPT:
+    f_max:
+    - 0.3026315789473684 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: GGP_BBG_PPT'
+  TTB_BPT_BGB:
+    f_max:
+    - 0.5087719298245613 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TTB_BPT_BGB'
+  GGP_TPG_TTP:
+    f_max:
+    - 0.10526315789473684 dimensionless
+    - 0.4888888888888889 dimensionless
+    r_min:
+    - '`layout: GGP_TPG_TTP'
+  BGG_PGB_TBB:
+    f_max:
+    - 0.4473684210526316 dimensionless
+    - 0.3 dimensionless
+    r_min:
+    - '`layout: BGG_PGB_TBB'
+  PGG_TTT_BGB:
+    f_max:
+    - 0.21052631578947367 dimensionless
+    - 0.5666666666666667 dimensionless
+    r_min:
+    - '`layout: PGG_TTT_BGB'
+  BTB_PGG_BGB:
+    f_max:
+    - 0.4473684210526316 dimensionless
+    - 0.36666666666666664 dimensionless
+    r_min:
+    - '`layout: BTB_PGG_BGB'
+  PGG_PBT_BPB:
+    f_max:
+    - 0.41228070175438597 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: PGG_PBT_BPB'
+  TTP_BTT_TGB:
+    f_max:
+    - 0.19298245614035087 dimensionless
+    - 0.8111111111111111 dimensionless
+    r_min:
+    - '`layout: TTP_BTT_TGB'
+  GTB_PBT_BGT:
+    f_max:
+    - 0.3201754385964912 dimensionless
+    - 0.5777777777777777 dimensionless
+    r_min:
+    - '`layout: GTB_PBT_BGT'
+  GPP_BPT_GGB:
+    f_max:
+    - 0.34210526315789475 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: GPP_BPT_GGB'
+  BGG_GTG_TBB:
+    f_max:
+    - 0.2719298245614035 dimensionless
+    - 0.43333333333333335 dimensionless
+    r_min:
+    - '`layout: BGG_GTG_TBB'
+  GTP_PPB_PPT:
+    f_max:
+    - 0.2587719298245614 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: GTP_PPB_PPT'
+  PGT_TPP_GPB:
+    f_max:
+    - 0.24122807017543862 dimensionless
+    - 0.4666666666666667 dimensionless
+    r_min:
+    - '`layout: PGT_TPP_GPB'
+  PGP_PTG_TGG:
+    f_max:
+    - 0.11403508771929824 dimensionless
+    - 0.43333333333333335 dimensionless
+    r_min:
+    - '`layout: PGP_PTG_TGG'
+  TGB_PPB_TBB:
+    f_max:
+    - 0.5350877192982456 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TGB_PPB_TBB'
+  BGT_PGT_TBB:
+    f_max:
+    - 0.35964912280701755 dimensionless
+    - 0.4777777777777778 dimensionless
+    r_min:
+    - '`layout: BGT_PGT_TBB'
+  TPP_BPT_GPB:
+    f_max:
+    - 0.5877192982456141 dimensionless
     - 0.6 dimensionless
     r_min:
-    - '`layout: TGT_BPP_TPB'
-  TPB_BGG_TTB:
+    - '`layout: TPP_BPT_GPB'
+  BTT_PGP_TPB:
+    f_max:
+    - 0.32456140350877194 dimensionless
+    - 0.5666666666666667 dimensionless
+    r_min:
+    - '`layout: BTT_PGP_TPB'
+  GTP_PGP_BPB:
+    f_max:
+    - 0.35964912280701755 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: GTP_PGP_BPB'
+  GTG_PGB_PTT:
+    f_max:
+    - 0.15789473684210525 dimensionless
+    - 0.5888888888888889 dimensionless
+    r_min:
+    - '`layout: GTG_PGB_PTT'
+  TGB_GPG_BGT:
+    f_max:
+    - 0.2982456140350877 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: TGB_GPG_BGT'
+  PGB_TGB_PTP:
+    f_max:
+    - 0.293859649122807 dimensionless
+    - 0.5 dimensionless
+    r_min:
+    - '`layout: PGB_TGB_PTP'
+  GGB_PTP_TPB:
     f_max:
     - 0.3333333333333333 dimensionless
+    - 0.5666666666666667 dimensionless
+    r_min:
+    - '`layout: GGB_PTP_TPB'
+  PGB_BTB_TGB:
+    f_max:
+    - 0.3991228070175438 dimensionless
     - 0.5444444444444444 dimensionless
     r_min:
-    - '`layout: TPB_BGG_TTB'
-  PTT_TBT_TPG:
+    - '`layout: PGB_BTB_TGB'
+  PGP_PGP_TPG:
     f_max:
-    - 0.13008130081300814 dimensionless
-    - 0.8666666666666667 dimensionless
+    - 0.15789473684210525 dimensionless
+    - 0.32222222222222224 dimensionless
     r_min:
-    - '`layout: PTT_TBT_TPG'
-  GTB_PPT_PPT:
+    - '`layout: PGP_PGP_TPG'
+  PGP_PGB_GBB:
     f_max:
-    - 0.2154471544715447 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: GTB_PPT_PPT'
-  TTT_PBT_TPB:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.8888888888888888 dimensionless
-    r_min:
-    - '`layout: TTT_PBT_TPB'
-  BPG_PGG_GPB:
-    f_max:
-    - 0.3252032520325203 dimensionless
+    - 0.42105263157894735 dimensionless
     - 0.16666666666666666 dimensionless
     r_min:
-    - '`layout: BPG_PGG_GPB'
-  GTT_PBP_GTP:
+    - '`layout: PGP_PGB_GBB'
+  PGP_PPP_TGG:
     f_max:
-    - 0.16260162601626016 dimensionless
-    - 0.7333333333333333 dimensionless
+    - 0.39473684210526316 dimensionless
+    - 0.3111111111111111 dimensionless
     r_min:
-    - '`layout: GTT_PBP_GTP'
-  GGP_PGB_BBB:
+    - '`layout: PGP_PPP_TGG'
+  PGT_GPB_BPP:
     f_max:
-    - 0.47560975609756095 dimensionless
-    - 0.14444444444444443 dimensionless
+    - 0.35964912280701755 dimensionless
+    - 0.26666666666666666 dimensionless
     r_min:
-    - '`layout: GGP_PGB_BBB'
-  TGT_PPT_TTP:
+    - '`layout: PGT_GPB_BPP'
+  GTG_PGP_GPT:
     f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.8666666666666667 dimensionless
+    - 0.11403508771929824 dimensionless
+    - 0.45555555555555555 dimensionless
     r_min:
-    - '`layout: TGT_PPT_TTP'
-  TBT_BTB_BTB:
+    - '`layout: GTG_PGP_GPT'
+  TTT_TBB_PBB:
     f_max:
-    - 0.36585365853658536 dimensionless
+    - 0.3815789473684211 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TTT_TBB_PBB'
+  TGG_BPG_BGP:
+    f_max:
+    - 0.3245614035087719 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: TGG_BPG_BGP'
+  TPT_BBT_GGB:
+    f_max:
+    - 0.3201754385964912 dimensionless
+    - 0.6888888888888889 dimensionless
+    r_min:
+    - '`layout: TPT_BBT_GGB'
+  TTP_BGT_BBT:
+    f_max:
+    - 0.2719298245614035 dimensionless
+    - 0.6111111111111112 dimensionless
+    r_min:
+    - '`layout: TTP_BGT_BBT'
+  PBP_BTT_BTB:
+    f_max:
+    - 0.4473684210526316 dimensionless
+    - 0.8333333333333334 dimensionless
+    r_min:
+    - '`layout: PBP_BTT_BTB'
+  PGB_TPP_GBB:
+    f_max:
+    - 0.4517543859649123 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: PGB_TPP_GBB'
+  GGP_PPT_BPG:
+    f_max:
+    - 0.25 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: GGP_PPT_BPG'
+  PTB_BPT_GBP:
+    f_max:
+    - 0.44298245614035087 dimensionless
+    - 0.6 dimensionless
+    r_min:
+    - '`layout: PTB_BPT_GBP'
+  PGG_BTG_TGB:
+    f_max:
+    - 0.2587719298245614 dimensionless
+    - 0.43333333333333335 dimensionless
+    r_min:
+    - '`layout: PGG_BTG_TGB'
+  GPT_BGB_TBB:
+    f_max:
+    - 0.4385964912280702 dimensionless
+    - 0.43333333333333335 dimensionless
+    r_min:
+    - '`layout: GPT_BGB_TBB'
+  GTG_BPP_BTP:
+    f_max:
+    - 0.3333333333333333 dimensionless
+    - 0.6222222222222222 dimensionless
+    r_min:
+    - '`layout: GTG_BPP_BTP'
+  GBG_BTP_BBB:
+    f_max:
+    - 0.5570175438596492 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: GBG_BTP_BBB'
+  TGB_BPB_TBT:
+    f_max:
+    - 0.5087719298245613 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TGB_BPB_TBT'
+  GGP_TPG_TPT:
+    f_max:
+    - 0.10526315789473684 dimensionless
+    - 0.6 dimensionless
+    r_min:
+    - '`layout: GGP_TPG_TPT'
+  GGT_TTB_TTT:
+    f_max:
+    - 0.09649122807017543 dimensionless
+    - 0.5888888888888889 dimensionless
+    r_min:
+    - '`layout: GGT_TTB_TTT'
+  GGB_BPT_GPT:
+    f_max:
+    - 0.3157894736842105 dimensionless
+    - 0.5111111111111111 dimensionless
+    r_min:
+    - '`layout: GGB_BPT_GPT'
+  PGB_BBP_GTB:
+    f_max:
+    - 0.5043859649122807 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: PGB_BBP_GTB'
+  TTT_BBP_TPT:
+    f_max:
+    - 0.25 dimensionless
+    - 1.0 dimensionless
+    r_min:
+    - '`layout: TTT_BBP_TPT'
+  GGT_TPB_TPG:
+    f_max:
+    - 0.19736842105263158 dimensionless
+    - 0.6 dimensionless
+    r_min:
+    - '`layout: GGT_TPB_TPG'
+  GGT_GGP_PTT:
+    f_max:
+    - 0.08771929824561403 dimensionless
+    - 0.4777777777777778 dimensionless
+    r_min:
+    - '`layout: GGT_GGP_PTT'
+  TGT_GPG_TPG:
+    f_max:
+    - 0.08771929824561403 dimensionless
+    - 0.5111111111111111 dimensionless
+    r_min:
+    - '`layout: TGT_GPG_TPG'
+  TPP_BPB_PGG:
+    f_max:
+    - 0.35964912280701755 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: TPP_BPB_PGG'
+  GPG_BTB_GBG:
+    f_max:
+    - 0.3771929824561403 dimensionless
+    - 0.4111111111111111 dimensionless
+    r_min:
+    - '`layout: GPG_BTB_GBG'
+  PGT_GBP_BPB:
+    f_max:
+    - 0.41228070175438597 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: PGT_GBP_BPB'
+  GTT_PGG_BBP:
+    f_max:
+    - 0.3157894736842105 dimensionless
+    - 0.2777777777777778 dimensionless
+    r_min:
+    - '`layout: GTT_PGG_BBP'
+  GGG_BPT_PTB:
+    f_max:
+    - 0.3157894736842105 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: GGG_BPT_PTB'
+  TGP_TPB_PPG:
+    f_max:
+    - 0.24122807017543862 dimensionless
+    - 0.4222222222222222 dimensionless
+    r_min:
+    - '`layout: TGP_TPB_PPG'
+  GTG_PGP_BGB:
+    f_max:
+    - 0.3245614035087719 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: GTG_PGP_BGB'
+  TPT_BTT_PTP:
+    f_max:
+    - 0.19736842105263158 dimensionless
     - 0.9444444444444444 dimensionless
     r_min:
-    - '`layout: TBT_BTB_BTB'
-  GGP_TPT_GPB:
+    - '`layout: TPT_BTT_PTP'
+  GPT_PTB_BBP:
     f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.5333333333333333 dimensionless
+    - 0.44298245614035087 dimensionless
+    - 0.5888888888888889 dimensionless
     r_min:
-    - '`layout: GGP_TPT_GPB'
-  BTT_TTT_BBB:
+    - '`layout: GPT_PTB_BBP'
+  BTG_BGB_BBB:
     f_max:
-    - 0.2926829268292683 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: BTT_TTT_BBB'
-  TPT_BTG_TTB:
-    f_max:
-    - 0.21544715447154472 dimensionless
-    - 0.8111111111111111 dimensionless
-    r_min:
-    - '`layout: TPT_BTG_TTB'
-  TPT_BBG_TPB:
-    f_max:
-    - 0.34959349593495936 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_BBG_TPB'
-  GBP_BBP_BGP:
-    f_max:
-    - 0.6382113821138211 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GBP_BBP_BGP'
-  GGG_PGB_TTG:
-    f_max:
-    - 0.1382113821138211 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GGG_PGB_TTG'
-  TGT_BGP_BBB:
-    f_max:
-    - 0.40650406504065045 dimensionless
+    - 0.4912280701754386 dimensionless
     - 0.32222222222222224 dimensionless
     r_min:
-    - '`layout: TGT_BGP_BBB'
-  GGG_TPT_PTB:
+    - '`layout: BTG_BGB_BBB'
+  GTB_BTG_TTB:
     f_max:
-    - 0.18292682926829268 dimensionless
-    - 0.6222222222222222 dimensionless
+    - 0.25438596491228066 dimensionless
+    - 0.7222222222222222 dimensionless
     r_min:
-    - '`layout: GGG_TPT_PTB'
-  GTB_BPP_TPT:
+    - '`layout: GTB_BTG_TTB'
+  TTP_BPB_PGB:
     f_max:
-    - 0.3008130081300813 dimensionless
+    - 0.44298245614035087 dimensionless
+    - 0.5111111111111111 dimensionless
+    r_min:
+    - '`layout: TTP_BPB_PGB'
+  GGG_PBP_GTT:
+    f_max:
+    - 0.16666666666666666 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: GGG_PBP_GTT'
+  TTT_BPP_TPG:
+    f_max:
+    - 0.20614035087719298 dimensionless
+    - 0.8222222222222222 dimensionless
+    r_min:
+    - '`layout: TTT_BPP_TPG'
+  TTB_PPG_GPP:
+    f_max:
+    - 0.418859649122807 dimensionless
+    - 0.4888888888888889 dimensionless
+    r_min:
+    - '`layout: TTB_PPG_GPP'
+  PGG_GPG_BPP:
+    f_max:
+    - 0.2587719298245614 dimensionless
+    - 0.15555555555555556 dimensionless
+    r_min:
+    - '`layout: PGG_GPG_BPP'
+  PGP_TPB_TBB:
+    f_max:
+    - 0.44298245614035087 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: PGP_TPB_TBB'
+  GGT_TTT_BGP:
+    f_max:
+    - 0.13157894736842105 dimensionless
+    - 0.5 dimensionless
+    r_min:
+    - '`layout: GGT_TTT_BGP'
+  TBG_BGB_BGP:
+    f_max:
+    - 0.40789473684210525 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: TBG_BGB_BGP'
+  TTP_BTT_BGP:
+    f_max:
+    - 0.2192982456140351 dimensionless
+    - 0.7666666666666667 dimensionless
+    r_min:
+    - '`layout: TTP_BTT_BGP'
+  PGT_BGT_BTP:
+    f_max:
+    - 0.2675438596491228 dimensionless
+    - 0.4777777777777778 dimensionless
+    r_min:
+    - '`layout: PGT_BGT_BTP'
+  TGT_TBP_TTP:
+    f_max:
+    - 0.14035087719298248 dimensionless
     - 0.7555555555555555 dimensionless
     r_min:
-    - '`layout: GTB_BPP_TPT'
-  GTG_BPG_BPP:
+    - '`layout: TGT_TBP_TTP'
+  GTT_PGG_BGB:
     f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.26666666666666666 dimensionless
+    - 0.2587719298245614 dimensionless
+    - 0.3 dimensionless
     r_min:
-    - '`layout: GTG_BPG_BPP'
-  PTT_BBG_TBG:
+    - '`layout: GTT_PGG_BGB'
+  GGG_GPG_GGB:
     f_max:
-    - 0.2967479674796748 dimensionless
-    - 0.6222222222222222 dimensionless
+    - 0.20614035087719298 dimensionless
+    - 0.17777777777777778 dimensionless
     r_min:
-    - '`layout: PTT_BBG_TBG'
-  BGG_GGG_BGB:
+    - '`layout: GGG_GPG_GGB'
+  GTG_TPP_BBP:
     f_max:
-    - 0.2682926829268293 dimensionless
-    - 0.16666666666666666 dimensionless
+    - 0.3333333333333333 dimensionless
+    - 0.4444444444444444 dimensionless
     r_min:
-    - '`layout: BGG_GGG_BGB'
-  GGG_GTB_TPT:
+    - '`layout: GTG_TPP_BBP'
+  PGT_TTP_BPB:
     f_max:
-    - 0.16666666666666666 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: GGG_GTB_TPT'
-  GGB_TPT_PPP:
-    f_max:
-    - 0.4430894308943089 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: GGB_TPT_PPP'
-  GGT_BGP_BBG:
-    f_max:
-    - 0.3130081300813008 dimensionless
-    - 0.25555555555555554 dimensionless
-    r_min:
-    - '`layout: GGT_BGP_BBG'
-  TTP_PTB_GPB:
-    f_max:
-    - 0.3008130081300813 dimensionless
+    - 0.32456140350877194 dimensionless
     - 0.7 dimensionless
     r_min:
-    - '`layout: TTP_PTB_GPB'
-  GTG_BPT_GBG:
+    - '`layout: PGT_TTP_BPB'
+  BTG_TTG_PPB:
     f_max:
-    - 0.2764227642276422 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: GTG_BPT_GBG'
-  GGP_TTP_GGP:
-    f_max:
-    - 0.3252032520325203 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: GGP_TTP_GGP'
-  GGT_TBB_PTT:
-    f_max:
-    - 0.18699186991869918 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: GGT_TBB_PTT'
-  GGG_TPB_PPT:
-    f_max:
-    - 0.2073170731707317 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GGG_TPB_PPT'
-  BPG_PBG_PPB:
-    f_max:
-    - 0.40650406504065045 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: BPG_PBG_PPB'
-  GPP_BTG_GBT:
-    f_max:
-    - 0.25609756097560976 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: GPP_BTG_GBT'
-  TGG_TPG_BBB:
-    f_max:
-    - 0.3780487804878049 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: TGG_TPG_BBB'
-  TGB_TTB_PBP:
-    f_max:
-    - 0.34959349593495936 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: TGB_TTB_PBP'
-  PGP_PGP_BBB:
-    f_max:
-    - 0.44308943089430897 dimensionless
-    - 0.14444444444444443 dimensionless
-    r_min:
-    - '`layout: PGP_PGP_BBB'
-  TGB_PPP_PTT:
-    f_max:
-    - 0.43495934959349597 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TGB_PPP_PTT'
-  GPB_BBP_PPB:
-    f_max:
-    - 0.5081300813008129 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPB_BBP_PPB'
-  GBG_BTB_PPP:
-    f_max:
-    - 0.6016260162601625 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GBG_BTB_PPP'
-  GGG_TTP_TBG:
-    f_max:
-    - 0.16666666666666666 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GGG_TTP_TBG'
-  GGB_PGT_TTT:
-    f_max:
-    - 0.12195121951219512 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: GGB_PGT_TTT'
-  TTT_PPT_PPT:
-    f_max:
-    - 0.0975609756097561 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TTT_PPT_PPT'
-  TTG_TPP_BTT:
-    f_max:
-    - 0.16666666666666669 dimensionless
-    - 0.8666666666666667 dimensionless
-    r_min:
-    - '`layout: TTG_TPP_BTT'
-  TBG_BGB_PPB:
-    f_max:
-    - 0.467479674796748 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: TBG_BGB_PPB'
-  BTB_PTG_PBB:
-    f_max:
-    - 0.4227642276422764 dimensionless
+    - 0.2675438596491228 dimensionless
     - 0.6555555555555556 dimensionless
     r_min:
-    - '`layout: BTB_PTG_PBB'
-  GPP_BBG_TTG:
+    - '`layout: BTG_TTG_PPB'
+  PPG_PGP_BPP:
     f_max:
-    - 0.25609756097560976 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: GPP_BBG_TTG'
-  GBG_BTT_TBB:
-    f_max:
-    - 0.30894308943089427 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: GBG_BTT_TBB'
-  PGG_PPG_TPB:
-    f_max:
-    - 0.39634146341463417 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGG_PPG_TPB'
-  GGG_GTB_PBP:
-    f_max:
-    - 0.30081300813008127 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: GGG_GTB_PBP'
-  GTT_BBG_GPT:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: GTT_BBG_GPT'
-  GPT_BBG_GPB:
-    f_max:
-    - 0.36585365853658536 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_BBG_GPB'
-  PPP_BTP_GBB:
-    f_max:
-    - 0.6544715447154472 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: PPP_BTP_GBB'
-  GGP_GTP_PBB:
-    f_max:
-    - 0.3170731707317073 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_GTP_PBB'
-  BTB_BBB_TGB:
-    f_max:
-    - 0.41056910569105687 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: BTB_BBB_TGB'
-  GGB_PPB_BPP:
-    f_max:
-    - 0.6077235772357723 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GGB_PPB_BPP'
-  GTP_PBG_TGG:
-    f_max:
-    - 0.15447154471544713 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_PBG_TGG'
-  GBP_BGG_PPB:
-    f_max:
-    - 0.4268292682926829 dimensionless
-    - 0.16666666666666666 dimensionless
-    r_min:
-    - '`layout: GBP_BGG_PPB'
-  GPB_PGB_BBP:
-    f_max:
-    - 0.5284552845528455 dimensionless
+    - 0.29385964912280704 dimensionless
     - 0.12222222222222222 dimensionless
     r_min:
-    - '`layout: GPB_PGB_BBP'
-  TPT_PPB_BPB:
+    - '`layout: PPG_PGP_BPP'
+  PTP_PTG_TGG:
     f_max:
-    - 0.6463414634146342 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_PPB_BPB'
-  PGT_TPG_PTB:
-    f_max:
-    - 0.19918699186991867 dimensionless
-    - 0.6222222222222222 dimensionless
-    r_min:
-    - '`layout: PGT_TPG_PTB'
-  TTB_PPG_PTB:
-    f_max:
-    - 0.3008130081300813 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: TTB_PPG_PTB'
-  GTG_BTB_GPB:
-    f_max:
-    - 0.3780487804878049 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: GTG_BTB_GPB'
-  PBG_BBT_BGB:
-    f_max:
-    - 0.47967479674796754 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PBG_BBT_BGB'
-  GPB_BPG_GPB:
-    f_max:
-    - 0.6463414634146342 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GPB_BPG_GPB'
-  TTP_TTT_PPG:
-    f_max:
-    - 0.08130081300813008 dimensionless
-    - 0.7444444444444445 dimensionless
-    r_min:
-    - '`layout: TTP_TTT_PPG'
-  PGG_TBG_TGB:
-    f_max:
-    - 0.20325203252032517 dimensionless
-    - 0.4 dimensionless
-    r_min:
-    - '`layout: PGG_TBG_TGB'
-  GTG_TBB_TGP:
-    f_max:
-    - 0.23170731707317074 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GTG_TBB_TGP'
-  TTT_BGG_TTB:
-    f_max:
-    - 0.16260162601626016 dimensionless
+    - 0.10526315789473684 dimensionless
     - 0.6111111111111112 dimensionless
     r_min:
-    - '`layout: TTT_BGG_TTB'
-  PTG_PPT_BPP:
+    - '`layout: PTP_PTG_TGG'
+  BTB_PBB_BTB:
     f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.4666666666666667 dimensionless
+    - 0.5789473684210527 dimensionless
+    - 0.6666666666666666 dimensionless
     r_min:
-    - '`layout: PTG_PPT_BPP'
-  GGP_PPP_PTP:
+    - '`layout: BTB_PBB_BTB'
+  TBG_BPT_GBB:
     f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.4222222222222222 dimensionless
+    - 0.5175438596491229 dimensionless
+    - 0.5777777777777777 dimensionless
     r_min:
-    - '`layout: GGP_PPP_PTP'
-  PTP_PBP_PPP:
+    - '`layout: TBG_BPT_GBB'
+  TGB_TBP_GTP:
     f_max:
-    - 0.6829268292682927 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PBP_PPP'
-  GTP_TPP_PPG:
-    f_max:
-    - 0.467479674796748 dimensionless
+    - 0.2675438596491228 dimensionless
     - 0.5111111111111111 dimensionless
     r_min:
-    - '`layout: GTP_TPP_PPG'
-  PTB_PPT_PPP:
+    - '`layout: TGB_TBP_GTP'
+  PGP_BGT_BBB:
     f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTB_PPT_PPP'
-  GPT_PPP_PBP:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_PBP'
-  TTP_TGP_PPP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: TTP_TGP_PPP'
-  PTB_PPP_TPP:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_TPP'
-  TTP_PPP_PBT:
-    f_max:
-    - 0.5829268292682926 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_PBT'
-  GTP_PPP_PBB:
-    f_max:
-    - 0.7008130081300812 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_PBB'
-  PTP_PPB_BPP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PPB_BPP'
-  PPT_PPP_BPP:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_BPP'
-  TGP_PPP_PGB:
-    f_max:
-    - 0.5991869918699186 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PGB'
-  PTP_PPP_PBB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_PBB'
-  PPG_BPP_BPB:
-    f_max:
-    - 0.8434959349593495 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPG_BPP_BPB'
-  PGB_PBB_PPP:
-    f_max:
-    - 0.8252032520325202 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGB_PBB_PPP'
-  PPT_PPP_PTG:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PTG'
-  PGP_PBP_PPP:
-    f_max:
-    - 0.6910569105691057 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGP_PBP_PPP'
-  TGP_PPP_PPG:
-    f_max:
-    - 0.5467479674796748 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PPG'
-  BPG_PPP_PBB:
-    f_max:
-    - 0.8434959349593495 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: BPG_PPP_PBB'
-  PPP_PTG_PBG:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: PPP_PTG_PBG'
-  TPT_BPT_PPP:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_BPT_PPP'
-  PPP_BPG_PPB:
-    f_max:
-    - 0.8130081300813007 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PPP_BPG_PPB'
-  GGP_GBP_PPP:
-    f_max:
-    - 0.6585365853658537 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_GBP_PPP'
-  GPP_PPP_BPP:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPP_PPP_BPP'
-  TTP_PGP_PPP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: TTP_PGP_PPP'
-  GPP_PPG_PTG:
-    f_max:
-    - 0.47560975609756095 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PTG'
-  GBP_BGP_PPP:
-    f_max:
-    - 0.7967479674796749 dimensionless
-    - 0.12222222222222222 dimensionless
-    r_min:
-    - '`layout: GBP_BGP_PPP'
-  GGP_PPP_GBP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_GBP'
-  GPP_PPG_PGP:
-    f_max:
-    - 0.5 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PGP'
-  GPP_PPG_BPT:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_BPT'
-  GPP_PPB_PBB:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPP_PPB_PBB'
-  GGP_GPP_PPG:
-    f_max:
-    - 0.48373983739837395 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GGP_GPP_PPG'
-  PPP_PPP_PPB:
-    f_max:
-    - 0.7439024390243902 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PPP_PPB'
-  PPP_PTP_BBP:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PPP_PTP_BBP'
-  TGP_PPP_TTP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_TTP'
-  GPP_PPT_PTT:
-    f_max:
-    - 0.4593495934959349 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PTT'
-  PPB_PPP_BPB:
-    f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPB_PPP_BPB'
-  PPP_PGT_PBB:
-    f_max:
-    - 0.7520325203252032 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: PPP_PGT_PBB'
-  PPP_BPG_TPG:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_BPG_TPG'
-  PPP_BPP_BBP:
-    f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_BBP'
-  GPG_PPB_BPP:
-    f_max:
-    - 0.7418699186991871 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPG_PPB_BPP'
-  BPP_PPG_PPB:
-    f_max:
-    - 0.7581300813008129 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: BPP_PPG_PPB'
-  PPP_PBB_PBB:
-    f_max:
-    - 0.926829268292683 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PBB_PBB'
-  PGB_PPT_TPP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PGB_PPT_TPP'
-  PPP_PBP_PPB:
-    f_max:
-    - 0.7926829268292683 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PBP_PPB'
-  GGP_PPP_BBP:
-    f_max:
-    - 0.7967479674796749 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_BBP'
-  PGP_PPP_PBB:
-    f_max:
-    - 0.8130081300813007 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_PBB'
-  PPP_PBP_BBP:
-    f_max:
-    - 0.8780487804878049 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PBP_BBP'
-  TGP_BPP_PPB:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TGP_BPP_PPB'
-  PPP_BPG_BPB:
-    f_max:
-    - 0.8983739837398372 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PPP_BPG_BPB'
-  BPP_PPP_PBB:
-    f_max:
-    - 0.8597560975609756 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: BPP_PPP_PBB'
-  TGP_BGP_PPP:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.23333333333333334 dimensionless
-    r_min:
-    - '`layout: TGP_BGP_PPP'
-  PGP_PPP_TPG:
-    f_max:
-    - 0.5467479674796748 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_TPG'
-  TPG_PPT_BPP:
-    f_max:
-    - 0.6239837398373983 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TPG_PPT_BPP'
-  TPT_PPP_PBP:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PBP'
-  TPB_PPP_BPP:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPB_PPP_BPP'
-  PGB_PPP_GPP:
-    f_max:
-    - 0.6565040650406504 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PGB_PPP_GPP'
-  PGB_PPT_GPP:
-    f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PGB_PPT_GPP'
-  TGP_PPP_PTP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PTP'
-  PTB_PTB_PPP:
-    f_max:
-    - 0.7439024390243902 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: PTB_PTB_PPP'
-  PTT_PTG_PPP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.5888888888888889 dimensionless
-    r_min:
-    - '`layout: PTT_PTG_PPP'
-  PPP_PBG_PGG:
-    f_max:
-    - 0.6585365853658537 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_PBG_PGG'
-  PPP_BPP_BPB:
-    f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_BPB'
-  PTP_PTP_PPP:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: PTP_PTP_PPP'
-  GPP_PPG_PPG:
-    f_max:
-    - 0.5548780487804879 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PPG'
-  PGB_PPP_BPP:
-    f_max:
-    - 0.7581300813008129 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGB_PPP_BPP'
-  PPP_PTG_PBP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PPP_PTG_PBP'
-  PPP_PPT_BPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PPP_PPT_BPB'
-  PPP_PTG_PPG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: PPP_PTG_PPG'
-  GPP_PPG_PGB:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PGB'
-  GBP_BBP_PPP:
-    f_max:
-    - 0.8617886178861788 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GBP_BBP_PPP'
-  TPP_PPP_BPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_BPB'
-  PTB_PGP_PPP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: PTB_PGP_PPP'
-  PPP_PPB_PBP:
-    f_max:
-    - 0.8292682926829268 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PPB_PBP'
-  TTP_PPP_TBP:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_TBP'
-  TTP_PPP_TPB:
-    f_max:
-    - 0.6158536585365854 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_TPB'
-  PPB_BPP_PBP:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPB_BPP_PBP'
-  GPG_PPP_GPB:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_GPB'
-  TPP_PPT_PPB:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TPP_PPT_PPB'
-  TTP_PPP_TGP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_TGP'
-  PGP_TBP_PPP:
-    f_max:
-    - 0.6666666666666666 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGP_TBP_PPP'
-  BPP_PPT_PBB:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: BPP_PPT_PBB'
-  GTP_TGP_PPP:
-    f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_TGP_PPP'
-  GGP_PTP_PPP:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: GGP_PTP_PPP'
-  PPT_PPG_TPP:
-    f_max:
-    - 0.5386178861788617 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PPT_PPG_TPP'
-  TPG_PPP_GPG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_GPG'
-  GPG_PPB_PPP:
-    f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPG_PPB_PPP'
-  PTP_PBT_PPP:
-    f_max:
-    - 0.6585365853658537 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTP_PBT_PPP'
-  PPP_PPT_PBG:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_PPT_PBG'
-  GPT_BPT_PPP:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_BPT_PPP'
-  PPP_PPT_PTG:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4666666666666667 dimensionless
-    r_min:
-    - '`layout: PPP_PPT_PTG'
-  TPG_BPP_PPG:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TPG_BPP_PPG'
-  TTP_PPP_BPB:
-    f_max:
-    - 0.725609756097561 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_BPB'
-  PPT_PPP_PGG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PGG'
-  PPG_PPP_PTB:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_PTB'
-  TTP_PPP_BBP:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_BBP'
-  PTT_PGP_PPP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: PTT_PGP_PPP'
-  BTP_PPP_PPB:
-    f_max:
-    - 0.75 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: BTP_PPP_PPB'
-  PPP_PTG_PBB:
-    f_max:
-    - 0.7520325203252032 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PPP_PTG_PBB'
-  TPT_PPT_TPP:
-    f_max:
-    - 0.5060975609756098 dimensionless
-    - 0.8888888888888888 dimensionless
-    r_min:
-    - '`layout: TPT_PPT_TPP'
-  GGP_BPP_PPP:
-    f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GGP_BPP_PPP'
-  GPP_PPB_BPG:
-    f_max:
-    - 0.7418699186991871 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_PPB_BPG'
-  GPP_PPB_PBG:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_PPB_PBG'
-  TPP_PPP_PPB:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_PPB'
-  TPP_PPT_PTG:
-    f_max:
-    - 0.4593495934959349 dimensionless
-    - 0.6888888888888889 dimensionless
-    r_min:
-    - '`layout: TPP_PPT_PTG'
-  TPG_PPP_BGP:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_BGP'
-  PGP_PPP_TPB:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_TPB'
-  TGP_PPP_BGP:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_BGP'
-  GPP_BPB_PPG:
-    f_max:
-    - 0.7089430894308943 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_BPB_PPG'
-  TPP_PPT_PTP:
-    f_max:
-    - 0.47560975609756095 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TPP_PPT_PTP'
-  PGT_PPP_BPP:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PGT_PPP_BPP'
-  PTB_PPP_GPB:
-    f_max:
-    - 0.733739837398374 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_GPB'
-  PPP_PPG_PPB:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PPP_PPG_PPB'
-  PTT_PBB_PPP:
-    f_max:
-    - 0.7439024390243902 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PTT_PBB_PPP'
-  GPT_PPT_TPP:
-    f_max:
-    - 0.5142276422764227 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_PPT_TPP'
-  PPG_PPP_BPB:
-    f_max:
-    - 0.8130081300813007 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_BPB'
-  PGB_PPP_BTP:
-    f_max:
-    - 0.7008130081300812 dimensionless
-    - 0.4 dimensionless
-    r_min:
-    - '`layout: PGB_PPP_BTP'
-  PTB_PBP_PPP:
-    f_max:
-    - 0.7682926829268293 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTB_PBP_PPP'
-  GPT_BPP_PPT:
-    f_max:
-    - 0.6239837398373983 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_BPP_PPT'
-  GGP_TPP_PPT:
-    f_max:
-    - 0.467479674796748 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_TPP_PPT'
-  PTB_PPP_PBB:
-    f_max:
-    - 0.8902439024390244 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_PBB'
-  PPG_PPP_GPG:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_GPG'
-  PPP_PPG_PBP:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PPP_PPG_PBP'
-  PTP_PPT_PPP:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTP_PPT_PPP'
-  TPT_PPP_PGG:
-    f_max:
-    - 0.5223577235772358 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PGG'
-  GPP_BPG_PPB:
-    f_max:
-    - 0.7089430894308943 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_BPG_PPB'
-  PGB_PGT_PPP:
-    f_max:
-    - 0.6504065040650406 dimensionless
+    - 0.4254385964912281 dimensionless
     - 0.34444444444444444 dimensionless
     r_min:
-    - '`layout: PGB_PGT_PPP'
-  PPP_PTT_PBG:
+    - '`layout: PGP_BGT_BBB'
+  TPT_BGP_TPB:
     f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.6333333333333333 dimensionless
+    - 0.32456140350877194 dimensionless
+    - 0.5666666666666667 dimensionless
     r_min:
-    - '`layout: PPP_PTT_PBG'
-  TTP_PPP_PTT:
+    - '`layout: TPT_BGP_TPB'
+  GGP_PGG_GTG:
     f_max:
-    - 0.47317073170731705 dimensionless
-    - 0.8888888888888888 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_PTT'
-  PGG_PPP_GPB:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: PGG_PPP_GPB'
-  PBP_BPP_PPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PBP_BPP_PPB'
-  TPT_PPB_BPP:
-    f_max:
-    - 0.725609756097561 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_PPB_BPP'
-  PTP_PBB_PPP:
-    f_max:
-    - 0.7682926829268293 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PBB_PPP'
-  GPP_BPP_PPB:
-    f_max:
-    - 0.7581300813008129 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPP_BPP_PPB'
-  GPP_PPT_PBP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PBP'
-  PTT_PPP_TBP:
-    f_max:
-    - 0.5829268292682926 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_TBP'
-  GTP_PPP_BPB:
-    f_max:
-    - 0.733739837398374 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_BPB'
-  GTP_BTP_PPP:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.6333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_BTP_PPP'
-  GPT_PPP_TPB:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_TPB'
-  TPT_PPP_PPB:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PPB'
-  PGB_PPP_BBP:
-    f_max:
-    - 0.8105691056910569 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGB_PPP_BBP'
-  TPG_PPP_GPB:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_GPB'
-  PTT_PPP_TPG:
-    f_max:
-    - 0.5142276422764227 dimensionless
-    - 0.7111111111111111 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_TPG'
-  PPP_BPB_BPB:
-    f_max:
-    - 1.0 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPB_BPB'
-  PTT_PPP_PBP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_PBP'
-  TPP_PPP_BPP:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_BPP'
-  TGP_TPP_PPB:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: TGP_TPP_PPB'
-  PPT_PPP_PGB:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PGB'
-  GGP_PPP_PGG:
-    f_max:
-    - 0.505691056910569 dimensionless
-    - 0.17777777777777778 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_PGG'
-  TTP_TPP_PPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TTP_TPP_PPP'
-  GPG_PPP_PPP:
-    f_max:
-    - 0.6260162601626017 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_PPP'
-  PGP_PPP_BTP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.4 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_BTP'
-  PTT_PPP_PTP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_PTP'
-  TPP_PGP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
+    - 0.10526315789473684 dimensionless
     - 0.25555555555555554 dimensionless
     r_min:
-    - '`layout: TPP_PGP_PPP'
-  PTT_PPP_BTP:
+    - '`layout: GGP_PGG_GTG'
+  GPT_BBT_PTG:
     f_max:
-    - 0.5829268292682926 dimensionless
-    - 0.7777777777777778 dimensionless
+    - 0.2675438596491228 dimensionless
+    - 0.6222222222222222 dimensionless
     r_min:
-    - '`layout: PTT_PPP_BTP'
-  TPG_PPP_PGG:
+    - '`layout: GPT_BBT_PTG'
+  TTB_BGB_TPP:
     f_max:
-    - 0.5304878048780488 dimensionless
-    - 0.35555555555555557 dimensionless
+    - 0.37719298245614036 dimensionless
+    - 0.5666666666666667 dimensionless
     r_min:
-    - '`layout: TPG_PPP_PGG'
-  TPG_PPP_PBG:
+    - '`layout: TTB_BGB_TPP'
+  GTG_PPB_PBT:
     f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_PBG'
-  PGP_PBB_PPP:
-    f_max:
-    - 0.7764227642276422 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGP_PBB_PPP'
-  PTP_BBP_PPP:
-    f_max:
-    - 0.7682926829268293 dimensionless
     - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_BBP_PPP'
-  BPP_PPG_PTB:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: BPP_PPG_PTB'
-  GPT_PPP_PPT:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_PPT'
-  PGT_PPP_GPB:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PGT_PPP_GPB'
-  TTP_PPP_PBG:
-    f_max:
-    - 0.5910569105691056 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_PBG'
-  GTP_PPP_TTP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.7555555555555555 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_TTP'
-  PTP_TPP_PPG:
-    f_max:
-    - 0.48373983739837395 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: PTP_TPP_PPG'
-  TTP_PPP_PGB:
-    f_max:
-    - 0.5910569105691056 dimensionless
     - 0.5111111111111111 dimensionless
     r_min:
-    - '`layout: TTP_PPP_PGB'
-  PGB_PPP_BPB:
+    - '`layout: GTG_PPB_PBT'
+  TTB_BTG_TBB:
     f_max:
-    - 0.8434959349593495 dimensionless
-    - 0.06666666666666667 dimensionless
+    - 0.32456140350877194 dimensionless
+    - 0.7666666666666667 dimensionless
     r_min:
-    - '`layout: PGB_PPP_BPB'
-  GPP_PPG_BPP:
+    - '`layout: TTB_BTG_TBB'
+  GGG_TBP_TGT:
     f_max:
-    - 0.6565040650406504 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_BPP'
-  PPT_PPP_PBB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PBB'
-  TTP_PPP_BGP:
-    f_max:
-    - 0.6788617886178862 dimensionless
+    - 0.14035087719298245 dimensionless
     - 0.5111111111111111 dimensionless
     r_min:
-    - '`layout: TTP_PPP_BGP'
-  PBP_BPP_PPG:
+    - '`layout: GGG_TBP_TGT'
+  PGG_GPG_BTP:
     f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PBP_BPP_PPG'
-  PPP_PTP_PPB:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PPP_PTP_PPB'
-  GPP_PPP_PBT:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPP_PPP_PBT'
-  PTT_PPB_BPP:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PTT_PPB_BPP'
-  PPP_BPP_TPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_TPB'
-  TPP_PPP_BTP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_BTP'
-  TTP_BPP_PPP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TTP_BPP_PPP'
-  GPT_PPP_BPG:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_BPG'
-  TGP_GPP_PPG:
-    f_max:
-    - 0.47560975609756095 dimensionless
-    - 0.24444444444444444 dimensionless
-    r_min:
-    - '`layout: TGP_GPP_PPG'
-  GPP_PPG_PBG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PBG'
-  TPP_PPB_PBT:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPP_PPB_PBT'
-  PPP_BBP_PBP:
-    f_max:
-    - 0.8780487804878049 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BBP_PBP'
-  GGP_PPP_PTB:
-    f_max:
-    - 0.5991869918699186 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_PTB'
-  PPG_PPP_PPB:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_PPB'
-  PGB_PBT_PPP:
-    f_max:
-    - 0.7154471544715447 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PGB_PBT_PPP'
-  PGP_BPP_PPG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PGP_BPP_PPG'
-  PGG_PPP_BPP:
-    f_max:
-    - 0.6565040650406504 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: PGG_PPP_BPP'
-  GPP_PPP_PPG:
-    f_max:
-    - 0.6260162601626017 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_PPP_PPG'
-  PTP_PPB_TPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTP_PPB_TPP'
-  TPP_PPP_PBG:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_PBG'
-  TPP_PPG_PBP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TPP_PPG_PBP'
-  PTP_PPP_PTG:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_PTG'
-  PPP_PTP_BPP:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.5 dimensionless
-    r_min:
-    - '`layout: PPP_PTP_BPP'
-  PTB_PPP_BPB:
-    f_max:
-    - 0.8353658536585366 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_BPB'
-  PTB_PPP_BTP:
-    f_max:
-    - 0.6926829268292682 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_BTP'
-  PGP_GGP_PPP:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.16666666666666666 dimensionless
-    r_min:
-    - '`layout: PGP_GGP_PPP'
-  TPP_BPP_PPB:
-    f_max:
-    - 0.75 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPP_BPP_PPB'
-  PTG_PPP_PPG:
-    f_max:
-    - 0.6016260162601627 dimensionless
+    - 0.23245614035087717 dimensionless
     - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: PTG_PPP_PPG'
-  GPT_PPB_BPP:
+    - '`layout: PGG_GPG_BTP'
+  GPT_BTB_PGB:
     f_max:
-    - 0.733739837398374 dimensionless
-    - 0.26666666666666666 dimensionless
+    - 0.38596491228070173 dimensionless
+    - 0.5888888888888889 dimensionless
     r_min:
-    - '`layout: GPT_PPB_BPP'
-  TPT_PPP_BPT:
+    - '`layout: GPT_BTB_PGB'
+  TPP_BBP_PPB:
     f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_BPT'
-  BPP_PPP_BPB:
-    f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: BPP_PPP_BPB'
-  PGG_PPP_TPB:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PGG_PPP_TPB'
-  GPP_PPG_PPB:
-    f_max:
-    - 0.6565040650406504 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PPB'
-  TPT_PPP_PPG:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PPG'
-  TGP_PPP_PBG:
-    f_max:
-    - 0.5991869918699186 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PBG'
-  PPB_BPB_BPP:
-    f_max:
-    - 0.9121951219512194 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPB_BPB_BPP'
-  GGP_PPP_BPT:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_BPT'
-  PTP_PPP_GPB:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_GPB'
-  PPT_BPB_BPP:
-    f_max:
-    - 0.8024390243902438 dimensionless
+    - 0.4473684210526316 dimensionless
     - 0.2222222222222222 dimensionless
     r_min:
-    - '`layout: PPT_BPB_BPP'
-  GGP_GPP_PPB:
+    - '`layout: TPP_BBP_PPB'
+  PGB_TGT_TBP:
     f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.1111111111111111 dimensionless
+    - 0.2675438596491228 dimensionless
+    - 0.5888888888888889 dimensionless
     r_min:
-    - '`layout: GGP_GPP_PPB'
-  GTP_PTP_PPP:
+    - '`layout: PGB_TGT_TBP'
+  GGT_GPT_TPT:
     f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.6333333333333333 dimensionless
+    - 0.07894736842105263 dimensionless
+    - 0.6888888888888889 dimensionless
     r_min:
-    - '`layout: GTP_PTP_PPP'
-  PPG_PPP_PGG:
+    - '`layout: GGT_GPT_TPT'
+  GGT_PGG_BPG:
     f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.13333333333333333 dimensionless
+    - 0.21491228070175436 dimensionless
+    - 0.18888888888888888 dimensionless
     r_min:
-    - '`layout: PPG_PPP_PGG'
-  PGP_PPP_PGG:
+    - '`layout: GGT_PGG_BPG'
+  GGG_PBG_BGB:
     f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_PGG'
-  TGP_PPP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PPP'
-  GPP_PPG_PBB:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PBB'
-  PPP_BPB_BPP:
-    f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPB_BPP'
-  TPP_PPG_BPP:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TPP_PPG_BPP'
-  GGP_PPP_GPG:
-    f_max:
-    - 0.5386178861788617 dimensionless
+    - 0.3464912280701754 dimensionless
     - 0.17777777777777778 dimensionless
     r_min:
-    - '`layout: GGP_PPP_GPG'
-  GPP_PPB_BPT:
+    - '`layout: GGG_PBG_BGB'
+  TGP_TBP_PTG:
     f_max:
-    - 0.733739837398374 dimensionless
-    - 0.26666666666666666 dimensionless
+    - 0.17543859649122806 dimensionless
+    - 0.5777777777777777 dimensionless
     r_min:
-    - '`layout: GPP_PPB_BPT'
-  PPP_PBB_PBP:
+    - '`layout: TGP_TBP_PTG'
+  TPT_BPT_PPG:
     f_max:
-    - 0.8780487804878049 dimensionless
-    - 0.0 dimensionless
+    - 0.46929824561403516 dimensionless
+    - 0.6444444444444445 dimensionless
     r_min:
-    - '`layout: PPP_PBB_PBP'
-  GTP_PPP_TGP:
+    - '`layout: TPT_BPT_PPG'
+  PGB_BGT_GPB:
     f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.5333333333333333 dimensionless
+    - 0.39473684210526316 dimensionless
+    - 0.36666666666666664 dimensionless
     r_min:
-    - '`layout: GTP_PPP_TGP'
-  GPB_PPP_BBP:
+    - '`layout: PGB_BGT_GPB'
+  PGG_PGP_TGB:
     f_max:
-    - 0.8434959349593495 dimensionless
-    - 0.044444444444444446 dimensionless
+    - 0.23245614035087717 dimensionless
+    - 0.2777777777777778 dimensionless
     r_min:
-    - '`layout: GPB_PPP_BBP'
-  TGP_TPP_PPG:
+    - '`layout: PGG_PGP_TGB'
+  TGB_BTT_GBB:
     f_max:
-    - 0.467479674796748 dimensionless
-    - 0.4222222222222222 dimensionless
+    - 0.3333333333333333 dimensionless
+    - 0.6777777777777778 dimensionless
     r_min:
-    - '`layout: TGP_TPP_PPG'
-  PTB_PPP_PTB:
+    - '`layout: TGB_BTT_GBB'
+  PTT_PBB_GTG:
     f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.6666666666666666 dimensionless
+    - 0.22807017543859648 dimensionless
+    - 0.7333333333333333 dimensionless
     r_min:
-    - '`layout: PTB_PPP_PTB'
-  GPP_PPP_BGP:
+    - '`layout: PTT_PBB_GTG'
+  GGP_TGB_BBT:
     f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.1111111111111111 dimensionless
+    - 0.32894736842105265 dimensionless
+    - 0.43333333333333335 dimensionless
     r_min:
-    - '`layout: GPP_PPP_BGP'
-  GTP_PPP_GPP:
+    - '`layout: GGP_TGB_BBT'
+  TTT_TPT_TTP:
     f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.35555555555555557 dimensionless
+    - 0.05263157894736842 dimensionless
+    - 0.8888888888888888 dimensionless
     r_min:
-    - '`layout: GTP_PPP_GPP'
-  GPP_PPT_PPB:
+    - '`layout: TTT_TPT_TTP'
+  TGP_BBB_GGG:
     f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PPB'
-  GPP_PPT_PBB:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PBB'
-  TTP_BPP_PPG:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TTP_BPP_PPG'
-  GGP_BPP_PPG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GGP_BPP_PPG'
-  PPP_PPG_PGB:
-    f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_PPG_PGB'
-  TTP_PPP_PPG:
-    f_max:
-    - 0.5386178861788617 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_PPG'
-  TTP_PPP_TPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_TPP'
-  TPP_BPT_PPP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TPP_BPT_PPP'
-  GPT_PPP_PGP:
-    f_max:
-    - 0.5467479674796748 dimensionless
+    - 0.33771929824561403 dimensionless
     - 0.3333333333333333 dimensionless
     r_min:
-    - '`layout: GPT_PPP_PGP'
-  TPP_BPP_PPG:
+    - '`layout: TGP_BBB_GGG'
+  PGG_PBG_TTB:
     f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.26666666666666666 dimensionless
+    - 0.23684210526315788 dimensionless
+    - 0.4888888888888889 dimensionless
     r_min:
-    - '`layout: TPP_BPP_PPG'
-  GPT_PPB_PPP:
+    - '`layout: PGG_PBG_TTB'
+  TGT_GTP_BBB:
     f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPT_PPB_PPP'
-  PGP_PTP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
+    - 0.35964912280701755 dimensionless
     - 0.5 dimensionless
     r_min:
-    - '`layout: PGP_PTP_PPP'
-  TPP_PPG_PPB:
+    - '`layout: TGT_GTP_BBB'
+  TTP_BPT_TTB:
     f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.28888888888888886 dimensionless
+    - 0.2894736842105263 dimensionless
+    - 1.0 dimensionless
     r_min:
-    - '`layout: TPP_PPG_PPB'
-  PPP_BPB_PPB:
+    - '`layout: TTP_BPT_TTB'
+  TPT_BGT_PBP:
     f_max:
-    - 0.9146341463414634 dimensionless
-    - 0.0 dimensionless
+    - 0.32456140350877194 dimensionless
+    - 0.5666666666666667 dimensionless
     r_min:
-    - '`layout: PPP_BPB_PPB'
-  PPP_BPB_TPB:
+    - '`layout: TPT_BGT_PBP'
+  GGB_PGB_BBT:
     f_max:
-    - 0.8902439024390244 dimensionless
-    - 0.2222222222222222 dimensionless
+    - 0.4473684210526316 dimensionless
+    - 0.3 dimensionless
     r_min:
-    - '`layout: PPP_BPB_TPB'
-  GPB_BPG_PPP:
+    - '`layout: GGB_PGB_BBT'
+  GGB_TTG_TGB:
     f_max:
-    - 0.7967479674796749 dimensionless
-    - 0.1111111111111111 dimensionless
+    - 0.19298245614035087 dimensionless
+    - 0.36666666666666664 dimensionless
     r_min:
-    - '`layout: GPB_BPG_PPP'
-  TPT_PPP_BPP:
+    - '`layout: GGB_TTG_TGB'
+  TTT_PBB_BPB:
     f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_BPP'
-  TTP_BBP_PPP:
-    f_max:
-    - 0.7439024390243902 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TTP_BBP_PPP'
-  PGB_PBP_PPP:
-    f_max:
-    - 0.7764227642276422 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGB_PBP_PPP'
-  PTP_PPP_TPG:
-    f_max:
-    - 0.5386178861788617 dimensionless
-    - 0.6 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_TPG'
-  TPB_PPT_BPP:
-    f_max:
-    - 0.725609756097561 dimensionless
+    - 0.4868421052631579 dimensionless
     - 0.5555555555555556 dimensionless
     r_min:
-    - '`layout: TPB_PPT_BPP'
-  TGP_GPP_PPT:
+    - '`layout: TTT_PBB_BPB'
+  GTP_BBB_TGG:
     f_max:
-    - 0.467479674796748 dimensionless
-    - 0.4222222222222222 dimensionless
+    - 0.32894736842105265 dimensionless
+    - 0.5555555555555556 dimensionless
     r_min:
-    - '`layout: TGP_GPP_PPT'
-  GGP_PPP_TBP:
+    - '`layout: GTP_BBB_TGG'
+  GGT_PBT_TGG:
     f_max:
-    - 0.6869918699186992 dimensionless
+    - 0.14035087719298245 dimensionless
+    - 0.5111111111111111 dimensionless
+    r_min:
+    - '`layout: GGT_PBT_TGG'
+  PGG_PBP_TBB:
+    f_max:
+    - 0.41228070175438597 dimensionless
     - 0.3111111111111111 dimensionless
     r_min:
-    - '`layout: GGP_PPP_TBP'
-  GPP_PPT_PBG:
+    - '`layout: PGG_PBP_TBB'
+  TPT_PTB_PBP:
     f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PBG'
-  TPB_PPP_BPT:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPB_PPP_BPT'
-  TPT_PPP_PTG:
-    f_max:
-    - 0.5142276422764227 dimensionless
-    - 0.7555555555555555 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PTG'
-  GTP_BPP_PPP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_BPP_PPP'
-  PTT_PGT_PPP:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.45555555555555555 dimensionless
-    r_min:
-    - '`layout: PTT_PGT_PPP'
-  GGP_GPP_PPP:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_GPP_PPP'
-  PTT_PBG_PPP:
-    f_max:
-    - 0.6422764227642276 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PTT_PBG_PPP'
-  GGP_PPP_TPP:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_TPP'
-  GPT_PPP_BBP:
-    f_max:
-    - 0.733739837398374 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_BBP'
-  GPT_PPP_BPP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_BPP'
-  GTP_PPP_PGT:
-    f_max:
-    - 0.4894308943089431 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_PGT'
-  PTT_PTP_PPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
+    - 0.34210526315789475 dimensionless
     - 0.7222222222222222 dimensionless
     r_min:
-    - '`layout: PTT_PTP_PPP'
-  TPP_PPB_PBP:
+    - '`layout: TPT_PTB_PBP'
+  GBP_BGG_PGP:
     f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.2222222222222222 dimensionless
+    - 0.3508771929824561 dimensionless
+    - 0.18888888888888888 dimensionless
     r_min:
-    - '`layout: TPP_PPB_PBP'
-  TPP_BPB_PPP:
+    - '`layout: GBP_BGG_PGP'
+  GPP_BGG_BPP:
     f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
+    - 0.3684210526315789 dimensionless
+    - 0.16666666666666666 dimensionless
     r_min:
-    - '`layout: TPP_BPB_PPP'
-  GPP_PGP_PPP:
+    - '`layout: GPP_BGG_BPP'
+  GGP_PGT_BPT:
     f_max:
-    - 0.6260162601626017 dimensionless
-    - 0.12222222222222222 dimensionless
+    - 0.2236842105263158 dimensionless
+    - 0.3888888888888889 dimensionless
     r_min:
-    - '`layout: GPP_PGP_PPP'
-  PPT_PTP_PPP:
+    - '`layout: GGP_PGT_BPT'
+  GGB_PPB_PGT:
     f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.6111111111111112 dimensionless
-    r_min:
-    - '`layout: PPT_PTP_PPP'
-  GPP_PPB_BPP:
-    f_max:
-    - 0.7581300813008129 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPP_PPB_BPP'
-  TPP_PPP_BGP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_BGP'
-  TPT_BPG_PPP:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_BPG_PPP'
-  PGB_PPG_PPP:
-    f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PGB_PPG_PPP'
-  BPG_PPP_PGB:
-    f_max:
-    - 0.7418699186991871 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: BPG_PPP_PGB'
-  BPP_PPG_PBB:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: BPP_PPG_PBB'
-  GPG_PPP_PBG:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_PBG'
-  PGB_PPP_TBP:
-    f_max:
-    - 0.7008130081300812 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: PGB_PPP_TBP'
-  TPP_PPT_PTB:
-    f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: TPP_PPT_PTB'
-  PTT_PPP_PTB:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_PTB'
-  GTP_PPP_PPG:
-    f_max:
-    - 0.5467479674796748 dimensionless
-    - 0.35555555555555557 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_PPG'
-  PPB_PPP_BBP:
-    f_max:
-    - 0.8597560975609756 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPB_PPP_BBP'
-  PPP_PPG_PGG:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_PPG_PGG'
-  PGP_PPP_PGB:
-    f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.13333333333333333 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_PGB'
-  PPT_PPG_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_PPG_PPP'
-  TTP_TPP_PPB:
-    f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TTP_TPP_PPB'
-  PPT_PPP_BPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_BPB'
-  PPG_PPP_BPP:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_BPP'
-  PTT_PPP_TGP:
-    f_max:
-    - 0.48130081300813 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_TGP'
-  PPP_PPT_PTB:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PPP_PPT_PTB'
-  PTP_TGP_PPP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.5222222222222223 dimensionless
-    r_min:
-    - '`layout: PTP_TGP_PPP'
-  BPP_PPB_PBB:
-    f_max:
-    - 0.8902439024390244 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: BPP_PPB_PBB'
-  GBP_BPP_PPP:
-    f_max:
-    - 0.8130081300813007 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GBP_BPP_PPP'
-  PPT_BPP_TPB:
-    f_max:
-    - 0.725609756097561 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PPT_BPP_TPB'
-  PTG_PPB_BPP:
-    f_max:
-    - 0.6788617886178862 dimensionless
+    - 0.34210526315789475 dimensionless
     - 0.3111111111111111 dimensionless
     r_min:
-    - '`layout: PTG_PPB_BPP'
-  GGP_PPP_BPP:
+    - '`layout: GGB_PPB_PGT'
+  TTP_TGP_PBP:
     f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.08888888888888889 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_BPP'
-  TBP_BBP_PPP:
-    f_max:
-    - 0.8536585365853658 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TBP_BBP_PPP'
-  PPT_PBG_PPP:
-    f_max:
-    - 0.6666666666666666 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_PBG_PPP'
-  TPP_PPB_BPP:
-    f_max:
-    - 0.75 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TPP_PPB_BPP'
-  TPP_PPG_PBG:
-    f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: TPP_PPG_PBG'
-  PGB_PPB_BPP:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGB_PPB_BPP'
-  TGP_GTP_PPP:
-    f_max:
-    - 0.5772357723577236 dimensionless
+    - 0.46929824561403516 dimensionless
     - 0.45555555555555555 dimensionless
     r_min:
-    - '`layout: TGP_GTP_PPP'
-  PGT_PPP_PTB:
+    - '`layout: TTP_TGP_PBP'
+  GPP_BGP_TGP:
     f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.5555555555555556 dimensionless
+    - 0.4868421052631579 dimensionless
+    - 0.25555555555555554 dimensionless
     r_min:
-    - '`layout: PGT_PPP_PTB'
+    - '`layout: GPP_BGP_TGP'
+  GTB_PPT_TPB:
+    f_max:
+    - 0.32456140350877194 dimensionless
+    - 0.7555555555555555 dimensionless
+    r_min:
+    - '`layout: GTB_PPT_TPB'
+  GGT_BGP_GPP:
+    f_max:
+    - 0.23245614035087717 dimensionless
+    - 0.25555555555555554 dimensionless
+    r_min:
+    - '`layout: GGT_BGP_GPP'
+  TPT_PTG_BPP:
+    f_max:
+    - 0.23245614035087717 dimensionless
+    - 0.6555555555555556 dimensionless
+    r_min:
+    - '`layout: TPT_PTG_BPP'
+  GGB_PBP_GPT:
+    f_max:
+    - 0.3026315789473684 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: GGB_PBP_GPT'
+  GGG_BBG_BTP:
+    f_max:
+    - 0.2982456140350877 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: GGG_BBG_BTP'
+  GGP_BPP_GBB:
+    f_max:
+    - 0.4605263157894737 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: GGP_BPP_GBB'
+  GGP_GGB_BTB:
+    f_max:
+    - 0.33771929824561403 dimensionless
+    - 0.34444444444444444 dimensionless
+    r_min:
+    - '`layout: GGP_GGB_BTB'
+  BTP_PTT_GGB:
+    f_max:
+    - 0.2675438596491228 dimensionless
+    - 0.7222222222222222 dimensionless
+    r_min:
+    - '`layout: BTP_PTT_GGB'
+  GGG_PTB_TPT:
+    f_max:
+    - 0.19736842105263158 dimensionless
+    - 0.6333333333333333 dimensionless
+    r_min:
+    - '`layout: GGG_PTB_TPT'
+  PGG_GGG_BTP:
+    f_max:
+    - 0.17543859649122806 dimensionless
+    - 0.3 dimensionless
+    r_min:
+    - '`layout: PGG_GGG_BTP'
+  GGG_GGT_BGP:
+    f_max:
+    - 0.15789473684210525 dimensionless
+    - 0.23333333333333334 dimensionless
+    r_min:
+    - '`layout: GGG_GGT_BGP'
+  PGB_PPT_BPB:
+    f_max:
+    - 0.6469298245614036 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PGB_PPT_BPB'
+  TTT_PTT_PGP:
+    f_max:
+    - 0.08771929824561404 dimensionless
+    - 0.6555555555555556 dimensionless
+    r_min:
+    - '`layout: TTT_PTT_PGP'
+  TGP_TBT_PTG:
+    f_max:
+    - 0.14912280701754385 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TGP_TBT_PTG'
+  GGP_GTG_BBT:
+    f_max:
+    - 0.21929824561403505 dimensionless
+    - 0.43333333333333335 dimensionless
+    r_min:
+    - '`layout: GGP_GTG_BBT'
+  PTP_PGT_GBB:
+    f_max:
+    - 0.293859649122807 dimensionless
+    - 0.5444444444444444 dimensionless
+    r_min:
+    - '`layout: PTP_PGT_GBB'
+  TTT_PBG_TTB:
+    f_max:
+    - 0.19298245614035087 dimensionless
+    - 0.8666666666666667 dimensionless
+    r_min:
+    - '`layout: TTT_PBG_TTB'
+  PPP_PTG_BTB:
+    f_max:
+    - 0.5482456140350878 dimensionless
+    - 0.6555555555555556 dimensionless
+    r_min:
+    - '`layout: PPP_PTG_BTB'
+  GGP_PTB_TTT:
+    f_max:
+    - 0.18859649122807015 dimensionless
+    - 0.6777777777777778 dimensionless
+    r_min:
+    - '`layout: GGP_PTB_TTT'
+  GTG_TPG_GBB:
+    f_max:
+    - 0.2982456140350877 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: GTG_TPG_GBB'
+  TGT_GTG_TPT:
+    f_max:
+    - 0.05263157894736842 dimensionless
+    - 0.5 dimensionless
+    r_min:
+    - '`layout: TGT_GTG_TPT'
+  GPP_BPG_TPP:
+    f_max:
+    - 0.5043859649122806 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: GPP_BPG_TPP'
+  PGP_PGT_TPG:
+    f_max:
+    - 0.13157894736842105 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: PGP_PGT_TPG'
+  TTB_PTB_GGB:
+    f_max:
+    - 0.2807017543859649 dimensionless
+    - 0.6777777777777778 dimensionless
+    r_min:
+    - '`layout: TTB_PTB_GGB'
+  BGT_GGP_TBB:
+    f_max:
+    - 0.3684210526315789 dimensionless
+    - 0.34444444444444444 dimensionless
+    r_min:
+    - '`layout: BGT_GGP_TBB'
+  TPB_BBP_PBT:
+    f_max:
+    - 0.5131578947368421 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPB_BBP_PBT'
+  TGP_BPB_PGP:
+    f_max:
+    - 0.35964912280701755 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: TGP_BPB_PGP'
+  TGB_BPP_GBB:
+    f_max:
+    - 0.543859649122807 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: TGB_BPP_GBB'
+  GGG_TGP_BTT:
+    f_max:
+    - 0.14035087719298245 dimensionless
+    - 0.4777777777777778 dimensionless
+    r_min:
+    - '`layout: GGG_TGP_BTT'
+  TGP_PBT_GTB:
+    f_max:
+    - 0.22807017543859648 dimensionless
+    - 0.6888888888888889 dimensionless
+    r_min:
+    - '`layout: TGP_PBT_GTB'
+  PTT_BBP_PBB:
+    f_max:
+    - 0.5131578947368421 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: PTT_BBP_PBB'
+  GGB_PBP_GPG:
+    f_max:
+    - 0.3114035087719298 dimensionless
+    - 0.17777777777777778 dimensionless
+    r_min:
+    - '`layout: GGB_PBP_GPG'
+  TGT_PGB_BTT:
+    f_max:
+    - 0.24122807017543857 dimensionless
+    - 0.6333333333333333 dimensionless
+    r_min:
+    - '`layout: TGT_PGB_BTT'
+  TBP_BTB_BBP:
+    f_max:
+    - 0.5657894736842105 dimensionless
+    - 0.6111111111111112 dimensionless
+    r_min:
+    - '`layout: TBP_BTB_BBP'
+  TTT_TBP_PBG:
+    f_max:
+    - 0.25877192982456143 dimensionless
+    - 0.7111111111111111 dimensionless
+    r_min:
+    - '`layout: TTT_TBP_PBG'
+  GGP_BGP_GBT:
+    f_max:
+    - 0.28508771929824556 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: GGP_BGP_GBT'
+  TPT_BGG_BGB:
+    f_max:
+    - 0.32894736842105265 dimensionless
+    - 0.4111111111111111 dimensionless
+    r_min:
+    - '`layout: TPT_BGG_BGB'
+  GTP_BGT_PGG:
+    f_max:
+    - 0.20614035087719298 dimensionless
+    - 0.3888888888888889 dimensionless
+    r_min:
+    - '`layout: GTP_BGT_PGG'
+  GGT_GTG_TPB:
+    f_max:
+    - 0.17982456140350878 dimensionless
+    - 0.4111111111111111 dimensionless
+    r_min:
+    - '`layout: GGT_GTG_TPB'
+  TGG_BGP_GBB:
+    f_max:
+    - 0.3771929824561403 dimensionless
+    - 0.25555555555555554 dimensionless
+    r_min:
+    - '`layout: TGG_BGP_GBB'
+  GPB_PTG_BGB:
+    f_max:
+    - 0.39473684210526316 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: GPB_PTG_BGB'
+  GBG_BGG_PBB:
+    f_max:
+    - 0.45614035087719296 dimensionless
+    - 0.16666666666666666 dimensionless
+    r_min:
+    - '`layout: GBG_BGG_PBB'
+  TGT_TTP_GBG:
+    f_max:
+    - 0.17105263157894737 dimensionless
+    - 0.5222222222222223 dimensionless
+    r_min:
+    - '`layout: TGT_TTP_GBG'
+  GTB_PPB_TBB:
+    f_max:
+    - 0.5350877192982456 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: GTB_PPB_TBB'
+  PGP_PPP_BGB:
+    f_max:
+    - 0.6228070175438596 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: PGP_PPP_BGB'
+  GPT_BPG_PPP:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPT_BPG_PPP'
+  PTT_PPB_TPP:
+    f_max:
+    - 0.6052631578947368 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: PTT_PPB_TPP'
+  PGG_PPP_BPB:
+    f_max:
+    - 0.8004385964912281 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: PGG_PPP_BPB'
+  PTP_BTP_PPP:
+    f_max:
+    - 0.75 dimensionless
+    - 0.7222222222222222 dimensionless
+    r_min:
+    - '`layout: PTP_BTP_PPP'
+  TTP_PPP_PPT:
+    f_max:
+    - 0.5723684210526315 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TTP_PPP_PPT'
+  BPT_PPP_BPB:
+    f_max:
+    - 0.9605263157894737 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: BPT_PPP_BPB'
+  TGP_TPP_PPP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: TGP_TPP_PPP'
+  GGP_BPP_PPB:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GGP_BPP_PPB'
+  PTP_PGG_PPP:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.34444444444444444 dimensionless
+    r_min:
+    - '`layout: PTP_PGG_PPP'
   GPP_PPP_BBP:
     f_max:
-    - 0.8130081300813007 dimensionless
+    - 0.8771929824561402 dimensionless
     - 0.044444444444444446 dimensionless
     r_min:
     - '`layout: GPP_PPP_BBP'
-  PTT_PPP_PGB:
+  TTP_PPP_BPB:
     f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: PTT_PPP_PGB'
-  PPP_BPB_TPG:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PPP_BPB_TPG'
-  TPT_PPP_PBT:
-    f_max:
-    - 0.6158536585365854 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PBT'
-  PPP_BPP_PPB:
-    f_max:
-    - 0.8292682926829268 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_PPB'
-  GTP_PPP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_PPP'
-  PGT_PPP_BGP:
-    f_max:
-    - 0.5991869918699186 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: PGT_PPP_BGP'
-  PPG_PPP_TPB:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PPG_PPP_TPB'
-  PPT_PPP_PPG:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PPG'
-  PPP_PPT_PPB:
-    f_max:
-    - 0.7195121951219512 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PPP_PPT_PPB'
-  GPG_PPP_TPT:
-    f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_TPT'
-  PTP_BPP_PPB:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_BPP_PPB'
-  PPP_BPT_TPB:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PPP_BPT_TPB'
-  PTP_PPP_BPB:
-    f_max:
-    - 0.75 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_BPB'
-  PGP_TTP_PPP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.6555555555555556 dimensionless
-    r_min:
-    - '`layout: PGP_TTP_PPP'
-  GGP_TGP_PPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: GGP_TGP_PPP'
-  PTB_PPP_PGB:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.4 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_PGB'
-  TGP_PPP_PBB:
-    f_max:
-    - 0.7008130081300812 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_PBB'
-  TPT_PPP_PGB:
-    f_max:
-    - 0.6239837398373983 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: TPT_PPP_PGB'
-  TPT_PPG_TPP:
-    f_max:
-    - 0.5142276422764227 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TPT_PPG_TPP'
-  PGG_PPT_BPP:
-    f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: PGG_PPT_BPP'
-  GPP_PPT_PBT:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PBT'
-  PTB_PPT_TPP:
-    f_max:
-    - 0.5609756097560976 dimensionless
-    - 0.7777777777777778 dimensionless
-    r_min:
-    - '`layout: PTB_PPT_TPP'
-  PGG_PPP_BTP:
-    f_max:
-    - 0.5991869918699186 dimensionless
-    - 0.4222222222222222 dimensionless
-    r_min:
-    - '`layout: PGG_PPP_BTP'
-  PGP_PPP_BPP:
-    f_max:
-    - 0.7276422764227642 dimensionless
-    - 0.06666666666666667 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_BPP'
-  PTT_PPP_BPB:
-    f_max:
-    - 0.725609756097561 dimensionless
+    - 0.7828947368421053 dimensionless
     - 0.4444444444444444 dimensionless
     r_min:
-    - '`layout: PTT_PPP_BPB'
-  PPP_BPP_PBP:
+    - '`layout: TTP_PPP_BPB'
+  PTP_PPG_PPP:
     f_max:
-    - 0.8292682926829268 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_BPP_PBP'
-  PPP_PPP_PPG:
-    f_max:
-    - 0.6422764227642276 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPP_PPP_PPG'
-  GGP_TPP_PPP:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: GGP_TPP_PPP'
-  PGG_PPG_BPP:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.1111111111111111 dimensionless
-    r_min:
-    - '`layout: PGG_PPG_BPP'
-  GGP_PPP_PTT:
-    f_max:
-    - 0.4894308943089431 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GGP_PPP_PTT'
-  PGT_PPP_PPG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PGT_PPP_PPG'
-  TPT_PPP_TBP:
-    f_max:
-    - 0.6158536585365854 dimensionless
     - 0.6666666666666666 dimensionless
+    - 0.3333333333333333 dimensionless
     r_min:
-    - '`layout: TPT_PPP_TBP'
-  TPP_PPP_BBP:
+    - '`layout: PTP_PPG_PPP'
+  PPP_PBT_PPB:
     f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.2222222222222222 dimensionless
+    - 0.8289473684210527 dimensionless
+    - 0.3333333333333333 dimensionless
     r_min:
-    - '`layout: TPP_PPP_BBP'
-  TPT_BPP_PPP:
+    - '`layout: PPP_PBT_PPB'
+  GTP_PPP_PBG:
     f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPT_BPP_PPP'
-  PTT_PBP_PPP:
-    f_max:
-    - 0.6585365853658537 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: PTT_PBP_PPP'
-  PPT_PPP_PBG:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PBG'
-  PPT_PPP_PTB:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PPT_PPP_PTB'
-  GPT_PPP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.26666666666666666 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_PPP'
-  GPP_BPT_PPG:
-    f_max:
-    - 0.5991869918699186 dimensionless
+    - 0.6464912280701754 dimensionless
     - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: GPP_BPT_PPG'
-  GPP_PPT_PTG:
+    - '`layout: GTP_PPP_PBG'
+  GPP_PPB_PBT:
     f_max:
-    - 0.467479674796748 dimensionless
-    - 0.5111111111111111 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_PTG'
-  PPP_PTB_PBG:
-    f_max:
-    - 0.7886178861788616 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: PPP_PTB_PBG'
-  TTP_PPP_BPT:
-    f_max:
-    - 0.6158536585365854 dimensionless
-    - 0.6666666666666666 dimensionless
-    r_min:
-    - '`layout: TTP_PPP_BPT'
-  TTP_BTP_PPP:
-    f_max:
-    - 0.6707317073170732 dimensionless
-    - 0.7222222222222222 dimensionless
-    r_min:
-    - '`layout: TTP_BTP_PPP'
-  TGP_PPP_TPG:
-    f_max:
-    - 0.5223577235772358 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_TPG'
-  GPT_PPP_PBG:
-    f_max:
-    - 0.6321138211382115 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_PBG'
-  GTP_BPP_PPT:
-    f_max:
-    - 0.5691056910569106 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_BPP_PPT'
-  TPP_PPP_PPT:
-    f_max:
-    - 0.6097560975609756 dimensionless
-    - 0.4444444444444444 dimensionless
-    r_min:
-    - '`layout: TPP_PPP_PPT'
-  GPP_PPG_PGT:
-    f_max:
-    - 0.47560975609756095 dimensionless
-    - 0.24444444444444444 dimensionless
-    r_min:
-    - '`layout: GPP_PPG_PGT'
-  PGP_GTP_PPP:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.4777777777777778 dimensionless
-    r_min:
-    - '`layout: PGP_GTP_PPP'
-  PTB_PPP_PPB:
-    f_max:
-    - 0.8048780487804879 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTB_PPP_PPB'
-  GTP_PPP_TBP:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.5333333333333333 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_TBP'
-  PPP_PGP_BBP:
-    f_max:
-    - 0.8130081300813007 dimensionless
-    - 0.1 dimensionless
-    r_min:
-    - '`layout: PPP_PGP_BBP'
-  TPG_PPP_TPB:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: TPG_PPP_TPB'
-  GTP_PPP_BTP:
-    f_max:
-    - 0.6788617886178862 dimensionless
-    - 0.6444444444444445 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_BTP'
-  PTP_PPP_TGP:
-    f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: PTP_PPP_TGP'
-  GPT_PPP_PPB:
-    f_max:
-    - 0.7032520325203252 dimensionless
+    - 0.7324561403508771 dimensionless
     - 0.26666666666666666 dimensionless
     r_min:
-    - '`layout: GPT_PPP_PPB'
-  GPP_BBP_PPP:
-    f_max:
-    - 0.7764227642276422 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: GPP_BBP_PPP'
-  PPP_PTG_PGG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.4111111111111111 dimensionless
-    r_min:
-    - '`layout: PPP_PTG_PGG'
-  PTP_PGP_PPP:
-    f_max:
-    - 0.6178861788617885 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: PTP_PGP_PPP'
-  GPG_PPP_BGP:
-    f_max:
-    - 0.6402439024390244 dimensionless
-    - 0.15555555555555556 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_BGP'
-  GPG_PPP_TGP:
-    f_max:
-    - 0.5304878048780488 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_TGP'
+    - '`layout: GPP_PPB_PBT'
   GPP_BPB_PPB:
     f_max:
-    - 0.8105691056910569 dimensionless
+    - 0.874561403508772 dimensionless
     - 0.044444444444444446 dimensionless
     r_min:
     - '`layout: GPP_BPB_PPB'
-  PGB_PPB_TPP:
+  PGB_PPP_TPP:
     f_max:
-    - 0.6788617886178862 dimensionless
+    - 0.6995614035087719 dimensionless
     - 0.28888888888888886 dimensionless
     r_min:
-    - '`layout: PGB_PPB_TPP'
-  PPT_BPP_BBP:
+    - '`layout: PGB_PPP_TPP'
+  PPP_BPT_BPB:
     f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_BPP_BBP'
-  GPG_PPP_BPT:
-    f_max:
-    - 0.6869918699186992 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPG_PPP_BPT'
-  GTP_PPP_PPB:
-    f_max:
-    - 0.6483739837398373 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GTP_PPP_PPB'
-  GPT_PPP_PPG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_PPG'
-  TPB_BPT_PPP:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.5555555555555556 dimensionless
-    r_min:
-    - '`layout: TPB_BPT_PPP'
-  PPP_PGT_PPB:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.36666666666666664 dimensionless
-    r_min:
-    - '`layout: PPP_PGT_PPB'
-  PTB_PPP_BPP:
-    f_max:
-    - 0.75 dimensionless
+    - 0.9605263157894737 dimensionless
     - 0.3333333333333333 dimensionless
     r_min:
-    - '`layout: PTB_PPP_BPP'
-  PPP_PGT_PPG:
+    - '`layout: PPP_BPT_BPB'
+  PPP_BPG_BPB:
     f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.32222222222222224 dimensionless
+    - 0.969298245614035 dimensionless
+    - 0.06666666666666667 dimensionless
     r_min:
-    - '`layout: PPP_PGT_PPG'
-  GPP_BPG_PPG:
+    - '`layout: PPP_BPG_BPB'
+  GTP_PPP_GPP:
     f_max:
-    - 0.6073170731707317 dimensionless
-    - 0.13333333333333333 dimensionless
+    - 0.6491228070175439 dimensionless
+    - 0.35555555555555557 dimensionless
     r_min:
-    - '`layout: GPP_BPG_PPG'
-  PTP_PTT_PPP:
+    - '`layout: GTP_PPP_GPP'
+  GPT_BPP_PPT:
     f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.8333333333333334 dimensionless
-    r_min:
-    - '`layout: PTP_PTT_PPP'
-  GPT_PPP_PBT:
-    f_max:
-    - 0.6239837398373983 dimensionless
+    - 0.6732456140350876 dimensionless
     - 0.4888888888888889 dimensionless
     r_min:
-    - '`layout: GPT_PPP_PBT'
-  GPP_BGP_PPP:
+    - '`layout: GPT_BPP_PPT'
+  GPT_PPP_PTG:
     f_max:
-    - 0.7113821138211383 dimensionless
-    - 0.12222222222222222 dimensionless
+    - 0.5635964912280702 dimensionless
+    - 0.5777777777777777 dimensionless
     r_min:
-    - '`layout: GPP_BGP_PPP'
-  PPP_PBT_PBB:
+    - '`layout: GPT_PPP_PTG'
+  PPT_PPP_BPB:
     f_max:
-    - 0.8170731707317073 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PPP_PBT_PBB'
-  PPP_PBP_PBG:
-    f_max:
-    - 0.7764227642276422 dimensionless
-    - 0.044444444444444446 dimensionless
-    r_min:
-    - '`layout: PPP_PBP_PBG'
-  PGT_PPB_BPP:
-    f_max:
-    - 0.6788617886178862 dimensionless
+    - 0.868421052631579 dimensionless
     - 0.2222222222222222 dimensionless
     r_min:
-    - '`layout: PGT_PPB_BPP'
-  GPT_PPP_TPP:
+    - '`layout: PPT_PPP_BPB'
+  GPT_PPP_BPB:
     f_max:
-    - 0.5934959349593496 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPT_PPP_TPP'
-  PPT_BPP_PBP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: PPT_BPP_PBP'
-  PTG_PPP_PGG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.4 dimensionless
-    r_min:
-    - '`layout: PTG_PPP_PGG'
-  TGP_PPP_BPP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: TGP_PPP_BPP'
-  GPP_PPT_BPT:
-    f_max:
-    - 0.6239837398373983 dimensionless
-    - 0.4888888888888889 dimensionless
-    r_min:
-    - '`layout: GPP_PPT_BPT'
-  PPP_PBP_PBP:
-    f_max:
-    - 0.7926829268292683 dimensionless
-    - 0.0 dimensionless
-    r_min:
-    - '`layout: PPP_PBP_PBP'
-  PGP_PPP_PTG:
-    f_max:
-    - 0.6016260162601627 dimensionless
-    - 0.37777777777777777 dimensionless
-    r_min:
-    - '`layout: PGP_PPP_PTG'
-  PPP_PGG_PTG:
-    f_max:
-    - 0.5853658536585366 dimensionless
-    - 0.2777777777777778 dimensionless
-    r_min:
-    - '`layout: PPP_PGG_PTG'
-  TPP_BPG_PPP:
-    f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.28888888888888886 dimensionless
-    r_min:
-    - '`layout: TPP_BPG_PPP'
-  BPT_PPP_PBB:
-    f_max:
-    - 0.8353658536585366 dimensionless
-    - 0.2222222222222222 dimensionless
-    r_min:
-    - '`layout: BPT_PPP_PBB'
-  PTG_PPP_BPB:
-    f_max:
-    - 0.733739837398374 dimensionless
-    - 0.3111111111111111 dimensionless
-    r_min:
-    - '`layout: PTG_PPP_BPB'
-  GGP_BGP_PPP:
-    f_max:
-    - 0.6951219512195121 dimensionless
-    - 0.14444444444444443 dimensionless
-    r_min:
-    - '`layout: GGP_BGP_PPP'
-  PTB_PPB_BPP:
-    f_max:
-    - 0.7804878048780488 dimensionless
-    - 0.3333333333333333 dimensionless
-    r_min:
-    - '`layout: PTB_PPB_BPP'
-  PPG_BPP_TPB:
-    f_max:
-    - 0.733739837398374 dimensionless
+    - 0.850877192982456 dimensionless
     - 0.26666666666666666 dimensionless
     r_min:
-    - '`layout: PPG_BPP_TPB'
-  PPT_PGB_PPP:
+    - '`layout: GPT_PPP_BPB'
+  PPT_PBP_PPP:
     f_max:
-    - 0.7032520325203252 dimensionless
-    - 0.25555555555555554 dimensionless
+    - 0.7368421052631579 dimensionless
+    - 0.2222222222222222 dimensionless
     r_min:
-    - '`layout: PPT_PGB_PPP'
-  GPP_PPG_PTP:
+    - '`layout: PPT_PBP_PPP'
+  GTP_TBP_PPP:
     f_max:
-    - 0.491869918699187 dimensionless
+    - 0.6929824561403508 dimensionless
+    - 0.4666666666666667 dimensionless
+    r_min:
+    - '`layout: GTP_TBP_PPP'
+  GPG_PPT_BPP:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: GPG_PPT_BPP'
+  TPP_PPP_BPB:
+    f_max:
+    - 0.868421052631579 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TPP_PPP_BPB'
+  PPP_BPG_PPB:
+    f_max:
+    - 0.8771929824561402 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PPP_BPG_PPB'
+  TPG_PPP_BTP:
+    f_max:
+    - 0.6732456140350876 dimensionless
+    - 0.6 dimensionless
+    r_min:
+    - '`layout: TPG_PPP_BTP'
+  PPT_PBB_PPP:
+    f_max:
+    - 0.8289473684210527 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: PPT_PBB_PPP'
+  TPP_PPB_BPT:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPP_PPB_BPT'
+  PGP_PPB_BPP:
+    f_max:
+    - 0.7587719298245613 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PGP_PPB_BPP'
+  TPP_BPB_PPT:
+    f_max:
+    - 0.7473684210526316 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPP_BPB_PPT'
+  PPP_PTT_PBG:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.6333333333333333 dimensionless
+    r_min:
+    - '`layout: PPP_PTT_PBG'
+  GPP_PPG_BPT:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPP_PPG_BPT'
+  TPB_PPG_BPP:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: TPB_PPG_BPP'
+  TGP_TTP_PPP:
+    f_max:
+    - 0.6140350877192983 dimensionless
+    - 0.5888888888888889 dimensionless
+    r_min:
+    - '`layout: TGP_TTP_PPP'
+  PTP_PPP_BBP:
+    f_max:
+    - 0.868421052631579 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PTP_PPP_BBP'
+  PGP_PPP_TPP:
+    f_max:
+    - 0.6666666666666666 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: PGP_PPP_TPP'
+  PGB_PBP_PPP:
+    f_max:
+    - 0.837719298245614 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PGB_PBP_PPP'
+  PPP_PPG_PGG:
+    f_max:
+    - 0.6578947368421053 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: PPP_PPG_PGG'
+  GPG_PPP_BBP:
+    f_max:
+    - 0.8004385964912281 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GPG_PPP_BBP'
+  GPG_PPP_PPB:
+    f_max:
+    - 0.7675438596491229 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GPG_PPP_PPB'
+  GPG_PPP_BTP:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.4222222222222222 dimensionless
+    r_min:
+    - '`layout: GPG_PPP_BTP'
+  PGT_PPP_PBG:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: PGT_PPP_PBG'
+  GPP_PPB_BPT:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPP_PPB_BPT'
+  TPT_PPP_PBT:
+    f_max:
+    - 0.6644736842105263 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TPT_PPP_PBT'
+  GGP_TTP_PPP:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.5444444444444444 dimensionless
+    r_min:
+    - '`layout: GGP_TTP_PPP'
+  PGP_PBB_PPP:
+    f_max:
+    - 0.837719298245614 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PGP_PBB_PPP'
+  PPP_BPT_PPB:
+    f_max:
+    - 0.868421052631579 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PPP_BPT_PPB'
+  PTP_PPP_TPB:
+    f_max:
+    - 0.6907894736842105 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTP_PPP_TPB'
+  GPP_PPT_PBB:
+    f_max:
+    - 0.7324561403508771 dimensionless
     - 0.37777777777777777 dimensionless
     r_min:
-    - '`layout: GPP_PPG_PTP'
+    - '`layout: GPP_PPT_PBB'
+  GPP_PPB_BPG:
+    f_max:
+    - 0.8004385964912281 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GPP_PPB_BPG'
+  TPP_PPG_PTP:
+    f_max:
+    - 0.5219298245614035 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: TPP_PPG_PTP'
+  TPP_PPT_PBG:
+    f_max:
+    - 0.6140350877192983 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: TPP_PPT_PBG'
+  TTP_PPP_GPG:
+    f_max:
+    - 0.5635964912280702 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: TTP_PPP_GPG'
   GTP_PPP_BPT:
     f_max:
-    - 0.6239837398373983 dimensionless
+    - 0.6732456140350876 dimensionless
     - 0.5333333333333333 dimensionless
     r_min:
     - '`layout: GTP_PPP_BPT'
-  TPP_PPG_PTG:
+  TTP_TPP_PPP:
     f_max:
-    - 0.467479674796748 dimensionless
-    - 0.5111111111111111 dimensionless
+    - 0.631578947368421 dimensionless
+    - 0.5555555555555556 dimensionless
     r_min:
-    - '`layout: TPP_PPG_PTG'
-  TPT_BPB_PPP:
+    - '`layout: TTP_TPP_PPP'
+  TBP_BGP_PPP:
     f_max:
-    - 0.7804878048780488 dimensionless
+    - 0.850877192982456 dimensionless
+    - 0.25555555555555554 dimensionless
+    r_min:
+    - '`layout: TBP_BGP_PPP'
+  GTP_BBP_PPP:
+    f_max:
+    - 0.8114035087719298 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: GTP_BBP_PPP'
+  PTT_PPP_PBB:
+    f_max:
+    - 0.8421052631578947 dimensionless
     - 0.4444444444444444 dimensionless
     r_min:
-    - '`layout: TPT_BPB_PPP'
+    - '`layout: PTT_PPP_PBB'
+  PTB_PPP_TPB:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTB_PPP_TPB'
+  PGT_PPP_GPB:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: PGT_PPP_GPB'
+  GTP_TPP_PPG:
+    f_max:
+    - 0.5043859649122807 dimensionless
+    - 0.5111111111111111 dimensionless
+    r_min:
+    - '`layout: GTP_TPP_PPG'
+  TPG_PPP_PBB:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: TPG_PPP_PBB'
+  PPP_BPB_TPB:
+    f_max:
+    - 0.9605263157894737 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: PPP_BPB_TPB'
+  TPP_BPB_PPP:
+    f_max:
+    - 0.868421052631579 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TPP_BPB_PPP'
+  BPP_PPP_BPB:
+    f_max:
+    - 0.9868421052631579 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: BPP_PPP_BPB'
+  TPT_PPP_TPT:
+    f_max:
+    - 0.6052631578947368 dimensionless
+    - 0.8888888888888888 dimensionless
+    r_min:
+    - '`layout: TPT_PPP_TPT'
+  GPP_PPP_PBG:
+    f_max:
+    - 0.7083333333333334 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GPP_PPP_PBG'
+  GPP_PPG_PBT:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPP_PPG_PBT'
+  TTP_TTP_PPP:
+    f_max:
+    - 0.6052631578947368 dimensionless
+    - 0.7222222222222222 dimensionless
+    r_min:
+    - '`layout: TTP_TTP_PPP'
+  PTT_PPP_PTB:
+    f_max:
+    - 0.7236842105263158 dimensionless
+    - 0.7777777777777778 dimensionless
+    r_min:
+    - '`layout: PTT_PPP_PTB'
+  TPT_PPG_PPP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPT_PPG_PPP'
+  BTP_PPP_PBB:
+    f_max:
+    - 0.8657894736842104 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: BTP_PPP_PBB'
+  GGP_BPP_PPT:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: GGP_BPP_PPT'
+  BTP_PPP_PPB:
+    f_max:
+    - 0.8092105263157895 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: BTP_PPP_PPB'
+  PTB_PPB_GPP:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: PTB_PPB_GPP'
+  PTP_TPP_PPB:
+    f_max:
+    - 0.631578947368421 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTP_TPP_PPB'
+  PPT_PGP_PPP:
+    f_max:
+    - 0.6666666666666666 dimensionless
+    - 0.25555555555555554 dimensionless
+    r_min:
+    - '`layout: PPT_PGP_PPP'
+  PGB_PPP_PTB:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: PGB_PPP_PTB'
+  PTT_PPP_BPB:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: PTT_PPP_BPB'
+  BPP_PPG_PGB:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: BPP_PPG_PGB'
+  PPT_PPP_PBG:
+    f_max:
+    - 0.7587719298245613 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: PPT_PPP_PBG'
+  GPP_PPG_PBP:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: GPP_PPG_PBP'
+  PTG_PPP_BTP:
+    f_max:
+    - 0.637719298245614 dimensionless
+    - 0.6444444444444445 dimensionless
+    r_min:
+    - '`layout: PTG_PPP_BTP'
+  TPP_PPP_PBT:
+    f_max:
+    - 0.6907894736842105 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPP_PPP_PBT'
+  PGP_PPT_BPP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PGP_PPT_BPP'
+  TPP_BPB_PPB:
+    f_max:
+    - 0.8657894736842104 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TPP_BPB_PPB'
+  PPP_PBT_PBB:
+    f_max:
+    - 0.881578947368421 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PPP_PBT_PBB'
+  TPT_PPP_PBB:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TPT_PPP_PBB'
+  TPG_BPP_PPG:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: TPG_BPP_PPG'
+  BPP_PPG_PBB:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: BPP_PPG_PBB'
+  PGB_PPP_GPP:
+    f_max:
+    - 0.7083333333333334 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: PGB_PPP_GPP'
+  PPT_PPP_PPG:
+    f_max:
+    - 0.6666666666666666 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: PPT_PPP_PPG'
+  TPP_PPT_BPB:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: TPP_PPT_BPB'
+  PTG_PPP_PTB:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.6444444444444445 dimensionless
+    r_min:
+    - '`layout: PTG_PPP_PTB'
+  GGP_PPP_GBP:
+    f_max:
+    - 0.75 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_GBP'
+  PPP_PBB_PBP:
+    f_max:
+    - 0.9473684210526315 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: PPP_PBB_PBP'
+  BTP_PPP_TPB:
+    f_max:
+    - 0.7828947368421053 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: BTP_PPP_TPB'
+  PPP_PPG_PPB:
+    f_max:
+    - 0.7850877192982456 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PPP_PPG_PPB'
+  GGP_PPP_BTP:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.4222222222222222 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_BTP'
+  PPP_PTG_PBG:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: PPP_PTG_PBG'
+  PGP_GBP_PPP:
+    f_max:
+    - 0.7280701754385965 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: PGP_GBP_PPP'
+  GGP_PPP_PBB:
+    f_max:
+    - 0.7649122807017544 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_PBB'
+  GTP_TPP_PPB:
+    f_max:
+    - 0.6140350877192983 dimensionless
+    - 0.4666666666666667 dimensionless
+    r_min:
+    - '`layout: GTP_TPP_PPB'
+  GPP_BPB_PPP:
+    f_max:
+    - 0.8771929824561402 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPP_BPB_PPP'
+  PPB_BPP_BBP:
+    f_max:
+    - 0.9605263157894737 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: PPB_BPP_BBP'
+  TTP_PPP_PTB:
+    f_max:
+    - 0.6289473684210526 dimensionless
+    - 0.7777777777777778 dimensionless
+    r_min:
+    - '`layout: TTP_PPP_PTB'
+  PGP_PPP_PGB:
+    f_max:
+    - 0.7675438596491229 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: PGP_PPP_PGB'
+  PPP_PPG_PBP:
+    f_max:
+    - 0.7850877192982456 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PPP_PPG_PBP'
+  GGP_PPP_TPB:
+    f_max:
+    - 0.6820175438596492 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_TPB'
+  TTP_PPP_PGG:
+    f_max:
+    - 0.5280701754385965 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: TTP_PPP_PGG'
+  PPP_PGB_PBG:
+    f_max:
+    - 0.8596491228070177 dimensionless
+    - 0.12222222222222222 dimensionless
+    r_min:
+    - '`layout: PPP_PGB_PBG'
+  PGP_GPP_PPG:
+    f_max:
+    - 0.5394736842105263 dimensionless
+    - 0.15555555555555556 dimensionless
+    r_min:
+    - '`layout: PGP_GPP_PPG'
+  TGP_PPP_PBP:
+    f_max:
+    - 0.7587719298245613 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TGP_PPP_PBP'
+  PGT_PPP_PTG:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: PGT_PPP_PTG'
+  PPP_PPG_PTG:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: PPP_PPG_PTG'
+  GTP_BGP_PPP:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: GTP_BGP_PPP'
+  PTP_PPP_TPP:
+    f_max:
+    - 0.6578947368421053 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTP_PPP_TPP'
+  GPP_PPB_PBP:
+    f_max:
+    - 0.7587719298245613 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPP_PPB_PBP'
+  PGT_PBB_PPP:
+    f_max:
+    - 0.8114035087719298 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: PGT_PBB_PPP'
+  PPP_BPP_GPB:
+    f_max:
+    - 0.8771929824561402 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: PPP_BPP_GPB'
+  GTP_PPP_GPG:
+    f_max:
+    - 0.5723684210526315 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: GTP_PPP_GPG'
+  GPP_PPT_BPP:
+    f_max:
+    - 0.6995614035087719 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: GPP_PPT_BPP'
+  PTG_PPP_BPB:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: PTG_PPP_BPB'
+  TPP_PPB_PBP:
+    f_max:
+    - 0.75 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TPP_PPB_PBP'
+  GGP_PPP_TTP:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_TTP'
+  GPP_PPP_PBB:
+    f_max:
+    - 0.8179824561403508 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPP_PPP_PBB'
+  PPP_PTG_PPG:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: PPP_PTG_PPG'
+  GPP_PGP_PPP:
+    f_max:
+    - 0.6754385964912281 dimensionless
+    - 0.12222222222222222 dimensionless
+    r_min:
+    - '`layout: GPP_PGP_PPP'
+  TGP_TGP_PPP:
+    f_max:
+    - 0.6228070175438597 dimensionless
+    - 0.32222222222222224 dimensionless
+    r_min:
+    - '`layout: TGP_TGP_PPP'
+  PTG_PPP_PPG:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: PTG_PPP_PPG'
+  TPP_PBP_PPP:
+    f_max:
+    - 0.7368421052631579 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: TPP_PBP_PPP'
+  GPP_PPG_PGP:
+    f_max:
+    - 0.5394736842105263 dimensionless
+    - 0.15555555555555556 dimensionless
+    r_min:
+    - '`layout: GPP_PPG_PGP'
+  PPP_PGG_PTG:
+    f_max:
+    - 0.631578947368421 dimensionless
+    - 0.2777777777777778 dimensionless
+    r_min:
+    - '`layout: PPP_PGG_PTG'
+  GPP_PPG_PPP:
+    f_max:
+    - 0.6754385964912281 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: GPP_PPG_PPP'
+  BPG_PPP_PGB:
+    f_max:
+    - 0.8004385964912281 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: BPG_PPP_PGB'
+  PPP_PBB_PBB:
+    f_max:
+    - 1.0 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: PPP_PBB_PBB'
+  GGP_PPP_GPG:
+    f_max:
+    - 0.581140350877193 dimensionless
+    - 0.17777777777777778 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_GPG'
+  PGG_PPP_PBB:
+    f_max:
+    - 0.8596491228070177 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: PGG_PPP_PBB'
+  PPP_PPP_PPB:
+    f_max:
+    - 0.8026315789473685 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: PPP_PPP_PPB'
+  GPP_PPT_PPG:
+    f_max:
+    - 0.5899122807017544 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: GPP_PPT_PPG'
+  TGP_PPP_TBP:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TGP_PPP_TBP'
+  PPT_PPB_PPP:
+    f_max:
+    - 0.7763157894736842 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: PPT_PPB_PPP'
+  GPT_PPP_TPT:
+    f_max:
+    - 0.6140350877192983 dimensionless
+    - 0.7111111111111111 dimensionless
+    r_min:
+    - '`layout: GPT_PPP_TPT'
+  PPP_PPG_PTB:
+    f_max:
+    - 0.7587719298245613 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PPP_PPG_PTB'
+  PPP_PPP_PPP:
+    f_max:
+    - 0.7105263157894737 dimensionless
+    - 0.0 dimensionless
+    r_min:
+    - '`layout: PPP_PPP_PPP'
+  PPP_PBG_PBG:
+    f_max:
+    - 0.8201754385964912 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: PPP_PBG_PBG'
+  GPB_PPP_BBP:
+    f_max:
+    - 0.9100877192982455 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPB_PPP_BBP'
+  PGB_PPB_TPP:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: PGB_PPB_TPP'
+  PGB_PGG_PPP:
+    f_max:
+    - 0.7105263157894737 dimensionless
+    - 0.16666666666666666 dimensionless
+    r_min:
+    - '`layout: PGB_PGG_PPP'
+  GGP_PGP_PPP:
+    f_max:
+    - 0.6578947368421053 dimensionless
+    - 0.14444444444444443 dimensionless
+    r_min:
+    - '`layout: GGP_PGP_PPP'
+  TPB_BPG_PPP:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: TPB_BPG_PPP'
+  GPP_PPP_BPB:
+    f_max:
+    - 0.8771929824561402 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPP_PPP_BPB'
+  GGP_GPP_PPB:
+    f_max:
+    - 0.631578947368421 dimensionless
+    - 0.1111111111111111 dimensionless
+    r_min:
+    - '`layout: GGP_GPP_PPB'
+  PPP_PTG_PGB:
+    f_max:
+    - 0.7017543859649124 dimensionless
+    - 0.4777777777777778 dimensionless
+    r_min:
+    - '`layout: PPP_PTG_PGB'
+  PTT_PGT_PPP:
+    f_max:
+    - 0.6140350877192983 dimensionless
+    - 0.45555555555555555 dimensionless
+    r_min:
+    - '`layout: PTT_PGT_PPP'
+  GPB_BPP_PPB:
+    f_max:
+    - 0.9100877192982455 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPB_BPP_PPB'
+  TTP_PPP_PPP:
+    f_max:
+    - 0.6578947368421053 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: TTP_PPP_PPP'
+  TGP_TPP_PPT:
+    f_max:
+    - 0.4956140350877193 dimensionless
+    - 0.6 dimensionless
+    r_min:
+    - '`layout: TGP_TPP_PPT'
+  PTT_PPP_BBP:
+    f_max:
+    - 0.7473684210526316 dimensionless
+    - 0.4444444444444444 dimensionless
+    r_min:
+    - '`layout: PTT_PPP_BBP'
+  GPG_PPP_PGP:
+    f_max:
+    - 0.5986842105263158 dimensionless
+    - 0.15555555555555556 dimensionless
+    r_min:
+    - '`layout: GPG_PPP_PGP'
   TPG_PPP_PPG:
     f_max:
-    - 0.6016260162601627 dimensionless
+    - 0.6491228070175439 dimensionless
     - 0.3111111111111111 dimensionless
     r_min:
     - '`layout: TPG_PPP_PPG'
-  GPT_PPP_TPG:
+  BPG_PPP_PBB:
     f_max:
-    - 0.5772357723577236 dimensionless
-    - 0.5333333333333333 dimensionless
+    - 0.9100877192982455 dimensionless
+    - 0.044444444444444446 dimensionless
     r_min:
-    - '`layout: GPT_PPP_TPG'
-  GPG_BPB_PPP:
+    - '`layout: BPG_PPP_PBB'
+  TPT_PPP_TBP:
     f_max:
-    - 0.7967479674796749 dimensionless
+    - 0.6644736842105263 dimensionless
+    - 0.6666666666666666 dimensionless
+    r_min:
+    - '`layout: TPT_PPP_TBP'
+  TGP_PPP_PTP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: TGP_PPP_PTP'
+  TTP_PTP_PPP:
+    f_max:
+    - 0.631578947368421 dimensionless
+    - 0.7222222222222222 dimensionless
+    r_min:
+    - '`layout: TTP_PTP_PPP'
+  GPP_BPP_PPG:
+    f_max:
+    - 0.7083333333333334 dimensionless
     - 0.08888888888888889 dimensionless
     r_min:
-    - '`layout: GPG_BPB_PPP'
+    - '`layout: GPP_BPP_PPG'
+  GPP_PPB_BPB:
+    f_max:
+    - 0.9100877192982455 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: GPP_PPB_BPB'
+  GGP_BPP_PPP:
+    f_max:
+    - 0.7675438596491229 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GGP_BPP_PPP'
+  PGB_PPB_PPP:
+    f_max:
+    - 0.8771929824561402 dimensionless
+    - 0.06666666666666667 dimensionless
+    r_min:
+    - '`layout: PGB_PPB_PPP'
+  GTP_PPP_PPB:
+    f_max:
+    - 0.6995614035087719 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: GTP_PPP_PPB'
+  GPB_BPT_PPP:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: GPB_BPT_PPP'
+  PPG_PPP_PPB:
+    f_max:
+    - 0.7850877192982456 dimensionless
+    - 0.044444444444444446 dimensionless
+    r_min:
+    - '`layout: PPG_PPP_PPB'
+  GGP_PPP_BPP:
+    f_max:
+    - 0.7675438596491229 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: GGP_PPP_BPP'
+  PTB_PPP_PGB:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.4 dimensionless
+    r_min:
+    - '`layout: PTB_PPP_PGB'
+  PGP_TTP_PPP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.6555555555555556 dimensionless
+    r_min:
+    - '`layout: PGP_TTP_PPP'
+  PGP_PPP_PTG:
+    f_max:
+    - 0.6491228070175439 dimensionless
+    - 0.37777777777777777 dimensionless
+    r_min:
+    - '`layout: PGP_PPP_PTG'
+  GGP_GPP_PPG:
+    f_max:
+    - 0.5219298245614035 dimensionless
+    - 0.15555555555555556 dimensionless
+    r_min:
+    - '`layout: GGP_GPP_PPG'
+  GTP_PPP_PTP:
+    f_max:
+    - 0.6403508771929824 dimensionless
+    - 0.6444444444444445 dimensionless
+    r_min:
+    - '`layout: GTP_PPP_PTP'
+  PTP_PPB_TPP:
+    f_max:
+    - 0.631578947368421 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTP_PPB_TPP'
+  PGG_PPP_BPP:
+    f_max:
+    - 0.7083333333333334 dimensionless
+    - 0.08888888888888889 dimensionless
+    r_min:
+    - '`layout: PGG_PPP_BPP'
+  PGB_PPP_BGP:
+    f_max:
+    - 0.7649122807017544 dimensionless
+    - 0.13333333333333333 dimensionless
+    r_min:
+    - '`layout: PGB_PPP_BGP'
+  TGP_GBP_PPP:
+    f_max:
+    - 0.7017543859649124 dimensionless
+    - 0.2 dimensionless
+    r_min:
+    - '`layout: TGP_GBP_PPP'
+  PGT_PPP_BBP:
+    f_max:
+    - 0.7561403508771929 dimensionless
+    - 0.2222222222222222 dimensionless
+    r_min:
+    - '`layout: PGT_PPP_BBP'
+  TGP_PPP_BGP:
+    f_max:
+    - 0.7412280701754387 dimensionless
+    - 0.28888888888888886 dimensionless
+    r_min:
+    - '`layout: TGP_PPP_BGP'
+  PGP_TBP_PPP:
+    f_max:
+    - 0.7192982456140351 dimensionless
+    - 0.3333333333333333 dimensionless
+    r_min:
+    - '`layout: PGP_TBP_PPP'
+  GTP_PPP_BBP:
+    f_max:
+    - 0.850877192982456 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: GTP_PPP_BBP'
+  PTG_PPP_BPP:
+    f_max:
+    - 0.6995614035087719 dimensionless
+    - 0.3111111111111111 dimensionless
+    r_min:
+    - '`layout: PTG_PPP_BPP'
+  TGP_PPP_PTG:
+    f_max:
+    - 0.5280701754385965 dimensionless
+    - 0.5333333333333333 dimensionless
+    r_min:
+    - '`layout: TGP_PPP_PTG'
+  TTP_BGP_PPP:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.4111111111111111 dimensionless
+    r_min:
+    - '`layout: TTP_BGP_PPP'
+  PTB_PPT_BPP:
+    f_max:
+    - 0.7236842105263158 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTB_PPT_BPP'
+  PTT_PBT_PPP:
+    f_max:
+    - 0.6842105263157895 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: PTT_PBT_PPP'
+  TPG_PPP_PGG:
+    f_max:
+    - 0.5723684210526315 dimensionless
+    - 0.35555555555555557 dimensionless
+    r_min:
+    - '`layout: TPG_PPP_PGG'
+  GPT_BPP_PPB:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPT_BPP_PPB'
+  GPT_PPP_BBP:
+    f_max:
+    - 0.7916666666666666 dimensionless
+    - 0.26666666666666666 dimensionless
+    r_min:
+    - '`layout: GPT_PPP_BBP'
+  TPP_BPT_PPB:
+    f_max:
+    - 0.7473684210526316 dimensionless
+    - 0.5555555555555556 dimensionless
+    r_min:
+    - '`layout: TPP_BPT_PPB'
+  GPT_BPT_PPP:
+    f_max:
+    - 0.7324561403508771 dimensionless
+    - 0.4888888888888889 dimensionless
+    r_min:
+    - '`layout: GPT_BPT_PPP'

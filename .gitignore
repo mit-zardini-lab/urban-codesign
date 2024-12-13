@@ -1,6 +1,5 @@
 node_modules/
 out-mcdp_plot/
-out-query/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

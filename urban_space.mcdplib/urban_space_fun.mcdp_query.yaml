@@ -8,10 +8,10 @@ query:
     accessibility: 0.1 dimensionless
     greenery: 0.1 dimensionless
   max_r:
-    initial_budget: 5000 $
+    initial_budget: 3000 $
     cost_yearly: 1000000 $
     co2_cost_upfront: 100000 Nat
-    co2_impact_yearly: 100 Int
+    co2_impact_yearly: 35 Int
   optimize_for:
   - accessibility
   - greenery

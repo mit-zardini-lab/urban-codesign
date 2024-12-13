@@ -4,7 +4,7 @@ model: '`urban_space'
 query:
   query_type: FixFunMinRes
   min_f:
-    community_approval: 0.15 dimensionless
+    community_approval: 0.8 dimensionless
     accessibility: 0.01 dimensionless
     greenery: 0.01 dimensionless
   max_r:
