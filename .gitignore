@@ -1,5 +1,6 @@
 node_modules/
 out-mcdp_plot/
+*.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
