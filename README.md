@@ -59,7 +59,7 @@ Here is the final mcdp-plot output:
 
 After filtering out symmetrically equivalent 3x3 grid designs, there were 67,056 unique designs for small urban spaces. This number is far too many to run reasonable time mcdp queries without further improvements to the poset structure of the designs. As is, the designs exist in an unordered set ([urban_space.mcdplib/_posets/layout.mcdp_poset](urban_space.mcdplib/_posets/layout.mcdp_poset)), and thus monotonicity is not being leveraged as much as it could be during the queries. I made an attempt to use the budget cost to create an order for the designs, but I was not able to see an obvious improvement to the query times-- this might have been due to some issue on my end.
 
-To manage this issue, a reduced set of designs were used as the pool of implementation options for the design problem. This was done by separating the designs into two subsets: designs with pavement access both east-west and north-south, and the rest. Then 200 designs were selected from each subset, making a pool of 400 designs.
+To manage this issue, a reduced set of designs were used as the pool of implementation options for the design problem. This was done by separating the designs into two subsets: designs with pavement access both east-west and north-south, and the rest. Then 200 designs were selected randomly from each subset, making a pool of 400 designs.
 
 ### Rsults for Fix Functionality Minimize Resources (FixFunMinRes):
 For each query I changed the values in `urban_space_res` and ran
