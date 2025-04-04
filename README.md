@@ -31,7 +31,7 @@ Small urban spaces are only small urban pieces of a greater city system. The com
 
 ![Real urban spaces alongside 3x3 grid emoji representations](assets/small-urban-spaces.jpg)
 
-The overall design problem builds and evaluates a small 3x3 grid that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. The grid generation, poset generation, and design problem catalog generation all can be found in [designer.ipynb](designer.ipynb).
+The overall design problem builds and evaluates small 3x3 grids that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. The grid generation, poset generation, and design problem catalog generation all can be found in [designer.ipynb](designer.ipynb).
 
 ## Design Problem
 
