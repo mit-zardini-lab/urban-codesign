@@ -16,7 +16,7 @@ The goal of this project is to show how co-design may be used for urban and poli
 
 ## Co-design for Small Urban Spaces
 
-The design problem in this project builds and evaluates small 3x3 grids that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. While a simplified example, we see the co-design framework produce reasonable results from a pool of 400 design layouts: prioritizing accessibility at lower budgets and providing lush greenery at higher budgets. See [Implementation](#implementation) for more details.
+The design problem in this project builds and evaluates small 3x3 grids that represent an urban space. Each tile in the grid is either made of grass, trees, pavement, or benches. While a simplified example, we see the co-design framework produces reasonable results from a pool of 400 design layouts: prioritizing accessibility at lower budgets and providing lush greenery at higher budgets. See [Implementation](#implementation) for more details.
 
 ## Further Study
 Co-design and System Dynamics seem to provide similar capabilities and intuitive power. There is likely a way to connect the two paradigms formally using category theory.
